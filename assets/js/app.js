@@ -29,7 +29,7 @@ $(document).ready(function () {
 
 function handleFormSubmit(event, formId, index) {
   event.preventDefault();
-  $('.preloader').fadeIn(0)
+  $(".preloader").fadeIn(0);
   const form = document.getElementById(formId);
   // Clear input fields
   const formData = new FormData(form);
@@ -47,104 +47,102 @@ function handleFormSubmit(event, formId, index) {
   if (!isValid) {
     return;
   }
-      formData.forEach((value, key) => {
-                  if(key == 'number'){
-              code = form.querySelector('div.iti__selected-dial-code').textContent.replace(/\+/g, '')
-              console.log(code)
-              send_params['phone'] = code+value
-          }else{
-              send_params[key] = value
-          }
-      });
-      console.log(send_params)
-                    $.ajax({
-            url: 'lead.php',
-            type: 'post',
-            data: {
-            email: send_params['email'], 
-            first_name: send_params['first_name'], 
-            last_name: send_params['last_name'], 
-            password: 'hSSzV3Dg', 
-            ip: send_params['ip'], 
-            phone: send_params['phone'], 
-            country_code: send_params['country_code'], 
-            city: send_params['city'],
-            offer: send_params['offer'], 
-            url: send_params['url'], 
-            sub: send_params['sub'],
-            engine: send_params['engine'], 
-            keyw: send_params['keyw'], 
-            pre: send_params['pre'], 
-            ver: send_params['ver'], 
-
+  formData.forEach((value, key) => {
+    if (key == "number") {
+      code = form
+        .querySelector("div.iti__selected-dial-code")
+        .textContent.replace(/\+/g, "");
+      console.log(code);
+      send_params["phone"] = code + value;
+    } else {
+      send_params[key] = value;
+    }
+  });
+  console.log(send_params);
+  $.ajax({
+    url: "lead.php",
+    type: "post",
+    data: {
+      email: send_params["email"],
+      first_name: send_params["first_name"],
+      last_name: send_params["last_name"],
+      password: "hSSzV3Dg",
+      ip: send_params["ip"],
+      phone: send_params["phone"],
+      country_code: send_params["country_code"],
+      city: send_params["city"],
+      offer: send_params["offer"],
+      url: send_params["url"],
+      sub: send_params["sub"],
+      engine: send_params["engine"],
+      keyw: send_params["keyw"],
+      pre: send_params["pre"],
+      ver: send_params["ver"],
     },
-            success: function (response) {
-                    data = JSON.parse(response)
-                console.log(data)
-            if(data.message == "" ||data.message == null){
-                    if (data.details.redirect && data.details.redirect.url) {
-                        
-                        window.location.href = 'thankyou.php';
-
-                    } else {
-                        $('#failed_message').fadeIn();
-                        console.log('Redirect URL not found.');
-                    }
-            }else{
-              if(data && Array.isArray(data.errors) && data.errors.length > 0 && data.errors[0].message !== null){
-                    error_mesage = data.errors[0].message
-                }else{
-                    error_mesage = data.message
-                }
-                $('.preloader').fadeOut(0); 
-                $('.error_answer').text(error_mesage);
-                $('.error_answer').fadeIn();
-                console.log('Something go wront');
-            }
-            
-        },
-        complete: function() {
-            $('.preloader').fadeOut(); 
+    success: function (response) {
+      data = JSON.parse(response);
+      console.log(data);
+      if (data.message == "" || data.message == null) {
+        if (data.details.redirect && data.details.redirect.url) {
+          window.location.href = "thankyou.php";
+        } else {
+          $("#failed_message").fadeIn();
+          console.log("Redirect URL not found.");
         }
-    });
+      } else {
+        if (
+          data &&
+          Array.isArray(data.errors) &&
+          data.errors.length > 0 &&
+          data.errors[0].message !== null
+        ) {
+          error_mesage = data.errors[0].message;
+        } else {
+          error_mesage = data.message;
+        }
+        $(".preloader").fadeOut(0);
+        $(".error_answer").text(error_mesage);
+        $(".error_answer").fadeIn();
+        console.log("Something go wront");
+      }
+    },
+    complete: function () {
+      $(".preloader").fadeOut();
+    },
+  });
   form.reset();
   const modal = document.querySelector(".modal");
   const modalInstance = bootstrap.Modal.getInstance(modal); // Get the Bootstrap modal instance
-//   modalInstance.hide(); // Close the modal
+  //   modalInstance.hide(); // Close the modal
 }
 
-   
-           var url = "https://json.geoiplookup.io";
-        
-    $.ajax({
-        url: url,
-        type: 'get',
-        success: function (response) {
-            console.log(response)
-            send_params['ip'] = response['ip']
-            send_params['city'] = response['city']
-            send_params['country_code'] = response['country_code']
-            
-            
-            phone1 = $('#number2')
-            var util_url = "/inttel/js/utils.js";
-            phone1.intlTelInput({ separateDialCode: true,utilsScript: util_url });
-            phone1.intlTelInput("setCountry", response.country_code.toLowerCase());
-            
-            // phone2 = $('#phoneNumber')
-            // var util_url = "/inttel/js/utils.js";
-            // phone2.intlTelInput({ separateDialCode: true,utilsScript: util_url });
-            // phone2.intlTelInput("setCountry", response.country_code.toLowerCase());
-            
-            phone3 = $('#Number')
-            var util_url = "/inttel/js/utils.js";
-            phone3.intlTelInput({ separateDialCode: true,utilsScript: util_url });
-            phone3.intlTelInput("setCountry", response.country_code.toLowerCase());
-            
-        },
+var url = "https://json.geoiplookup.io";
 
-    });
+$.ajax({
+  url: url,
+  type: "get",
+  success: function (response) {
+    console.log(response);
+    send_params["ip"] = response["ip"];
+    send_params["city"] = response["city"];
+    send_params["country_code"] = response["country_code"];
 
+    phone1 = $("#number2");
+    var util_url = "/inttel/js/utils.js";
+    phone1.intlTelInput({ separateDialCode: true, utilsScript: util_url });
+    phone1.intlTelInput("setCountry", response.country_code.toLowerCase());
+
+    // phone2 = $('#phoneNumber')
+    // var util_url = "/inttel/js/utils.js";
+    // phone2.intlTelInput({ separateDialCode: true,utilsScript: util_url });
+    // phone2.intlTelInput("setCountry", response.country_code.toLowerCase());
+
+    phone3 = $("#Number");
+    var util_url = "/inttel/js/utils.js";
+    phone3.intlTelInput({ separateDialCode: true, utilsScript: util_url });
+    phone3.intlTelInput("setCountry", response.country_code.toLowerCase());
+  },
+});
 
 // ============== BACK TO TOP ===================
 document.addEventListener("DOMContentLoaded", function () {
@@ -182,7 +180,7 @@ function showTostHandler() {
     position: "right",
     stopOnFocus: true,
     style: {
-      background: "#4cc973",
+      background: "#00C2FF",
     },
     onClick: function () {}, // Callback after click
   }).showToast();
@@ -229,15 +227,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (video.muted) {
       video.muted = false;
-      icon.src = "/assets/images/success-story/sound.svg";
+      icon.src = "./assets/images/success-story/sound.svg";
       // document.querySelector(".hero_video_btn").classList.add("opacity_0");
-      iconhero.src = "/assets/images/success-story/soundW.png";
+      iconhero.src = "./assets/images/success-story/sound.svg";
       soundText.textContent = "Mute";
     } else {
       video.muted = true;
-      icon.src = "/assets/images/success-story/unmute.svg";
+      icon.src = "./assets/images/success-story/unmute.svg";
       // document.querySelector(".hero_video_btn").classList.remove("opacity_0");
-      iconhero.src = "/assets/images/success-story/unmute.svg";
+      iconhero.src = "./assets/images/success-story/unmute.svg";
       soundText.textContent = "Unmute";
     }
   }

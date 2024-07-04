@@ -89,7 +89,7 @@ const reviews = [
     imageUrl: "./assets/images/arbitrage-winner/andrew.webp",
   },
   {
-    title: "Jack Miller",
+    title: "Catherine Miller",
     invested: 35000,
     profit: 10153,
     description:
