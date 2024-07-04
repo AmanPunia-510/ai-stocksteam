@@ -73,7 +73,7 @@ const reviews = [
     imageUrl: "./assets/images/arbitrage-winner/daniel.webp",
   },
   {
-    title: "Laura Roberts",
+    title: "William Thompson",
     invested: 350,
     profit: 7155,
     description:
@@ -89,7 +89,7 @@ const reviews = [
     imageUrl: "./assets/images/arbitrage-winner/andrew.webp",
   },
   {
-    title: "Catherine Miller",
+    title: "Jack Miller",
     invested: 35000,
     profit: 10153,
     description:
