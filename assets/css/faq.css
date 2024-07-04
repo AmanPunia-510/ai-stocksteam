@@ -1,0 +1,203 @@
+/* FAQ CSS  */
+.pt_123 {
+  padding-top: 123px;
+}
+.mb_205 {
+  margin-bottom: 205px;
+}
+.accordion {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.faq_questionmark_img {
+  max-width: 405px;
+}
+.accordion .accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  min-height: auto !important;
+  box-shadow: none !important;
+}
+.accordion .accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion_shadow {
+  box-shadow: 0px 25px 39px -9px #00000017 !important;
+}
+.accordion_border {
+  border: 1px solid #0205071a !important;
+}
+.accordion .accordion-item {
+  border-radius: 15px;
+  border-color: transparent;
+}
+
+.accordion .accordion-button {
+  border-radius: 15px !important;
+  padding: 20px !important;
+  transition: all ease-in-out 300ms;
+}
+.accordion .accordion-button::after {
+  background-image: url("../images/common/plus.svg");
+  background-position: center;
+}
+.accordion .accordion-button:not(.collapsed)::after {
+  background-image: url("../images/common/minus.svg");
+  background-position: center;
+  height: 13px;
+}
+.accordion .accordion-button:not(.collapsed) {
+  padding-bottom: 12px !important;
+}
+.accordion .accordion-body {
+  padding-top: 0 !important;
+  padding-left: 20px !important;
+  padding-bottom: 20px !important;
+  padding-right: 20px !important;
+}
+.faq_answers {
+  padding-left: 25px;
+}
+.accordion_question {
+  max-width: 555px;
+}
+/* THANKS CSS START HERE */
+.investing {
+  max-width: 211px;
+}
+.gap_30 {
+  gap: 30px;
+}
+.goggle {
+  max-width: 112px;
+}
+.forbes {
+  max-width: 126px;
+}
+.thanks_form {
+  border: 1px solid #0000001a;
+  border-radius: 15px;
+  margin-bottom: 12px;
+}
+.form_heading {
+  max-width: 500px;
+}
+.only_step {
+  max-width: 139px;
+  margin-left: 8px;
+}
+.form_input {
+  padding: 20px 30px 20px 30px;
+}
+/* .spots_left {
+  width: 15px;
+  height: 21px;
+  display: inline-block;
+}
+.spots_left::after {
+  content: "4";
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: spots 300s ease-in-out 5s ;
+}
+@keyframes spots {
+  0% {
+    content: "4";
+  }
+  1% {
+    content: "3";
+  }
+} */
+.form_input label {
+  margin: 8px 0;
+}
+.form_input input {
+  border: 1px solid #00000033;
+  min-height: 52px;
+}
+input:focus-visible {
+  outline: var(--green) auto 1px;
+}
+.sign_up_btn {
+  background: var(--green);
+  border: 2px solid var(--green);
+  padding: 10px;
+  margin-top: 35px;
+  transition: all ease-in-out 300ms;
+}
+.get_btn {
+  line-height: 115%;
+}
+.sign_up_btn:hover {
+  background: white;
+  color: var(--green) !important;
+}
+#first-counter {
+  max-width: 340px;
+}
+.coutdown_digit_box {
+  border: 2px solid #4cc973;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.countdown_dots {
+  margin-top: 15px;
+}
+.tick {
+  height: 20px;
+  width: 20px;
+}
+@media (max-width: 1024px) {
+  .mb_150_lg {
+    margin-bottom: 150px;
+  }
+}
+@media (max-width: 992px) {
+  .faq_answers {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .form_input {
+    padding: 20px;
+  }
+  .pt_80 {
+    padding-top: 80px;
+  }
+  .form_input input {
+    min-height: 40px;
+  }
+  /* .form_heading {
+    max-width: 333px;
+    margin: 20px;
+  } */
+  .investing {
+    max-width: 120px;
+  }
+  .gap_30 {
+    gap: 20px;
+  }
+  .goggle {
+    max-width: 90px;
+  }
+  .forbes {
+    max-width: 96px;
+  }
+  .only_step {
+    max-width: 109px;
+  }
+  .sign_up_btn {
+    margin-top: 20px;
+  }
+  .mb_100_md {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 575.58px) {
+  .pt_50 {
+    padding-top: 50px;
+  }
+}
