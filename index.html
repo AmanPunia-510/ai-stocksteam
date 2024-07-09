@@ -13,24 +13,24 @@
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://ai-arbitrage-01.web.app/" />
+  <meta property="og:url" content="https://arbitrange-method.vercel.app/" />
   <meta property="og:title" content="AI-arbitrage" />
   <meta property="og:description"
     content="Unlock Effortless Wealth with Automated AI Arbitrage Method! Elevate Your Financial Success with Cutting-Edge AI Technology!" />
-  <meta property="og:image" content="https://ai-arbitrage-01.web.app/assets/meta.webp" />
-<!-- Google tag (gtag.js) --> 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11480851726"></script> 
-    <script> window.dataLayer = window.dataLayer || []; 
-        function gtag(){dataLayer.push(arguments);} 
-        gtag('js', new Date()); 
-        gtag('config', 'AW-11480851726'); </script>
+  <meta property="og:image" content="https://arbitrange-method.vercel.app/assets/meta.webp" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11480851726"></script>
+  <script> window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'AW-11480851726'); </script>
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://ai-arbitrage-01.web.app/" />
+  <meta property="twitter:url" content="https://arbitrange-method.vercel.app/" />
   <meta property="twitter:title" content="AI-arbitrage" />
   <meta property="twitter:description"
     content="Unlock Effortless Wealth with Automated AI Arbitrage Method! Elevate Your Financial Success with Cutting-Edge AI Technology!" />
-  <meta property="twitter:image" content="https://ai-arbitrage-01.web.app/assets/meta.webp" />
+  <meta property="twitter:image" content="https://arbitrange-method.vercel.app/assets/meta.webp" />
 
   <!-- ============ INPUT COUNTRY TEL CODE ===========  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/css/intlTelInput.css"
@@ -56,49 +56,49 @@
 </head>
 
 <body>
-              <script>
-        send_params = []
-    </script>
-        <?php if(isset($_GET['ver'])){ ?>
-        <script>
-        send_params['ver'] = "<?php echo $_GET['ver']; ?>"
-        </script>
-    <?php } ?>
-    
-    <?php if(isset($_GET['engine'])){ ?>
-        <script>
-        send_params['engine'] = "<?php echo $_GET['engine']; ?>"
-        </script>
-    <?php } ?>
-    
-    <?php if(isset($_GET['keyw'])){ ?>
-        <script>
-        send_params['keyw'] = "<?php echo $_GET['keyw']; ?>"
-        </script>
-    <?php } ?>
-    
-    <?php if(isset($_GET['pre'])){ ?>
-    <script>
-        send_params['pre'] = "<?php echo $_GET['pre']; ?>"
-        </script>
-    <?php } ?>
-    
-    <?php if(isset($_GET['offer'])){ ?>
-    <script>
-        send_params['offer'] = "<?php echo $_GET['offer']; ?>"
-        </script>
-    <?php } ?>
-    
-    <?php if(isset($_GET['url'])){ ?>
-    <script>
-        send_params['url'] = "<?php echo $_GET['url']; ?>"
-        </script>
-    <?php } ?>
-        <?php if(isset($_GET['sub'])){ ?>
-        <script>
-        send_params['sub'] = "<?php echo $_GET['sub']; ?>"
-        </script>
-    <?php } ?>
+  <script>
+    send_params = []
+  </script>
+  <?php if(isset($_GET['ver'])){ ?>
+  <script>
+    send_params['ver'] = "<?php echo $_GET['ver']; ?>"
+  </script>
+  <?php } ?>
+
+  <?php if(isset($_GET['engine'])){ ?>
+  <script>
+    send_params['engine'] = "<?php echo $_GET['engine']; ?>"
+  </script>
+  <?php } ?>
+
+  <?php if(isset($_GET['keyw'])){ ?>
+  <script>
+    send_params['keyw'] = "<?php echo $_GET['keyw']; ?>"
+  </script>
+  <?php } ?>
+
+  <?php if(isset($_GET['pre'])){ ?>
+  <script>
+    send_params['pre'] = "<?php echo $_GET['pre']; ?>"
+  </script>
+  <?php } ?>
+
+  <?php if(isset($_GET['offer'])){ ?>
+  <script>
+    send_params['offer'] = "<?php echo $_GET['offer']; ?>"
+  </script>
+  <?php } ?>
+
+  <?php if(isset($_GET['url'])){ ?>
+  <script>
+    send_params['url'] = "<?php echo $_GET['url']; ?>"
+  </script>
+  <?php } ?>
+  <?php if(isset($_GET['sub'])){ ?>
+  <script>
+    send_params['sub'] = "<?php echo $_GET['sub']; ?>"
+  </script>
+  <?php } ?>
   <div class="bg_green navbar py-0">
     <a class="navbar_logo mx-auto" href="/"><img class="w-100" src="./assets/images/common/logo.webp" alt="logo" /></a>
   </div>
@@ -192,7 +192,10 @@
                     <p class="pb-3 mb-1 text-center fw-semibold fs_lg text_rich_black">
                       <span class="spots_left">4</span> Spots Left
                     </p>
-                    <div class="help-block help-block-error"><p class="error_answer" id="error_answer" style="display:none; font-weight: bold; color: red; text-align: center; font-size: 15px;"></p></div>
+                    <div class="help-block help-block-error">
+                      <p class="error_answer" id="error_answer"
+                        style="display:none; font-weight: bold; color: red; text-align: center; font-size: 15px;"></p>
+                    </div>
                   </form>
                 </div>
               </div>
@@ -203,8 +206,9 @@
     </section>
     <div class="counter position-fixed justify-content-center bg_light_gray rounded-4">
       <div class="d-flex flex-column align-items-center p-3 position-relative">
-        <span onclick="activeUserPopup()" class="position-absolute active_user_cross cursior_pointer bg-black rounded-pill d-flex justify-content-center align-items-center"><svg width="12"
-            height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <span onclick="activeUserPopup()"
+          class="position-absolute active_user_cross cursior_pointer bg-black rounded-pill d-flex justify-content-center align-items-center"><svg
+            width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M10.192 0.343994L5.94897 4.58599L1.70697 0.343994L0.292969 1.75799L4.53497 5.99999L0.292969 10.242L1.70697 11.656L5.94897 7.41399L10.192 11.656L11.606 10.242L7.36397 5.99999L11.606 1.75799L10.192 0.343994Z"
               fill="white" />
@@ -471,9 +475,9 @@
           </div>
         </div>
         <div class="col-lg-6 col-12 mt-lg-0 mt-5">
-            <div class="preloader" id="preloader" style="z-index:9999;">
-                        <div class="preloader-content" ><img src="Crystal.svg" alt="OpenAi"> </div>
-                    </div>
+          <div class="preloader" id="preloader" style="z-index:9999;">
+            <div class="preloader-content"><img src="Crystal.svg" alt="OpenAi"> </div>
+          </div>
           <form onsubmit="handleFormSubmit(event, 'thanksForm','')" class="thanks_form invest_form overflow-hidden mb-4"
             id="thanksForm">
             <div class="bg_green w-100 px-4 py-3">
@@ -511,7 +515,10 @@
             <p class="pb-3 mb-1 text-center fw-semibold fs_lg text_rich_black">
               <span class="spots_left">4</span> Spots Left
             </p>
-            <div class="help-block help-block-error"><p class="error_answer" id="error_answer" style="display:none; font-weight: bold; color: red; text-align: center; font-size: 15px;"></p></div>
+            <div class="help-block help-block-error">
+              <p class="error_answer" id="error_answer"
+                style="display:none; font-weight: bold; color: red; text-align: center; font-size: 15px;"></p>
+            </div>
           </form>
           <!-- countdown -->
           <div id="first-counter" class="mx-auto">
@@ -592,11 +599,11 @@
         </div>
         <!-- modal end here -->
         <div class="d-flex align-items-start pt-4 pt-sm-5 gap-3 gap-sm-4">
-          <img class="rounded-circle object-fit-cover user_profile w-100" src="./assets/images/comments/john-evans.webp"
-            alt="john-evans" />
+          <img class="rounded-circle object-fit-cover user_profile w-100" src="./assets/images/comments/kathryn.webp"
+            alt="kathryn" />
           <div class="ms-lg-3 ps-1">
             <p class="text_green fs_lg fw-semibold mb-2 leading_130">
-              John Evans
+              Kathryn Murphy
             </p>
             <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
               Does this really work? How can I get started?
@@ -619,11 +626,11 @@
             <div class="replay_parent ps-2 mt-4">
               <div class="d-flex align-items-start ps-1 pt-2 gap-3">
                 <img class="rounded-circle object-fit-cover replay_user_profile w-100"
-                  src="./assets/images/comments/daniel-smith.webp" alt="daniel-smith" />
+                  src="./assets/images/comments/ronald.webp" alt="ronald" />
 
                 <div>
                   <p class="text_green fs_lg fw-semibold mb-2 leading_130">
-                    Daniel Smith
+                    Ronald Richards
                   </p>
                   <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
                     Yes, it actually worked for me. Only 2 weeks and I have just withdrawn my earned funds. I left my
@@ -650,11 +657,11 @@
               </div>
               <div class="d-flex align-items-start ps-1 pt-4 mt-2 gap-3">
                 <img class="rounded-circle object-fit-cover replay_user_profile w-100"
-                  src="./assets/images/comments/bessie.webp" alt="bessie" />
+                  src="./assets/images/comments/marvin.webp" alt="marvin" />
 
                 <div>
                   <p class="text_green fs_lg fw-semibold mb-2 leading_130">
-                    Bessie Cooper
+                    Marvin McKinney
                   </p>
                   <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
                     Yup, same here. I signed up, and they called me after 7 minutes. Excellent service from Eric, the
@@ -682,11 +689,11 @@
           </div>
         </div>
         <div class="d-flex align-items-start pt-4 mt-sm-2 gap-3 gap-sm-4">
-          <img class="rounded-circle object-fit-cover user_profile w-100" src="./assets/images/comments/kate-moor.webp"
-            alt="kate-moor" />
+          <img class="rounded-circle object-fit-cover user_profile w-100" src="./assets/images/comments/savannah.webp"
+            alt="Savannah" />
           <div class="ms-lg-3 ps-1">
             <p class="text_green fs_lg fw-semibold mb-2 leading_130">
-              Kate Moor
+              Savannah Nguyen
             </p>
             <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
               I was finally able to buy a new car. Not life but a dream ...
@@ -710,11 +717,11 @@
           </div>
         </div>
         <div class="d-flex align-items-start pt-4 mt-sm-2 gap-3 gap-sm-4">
-          <img class="rounded-circle object-fit-cover user_profile w-100"
-            src="./assets/images/comments/katarina-hill.webp" alt="Katarina Hill" />
+          <img class="rounded-circle object-fit-cover user_profile w-100" src="./assets/images/comments/cameron.webp"
+            alt="Cameron Williamson" />
           <div class="ms-lg-3 ps-1">
             <p class="text_green fs_lg fw-semibold mb-2 leading_130">
-              Katarina Hill
+              Cameron Williamson
             </p>
             <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
               Now I have the opportunity to go on holiday this year :) And the
@@ -741,11 +748,11 @@
           </div>
         </div>
         <div class="d-flex align-items-start pt-4 mt-sm-2 gap-3 gap-sm-4">
-          <img class="rounded-circle object-fit-cover user_profile w-100" src="./assets/images/comments/kate.webp"
+          <img class="rounded-circle object-fit-cover user_profile w-100" src="./assets/images/comments/esther.webp"
             alt="kate" />
           <div class="ms-lg-3 ps-1">
             <p class="text_green fs_lg fw-semibold mb-2 leading_130">
-              Kate Moor
+              Esther Howard
             </p>
             <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
               I signed up last week and have already earned CAD $2,800! I
@@ -769,11 +776,11 @@
             <div class="replay_parent ps-2 mt-4">
               <div class="d-flex align-items-start ps-1 pt-2 gap-3">
                 <img class="rounded-circle object-fit-cover replay_user_profile w-100"
-                  src="./assets/images/comments/ruby.webp" alt="john-evans" />
+                  src="./assets/images/comments/eleanor.webp" alt="Eleanor Pena" />
 
                 <div>
                   <p class="text_green fs_lg fw-semibold mb-2 leading_130">
-                    Ruby Morgan
+                    Eleanor Pena
                   </p>
                   <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
                     Just signed up, people, wish me good luck! ...
@@ -799,11 +806,11 @@
               </div>
               <div class="d-flex align-items-start ps-1 pt-4 mt-2 gap-3">
                 <img class="rounded-circle object-fit-cover replay_user_profile w-100"
-                  src="./assets/images/comments/frank.webp" alt="john-evans" />
+                  src="./assets/images/comments/tomas.webp" alt="Tomas Walker" />
 
                 <div>
                   <p class="text_green fs_lg fw-semibold mb-2 leading_130">
-                    Frank Miller
+                    Tomas Walker
                   </p>
                   <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
                     I registered two days ago, the balance is already
@@ -838,11 +845,11 @@
           </div>
         </div>
         <div class="d-flex align-items-start pt-4 pt-sm-5 py-lg-5 mb-5 pb-4 mt-sm-2 gap-3 gap-sm-4">
-          <img class="rounded-circle object-fit-cover user_profile w-100"
-            src="./assets/images/comments/tomas_walker.webp" alt="Katarina Hill" />
+          <img class="rounded-circle object-fit-cover user_profile w-100" src="./assets/images/comments/jenny.webp"
+            alt="Jenny Wilson" />
           <div class="ms-lg-3 ps-1">
             <p class="text_green fs_lg fw-semibold mb-2 leading_130">
-              Tomas Walker
+              Jenny Wilson
             </p>
             <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
               I am in shock and my friends too! At first I thought that there
@@ -1015,25 +1022,33 @@
     ]
   </script>
   <style>
-                  .preloader {
-            display: none; /* Hidden by default */
-            position: fixed; /* Stay in place */
-            z-index: 999; /* Sit on top */
-            left: 0;
-            top: 0;
-            width: 100%; /* Full width */
-            height: 100%; /* Full height */
-            overflow: hidden; /* Disable scrolling */
-            background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-        }
-        .preloader-content {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: white;
-            font-size: 20px;
-        }
+    .preloader {
+      display: none;
+      /* Hidden by default */
+      position: fixed;
+      /* Stay in place */
+      z-index: 999;
+      /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%;
+      /* Full width */
+      height: 100%;
+      /* Full height */
+      overflow: hidden;
+      /* Disable scrolling */
+      background-color: rgba(0, 0, 0, 0.5);
+      /* Black background with opacity */
+    }
+
+    .preloader-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 20px;
+    }
   </style>
 </body>
 

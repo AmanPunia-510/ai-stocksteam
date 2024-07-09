@@ -180,7 +180,7 @@ function showTostHandler() {
     position: "right",
     stopOnFocus: true,
     style: {
-      background: "#00C2FF",
+      background: "#4CC973",
     },
     onClick: function () {}, // Callback after click
   }).showToast();
