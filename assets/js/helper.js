@@ -178,8 +178,8 @@ function generateReviewCard(review) {
                 </div>
             </div>
                     <div class="mt-sm-0 review_slider_parent">
-                        <p class="mb-0 opacity_07 leading_150 text_green fw_800 fs_base text-nowrap">Invested <span class="text-black text-nowrap">${review.invested.toLocaleString()} CAD</span></p>
-                        <p class="mb-0 opacity_07 leading_150 text_green fw_800 fs_base text-nowrap">Profit: <span class="text-black text-nowrap">${review.profit.toLocaleString()} CAD</span></p>
+                        <p class="mb-0 opacity_07 leading_150 fw_800 fs_base text-nowrap">Invested <span class="text-black text-nowrap">${review.invested.toLocaleString()} CAD</span></p>
+                        <p class="mb-0 opacity_07 leading_150 fw_800 fs_base text-nowrap">Profit: <span class="text-black text-nowrap">${review.profit.toLocaleString()} CAD</span></p>
                     </div>
            </div>
         <p class="leading_150 fs_base text-black opacity_07 pt-sm-4 mt-sm-1 mt-3 mb-0"><span class="fw-bold">Review</span> ${

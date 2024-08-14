@@ -8,11 +8,7 @@
 }
 .video-container {
   max-height: 642px;
-  border: 4.76px solid #4c697b3d;
-  border-radius: 28px;
   overflow: hidden;
-  margin-top: 34px;
-  margin-bottom: 40px;
 }
 .counter {
   bottom: 30px;
@@ -67,7 +63,7 @@
   margin-left: -12px;
   margin-right: -12px;
   row-gap: 24px;
-  padding-bottom: 112px;
+  padding-bottom: 121px;
 }
 .story_play {
   width: 27.3px;

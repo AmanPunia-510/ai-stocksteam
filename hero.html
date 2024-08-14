@@ -89,6 +89,7 @@
     <link rel="stylesheet" href="./assets/css/faq.css" />
     <link rel="stylesheet" href="./assets/css/hero.css" />
     <link rel="stylesheet" href="./assets/css/slider.css" />
+    <link rel="stylesheet" href="./assets/css/methodprohero.css" />
   </head>
 
   <body>
@@ -135,224 +136,369 @@
       send_params["sub"] = "<?php echo $_GET['sub']; ?>";
     </script>
     <?php } ?>
-    <div class="bg_green navbar py-0">
-      <a class="navbar_logo mx-auto" href="/"
-        ><img class="w-100" src="./assets/images/common/logo.webp" alt="logo"
-      /></a>
-    </div>
-    <div class="bg-white custom_container container mx-auto">
-      <!-- =========== HERO SECTION ============ -->
-      <section class="pb-md-5">
-        <div class="pt-4 mt-3">
-          <h1 class="text-center fs_3xl fw-bold leading_130 pb-3 mb-0">
-            Unlock Effortless Wealth with
-            <span class="text_green">Automated AI Arbitrage Method!</span>
-            Elevate Your Financial Success with Cutting-Edge
-            <span class="text_green">AI Technology!</span>
-          </h1>
-          <p
-            class="text_green pt-4 text-center fs_3lg px-lg-4 fw-semibold leading_150 pb-md-5 mb-0"
-          >
-            Watch Your Investment Skyrocket Effortlessly with a Simple AI System
-            that Capitalizes on Price Differences! Investors Have Seen
-            Remarkable 36.5%+ Gains in Less Than 24 Hours! Watch the Video Below
-            to Discover How!
-          </p>
-          <div
-            class="video-container mx-sm-2 mx-md-3 mx-xl-4 position-relative"
-          >
-            <video
-              id="video4"
-              class="w-100 d-block"
-              id="video1"
-              muted
-              controls
-              playsinline
-              poster="./assets/images/hero/thumbnail.webp"
-            >
-              <source
-                src="./assets/video/Ai_Arbitrage_VR.mp4"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video>
-            <div
-              class="position-absolute top-0 start-50 pt-sm-2 translate-middle-x pt-1 hero_video_btn transition_03 d-inline-block"
-            >
-              <span
-                id="soundIcon4"
-                class="p-md-3 py-md-2 p-2 bg-black cursior_pointer rounded-3 unmute_btn transition_03 d-inline-block d-flex align-items-center gap-2"
+    
+<!-- =========== HERO SECTION ========= -->
+<section class="pt-3 bg_dark_blue pb-5 position-relative z-1">
+  <video muted loop autoplay
+  class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center z-n1 pointer_event_none"
+  >
+  <source
+  src="./assets/video/background-particle.webm"
+  />
+  Your browser does not support the video tag.
+</video>
+<div class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center bg-black z-1 opacity_05 pointer_event_none"></div>
+  <div class="position-absolute menu_button position-relative z-1">
+    <span class="menu_button_line d-block"></span>
+    <span class="menu_button_line d-block mt_2"></span>
+    <span class="menu_button_line d-block mt_2"></span>
+  </div>
+  <div class="container custom_container mx-auto mb-md-5 position-relative z-2">
+    <div class="max_w_hero mx-auto">
+      <div class="d-flex justify-content-center">
+        <img
+          class="arrow_size"
+          src="./assets/images/method-pro/hero-down-arrow.png"
+          alt="arrow"
+        />
+      </div>
+      <h2
+        class="mt-2 pt-1 text-uppercase fs_xxll text-white ff_oxanium text-center text_shadow_white fw-semibold leading_124"
+      >
+        AI Arbitrage Method Pro
+      </h2>
+      <span
+        class="text_bottom_line d-block mx-auto bg-white mb-lg-5 mb-md-4 mb-3"
+      ></span>
+      <h2
+        class="text_shadow_blue text-center text-white ff_oxygen fw-bold fs_xxll leading_124"
+      >
+        AI POWERED Arbitrage Method Pro
+      </h2>
+      <p
+        class="mt-3 pt-1 text-center text-white ff_roboto fw-bold text_shadow_blue fs_xl leading_114"
+      >
+        Tap into AI for Wealth Building With The World's #1 AI Method
+      </p>
+      <p
+        class="mt-3 text-center text-white ff_roboto fw-normal fs_3lg mb-0 leading_120 px-xl-5"
+      >
+        Watch Your Investment Skyrocket Effortlessly with a Simple AI System
+        that Capitalizes on Price Differences! Investors Have Seen a
+        Remarkable
+        <span class="text_bluish_cyan fw-semibold">36.5%+</span> Gains in
+        Less Than 24 Hours! Watch the Video Below to Discover How
+      </p>
+      <div class="d-flex justify-content-center mt-3 pt-1 mb-4 pb-2">
+        <div class="border_blue radius_xl video_shadow">
+          <div class="border_white radius_xl">
+            <div class="border_white_gray radius_xl">
+              <div
+                class="video-container position-relative video_container_hero radius_xl"
               >
-                <img
-                  class="hero_sound_icon"
-                  src="./assets/images/success-story/unmute.svg"
-                  alt="Sound Icon"
-                />
-                <p class="hero_sound text-white fs_lg mb-0 fw-semibold">
-                  Unmute
-                </p>
-              </span>
-            </div>
-            <span class="position-absolute live_position">
-              <img
-                class="transition_03"
-                src="./assets/images/hero/live.svg"
-                alt="live"
-            /></span>
-          </div>
-          <div class="mx-auto d-flex justify-content-center">
-            <button
-              data-bs-toggle="modal"
-              data-bs-target="#registerModal"
-              class="bg_green py-sm-3 py-2 px-4 rounded-pill transition_03 fw-bold fs_lg text-white mb-md-5 mb-4 register_btn"
-            >
-              Register Now
-            </button>
-            <!-- Modal -->
-            <div
-              class="modal fade"
-              id="registerModal"
-              tabindex="-1"
-              aria-labelledby="registerModalLabel"
-            >
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content rounded-4 overflow-hidden border-0">
-                  <div class="modal-header p-0">
-                    <div
-                      class="bg_green w-100 d-flex align-items-center justify-content-between px-4 py-3"
-                    >
-                      <p class="fw-bold fs_lg text-white form_heading mb-0">
-                        Invest 350 CAD and Let AI Secure Profits with Prime
-                        Arbitrage Opportunities for You!
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="modal-body border-0 p-0">
-                    <form
-                      onsubmit="handleFormSubmit(event, 'myForm','')"
-                      class="thanks_form border-0 overflow-hidden mb-0"
-                      id="myForm"
-                    >
-                      <div class="form_input">
-                        <div class="d-flex flex-sm-row flex-column mb-2">
-                          <div class="w-100 pe-1">
-                            <label
-                              for="firstName3"
-                              class="text-black fw-normal fs_base mt-0"
-                              >First Name</label
-                            >
-                            <input
-                              required
-                              class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base"
-                              type="text"
-                              name="first_name"
-                              id="first_name"
-                            />
-                            <p
-                              class="mb-0 error bg-white text-danger fw-normal fs_xs"
-                              id="tradingFirstNameError"
-                            ></p>
-                            <!-- Placeholder for error message -->
-                          </div>
-                          <div class="w-100 pe-0 pt-sm-0 pt_10 mt-sm-0 mt-1">
-                            <label
-                              for="lastname3"
-                              class="text-black fw-normal fs_base mt-sm-0"
-                              >Last Name</label
-                            >
-                            <input
-                              required
-                              class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base"
-                              type="text"
-                              name="last_name"
-                              id="last_name"
-                            />
-                            <p
-                              class="mb-0 error bg-white text-danger fw-normal fs_xs"
-                              id="tradingLastNameError"
-                            ></p>
-                            <!-- Placeholder for error message -->
-                          </div>
-                        </div>
-                        <label
-                          for="email3"
-                          class="text-black fw-normal fs_base pt_10 mt-1"
-                          >Email</label
-                        >
-                        <div class="rounded-pill mb-2">
-                          <input
-                            required
-                            class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base"
-                            type="email"
-                            name="email"
-                            id="email"
-                          />
-                        </div>
-                        <p
-                          class="mb-0 error bg-white text-danger fw-normal fs_xs"
-                          id="tradingEmailError"
-                        ></p>
-                        <!-- Placeholder for error message -->
-                        <label
-                          for="Number3"
-                          class="text-black fw-normal fs_base pt_10 mt-1"
-                          >Phone Number</label
-                        >
-                        <input
-                          required
-                          class="rounded-pill bg-white max_h_37 trading_input w-100 pe-3 fs_sm remove_input_number_arrow"
-                          type="number"
-                          name="number"
-                          id="Number3"
-                        />
-                        <p
-                          class="mb-0 error bg-white text-danger fw-normal fs_xs"
-                          id="tradingNumberError"
-                        ></p>
-                        <!-- Placeholder for error message -->
-                        <button
-                          type="submit"
-                          class="text-white sign_up_btn rounded-pill fw-bold fs_base w-100"
-                        >
-                          Sign Up
-                        </button>
-                      </div>
-                      <p
-                        class="pb-3 mb-1 text-center fw-semibold fs_lg text_rich_black"
-                      >
-                        <span class="spots_left">4</span> Spots Left
-                      </p>
-                      <div class="help-block help-block-error">
-                        <p
-                          class="error_answer"
-                          id="error_answer"
-                          style="
-                            display: none;
-                            font-weight: bold;
-                            color: red;
-                            text-align: center;
-                            font-size: 15px;
-                          "
-                        ></p>
-                      </div>
-                    </form>
-                  </div>
+                <video
+                  id="video4"
+                  class="w-100 d-block"
+                  id="video1"
+                  muted
+                  controls
+                  playsinline
+                  poster="./assets/images/hero/thumbnail.webp"
+                >
+                  <source
+                    src="./assets/video/arbitrage.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+                <div
+                  class="position-absolute top-0 start-50 pt-sm-2 translate-middle-x pt-1 hero_video_btn transition_03 d-inline-block"
+                >
+                  <span
+                    id="soundIcon4"
+                    class="p-md-3 py-md-2 p-2 bg-black cursior_pointer rounded-3 unmute_btn transition_03 d-inline-block d-flex align-items-center gap-2"
+                  >
+                    <img
+                      class="hero_sound_icon"
+                      src="./assets/images/success-story/unmute.svg"
+                      alt="Sound Icon"
+                    />
+                    <p class="hero_sound text-white fs_lg mb-0 fw-semibold">
+                      Unmute
+                    </p>
+                  </span>
                 </div>
+                <span class="position-absolute live_position">
+                  <img
+                    class="transition_03"
+                    src="./assets/images/hero/live.svg"
+                    alt="live"
+                /></span>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+
+      <!-- ========= FORM MODAL ======= -->
+      <div class="mx-auto d-flex justify-content-center position-relative z-3">
+      <button  data-bs-toggle="modal"
+      data-bs-target="#registerModal"
+        class="access_button fw-normal hero_button fs_md ff_roboto text-white d-flex flex-column justify-content-center align-items-center mx-auto leading_140"
+      >
+        <span class="d-flex align-items-center gap-2">
+          <img
+            class="access_arrow"
+            src="./assets/images/method-pro/arrow-icon.svg"
+            alt="arrow"
+          />
+          <span class="ff_oxygen fw-bold text-white fs_xl fs_hero_button leading_140"
+            >Unlimited Access For Free!</span
+          >
+        </span>
+        Risk Free Strategy
+      </button>
+ <!-- MODAL CONTENT -->
+ <div
+ class="modal fade"
+ id="registerModal"
+ tabindex="-1"
+ aria-labelledby="registerModalLabel"
+>
+ <div class="modal-dialog modal-dialog-centered">
+   <div class="modal-content rounded-4 overflow-hidden border-0">
+     <div class="modal-header p-0">
+       <div
+         class="bg_bluish_cyan w-100 d-flex align-items-center justify-content-between px-4 py-3"
+       >
+         <p class="fw-bold fs_lg text-white form_heading mb-0">
+           Invest 350 CAD and Let AI Secure Profits with Prime
+           Arbitrage Opportunities for You!
+         </p>
+       </div>
+     </div>
+
+     <div class="modal-body border-0 p-0">
+       <form
+         onsubmit="handleFormSubmit(event, 'myForm','')"
+         class="thanks_form border-0 overflow-hidden mb-0"
+         id="myForm"
+       >
+         <div class="form_input">
+           <div class="d-flex flex-sm-row flex-column mb-2">
+             <div class="w-100 pe-1">
+               <label
+                 for="firstName3"
+                 class="text-black fw-normal fs_base mt-0"
+                 >First Name</label
+               >
+               <input
+                 required
+                 class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base"
+                 type="text"
+                 name="first_name"
+                 id="first_name"
+               />
+               <p
+                 class="mb-0 error bg-white text-danger fw-normal fs_xs"
+                 id="tradingFirstNameError"
+               ></p>
+               <!-- Placeholder for error message -->
+             </div>
+             <div class="w-100 pe-0 pt-sm-0 pt_10 mt-sm-0 mt-1">
+               <label
+                 for="lastname3"
+                 class="text-black fw-normal fs_base mt-sm-0"
+                 >Last Name</label
+               >
+               <input
+                 required
+                 class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base"
+                 type="text"
+                 name="last_name"
+                 id="last_name"
+               />
+               <p
+                 class="mb-0 error bg-white text-danger fw-normal fs_xs"
+                 id="tradingLastNameError"
+               ></p>
+               <!-- Placeholder for error message -->
+             </div>
+           </div>
+           <label
+             for="email3"
+             class="text-black fw-normal fs_base pt_10 mt-1"
+             >Email</label
+           >
+           <div class="rounded-pill mb-2">
+             <input
+               required
+               class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base"
+               type="email"
+               name="email"
+               id="email"
+             />
+           </div>
+           <p
+             class="mb-0 error bg-white text-danger fw-normal fs_xs"
+             id="tradingEmailError"
+           ></p>
+           <!-- Placeholder for error message -->
+           <label
+             for="Number3"
+             class="text-black fw-normal fs_base pt_10 mt-1"
+             >Phone Number</label
+           >
+           <input
+             required
+             class="rounded-pill bg-white max_h_37 trading_input w-100 pe-3 fs_sm remove_input_number_arrow"
+             type="number"
+             name="number"
+             id="Number3"
+           />
+           <p
+             class="mb-0 error bg-white text-danger fw-normal fs_xs"
+             id="tradingNumberError"
+           ></p>
+           <!-- Placeholder for error message -->
+           <button
+             type="submit"
+             class="text-white sign_up_btn rounded-pill fw-bold fs_base w-100"
+           >
+             Sign Up
+           </button>
+         </div>
+         <p
+           class="pb-3 mb-1 text-center fw-semibold fs_lg text_rich_black"
+         >
+           <span class="spots_left">4</span> Spots Left
+         </p>
+         <div class="help-block help-block-error">
+           <p
+             class="error_answer"
+             id="error_answer"
+             style="
+               display: none;
+               font-weight: bold;
+               color: red;
+               text-align: center;
+               font-size: 15px;
+             "
+           ></p>
+         </div>
+       </form>
+     </div>
+   </div>
+ </div>
+</div>
+</div>
+
+      <p
+        class="ff_roboto text-white font-normal text-center pt-lg-5 pt-4 mb-lg-5 mb-4 pb-xl-1 fs_lg leading_140"
+      >
+        <span class="me-2"
+          ><img
+            src="./assets/images/method-pro/share-up-arrow.svg"
+            alt="share-up-arrow"
+        /></span>
+        Just apply this simple AI Method, and you'll instantly see where to
+        buy, sell, and take profit within seconds. With up to 93.2% daily
+        accuracy, our AI system simplifies your decisions and helps you
+        achieve consistent gains with minimal effort. Start today and
+        experience how effortless and profitable your account will grow
+        using AI-Arbitrage.
+      </p>
+      <h2
+        class="max_w_heading fs_xxll text_shadow_blue text-center text-white ff_roboto fw-bold mx-auto mb-4 leading_140"
+      >
+        The <span class="text_green">world's</span> must trusted AI method,
+        proved by Experts all over the world.
+      </h2>
+      <div class="d-flex justify-content-center mb-md-5 mb-4">
+        <ul class="p-0 m-0">
+          <li
+            class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_lg d-flex align-items-start gap-sm-3 gap-2 leading_145"
+          >
+            <span
+              ><img
+                class="blue_tick"
+                src="./assets/images/method-pro/blue-tick.svg"
+                alt="blue-tick"
+            /></span>
+            Extremely Easy Setup: Get started in just (1 minute).
+          </li>
+          <li
+            class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_lg d-flex align-items-start gap-sm-3 gap-2 leading_145"
+          >
+            <span
+              ><img
+                class="blue_tick"
+                src="./assets/images/method-pro/blue-tick.svg"
+                alt="blue-tick"
+            /></span>
+            Highly accuracy.: AI Arbitrage achieves up to 93.2% daily
+            accuracy.
+          </li>
+          <li
+            class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_lg d-flex align-items-start gap-sm-3 gap-2 leading_145"
+          >
+            <span
+              ><img
+                class="blue_tick"
+                src="./assets/images/method-pro/blue-tick.svg"
+                alt="blue-tick"
+            /></span>
+            Real-Time: Receive live AI alerts.
+          </li>
+          <li
+            class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_lg d-flex align-items-start gap-sm-3 gap-2 leading_145"
+          >
+            <span
+              ><img
+                class="blue_tick"
+                src="./assets/images/method-pro/blue-tick.svg"
+                alt="blue-tick"
+            /></span>
+            Beginner-Friendly: Perfect for those with zero experience.
+          </li>
+          <li
+            class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_lg d-flex align-items-start gap-sm-3 gap-2 leading_145"
+          >
+            <span
+              ><img
+                class="blue_tick"
+                src="./assets/images/method-pro/blue-tick.svg"
+                alt="blue-tick"
+            /></span>
+            Comprehensive Support: Includes 1-on-1 calls with your account
+            manager.
+          </li>
+        </ul>
+      </div>
+      <button
+        class="hero_button get_start_button fw-bold mx-auto d-flex ff_roboto text-white fs_3lg leading_140"
+      >
+        Get Started!
+        <span class="ms-3 ps-lg-1"
+          ><img
+            class="play_icon"
+            src="./assets/images/method-pro/play-icon-button.svg"
+            alt="play-icon-button"
+        /></span>
+      </button>
+    </div>
+  </div>
+</section>
+
       <div
-        class="counter position-fixed justify-content-center bg_light_gray rounded-4"
+        class="counter position-fixed justify-content-center bg-white rounded-4 video_shadow"
       >
         <div
           class="d-flex flex-column align-items-center p-3 position-relative"
         >
           <span
             onclick="activeUserPopup()"
-            class="position-absolute active_user_cross cursior_pointer bg-black rounded-pill d-flex justify-content-center align-items-center"
+            class="position-absolute active_user_cross cursior_pointer bg_bluish_cyan rounded-pill d-flex justify-content-center align-items-center"
             ><svg
               width="12"
               height="12"
@@ -366,14 +512,14 @@
               />
             </svg>
           </span>
-          <span id="userCounter" class="text_green fs_3lg fw-bold">5303</span>
+          <span id="userCounter" class="text_bluish_cyan fs_3lg fw-bold">5303</span>
           <p class="text-black fs_base fw-semibold mb-0 fw-bold">
             Active Web Sessions
           </p>
         </div>
       </div>
       <!--=========== REAL SUCCESS STORIES ============= -->
-      <div class="pt-3 container custom_container mx-auto">
+      <div class="pt-5 mt-lg-2 container custom_container mx-auto">
         <h2
           class="pb-3 text-center text-black fs_3xl fw-bold leading_130 mb-0 ff_oxygen"
         >
@@ -570,10 +716,19 @@
       </div>
     </div>
     <!--===========  BECOME A PROFITABLE AI ARBITRAGE WINNER ! ===========-->
-    <section class="ai_winner_bg pb-md-3">
-      <div class="pt-2 container custom_container">
+    <section class="ai_winner_bg pb-md-3 position-relative z-3">
+      <video muted loop autoplay
+      class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center z-n1 pointer_event_none"
+      >
+      <source
+      src="./assets/video/background-particle.webm"
+      />
+      Your browser does not support the video tag.
+    </video>
+    <div class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center bg-black z-1 opacity_05 pointer_event_none"></div>
+      <div class="pt-2 container custom_container position-relative z-3">
         <h2
-          class="fs_3xl leading_130 fw-bold text-white arbitrage_winner_heading ff_oxygen mx-auto text-center pt-5 mb-3"
+          class="fs_3xl leading_130 fw-bold text-white arbitrage_winner_heading ff_oxygen mx-auto text-center pt-5 mb-3 text_shadow_blue"
         >
           Become a profitable AI Winner!
         </h2>
@@ -591,6 +746,7 @@
         ></div>
       </div>
     </section>
+    <!-- ========== LOGOES ======= -->
     <div class="forbes_slider_container container forbes_section_padding">
       <div
         class="mx-auto d-flex align-items-center justify-content-center flex-wrap sponsor_slide_img"
@@ -622,6 +778,93 @@
         />
       </div>
     </div>
+    <!-- =============== LIVE RESULT ========= -->
+<section class="bg_dark_blue bg_hero py-5 position-relative z-3">
+  <video muted loop autoplay
+  class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center z-n1 pointer_event_none"
+  >
+  <source
+  src="./assets/video/background-particle.webm"
+  />
+  Your browser does not support the video tag.
+</video>
+<div class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center bg-black z-1 opacity_05 pointer_event_none"></div>
+  <div class="container custom_container py-lg-5 my-sm-5 position-relative z-3">
+    <img
+      class="mb-sm-5 mb-4 mx-auto d-flex group_people_icon mt-xl-2"
+      src="./assets/images/method-pro/people-group.svg"
+      alt="people-group"
+    />
+    <h2
+      class="text_shadow_blue text-center leading_174 text-white ff_oxygen fw-bold fs_xxll d-flex align-items-center gap-2 justify-content-center mt-md-4 pt-lg-2"
+    >
+      <span class="live_dot d-block rounded-pill"></span> Live Results :
+    </h2>
+    <span class="live_result_line d-block mx-auto bg-white mt-3"></span>
+    <div class="mt-5 pt-2 pb-lg-4">
+      <ul
+        class="p-0 m-0 d-flex align-items-start justify-content-center flex-wrap gap-4"
+      >
+        <li class="d-flex align-items-center gap-sm-2 gap-1">
+          <img
+            src="./assets/images/method-pro/blue_bg_tick.svg"
+            alt="blue-tick"
+          />
+          <p class="ff_roboto text-white font-normal fs_lg mb-0 leading_140">
+            VIP Arbitrage Winning Rate: <span class="text_dark_green">93.2% </span>
+          </p>
+        </li>
+        <li class="d-flex align-items-center gap-sm-2 gap-1">
+          <img
+            src="./assets/images/method-pro/blue_bg_tick.svg"
+            alt="blue-tick"
+          />
+          <p class="ff_roboto text-white font-normal fs_lg mb-0 leading_140">
+            Active AI Arbitrage Opportunities: <span class="text_dark_green">6063</span> 
+          </p>
+        </li>
+        <li class="d-flex align-items-center gap-sm-2 gap-1">
+          <img
+            src="./assets/images/method-pro/blue_bg_tick.svg"
+            alt="blue-tick"
+          />
+          <p class="ff_roboto text-white font-normal fs_lg mb-0 leading_140">
+            Number of opportunities taken: <span class="text_dark_green">6041</span>
+          </p>
+        </li>
+        <li class="d-flex align-items-center gap-sm-2 gap-1">
+          <img
+            src="./assets/images/method-pro/blue_bg_tick.svg"
+            alt="blue-tick"
+          />
+          <p class="ff_roboto text-white font-normal fs_lg mb-0 leading_140">
+            Active payouts: <span class="text_dark_green">3665</span>
+          </p>
+        </li>
+        <li class="d-flex align-items-center gap-sm-2 gap-1 ms-xl-5 ">
+          <img
+            src="./assets/images/method-pro/blue_bg_tick.svg"
+            alt="blue-tick"
+          />
+          <p class="ff_roboto text-white font-normal fs_lg mb-0 leading_140">
+            Average Member Profit: <span class="text_dark_green">$862/ Day</span>
+          </p>
+        </li>
+      </ul>
+    </div>
+    <button
+    class="hero_button get_start_live_button fw-bold mx-auto d-flex ff_oxygen text-white fs_lg leading_140 mt-4 mt-lg-5 mb-xl-2"
+  >
+  Get started here
+    <span class="ps-2"
+      ><img
+        class=""
+        src="./assets/images/method-pro/get-start-arrow.svg"
+        alt="arrow"
+    /></span>
+  </button>
+  </div>
+</section>
     <div class="container custom_container bg-white">
       <!-- ============= FREQUENTLY ASKED QUESTIONS ============ -->
       <section class="mb_115 mb_100_md mb_150_lg">
@@ -830,16 +1073,25 @@
     </div>
 
     <!--============= THANKS YOU SECTION ==============-->
-    <section class="bg_form mb-md-5">
-      <div class="form_container container pb-sm-5 pb-4 px_12">
+    <section class="bg_form mb-md-5 position-relative z-3">
+      <video muted loop autoplay
+      class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center z-n1 pointer_event_none"
+      >
+      <source
+      src="./assets/video/background-particle.webm"
+      />
+      Your browser does not support the video tag.
+    </video>
+    <div class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center bg-black z-1 opacity_05 pointer_event_none"></div>
+      <div class="form_container container pb-sm-5 pb-4 px_12 position-relative z-3">
         <div class="pt-5 mt-md-5 pb-2">
           <p
-            class="pt-lg-4 mt-3 text-white text-center ff_oxygen fw-bold fs_xxll ready_to_get_text_shadow"
+            class="pt-lg-4 mt-3 text-white text-center ff_oxygen fw-bold fs_xxll text_shadow_blue"
           >
             Ready To Get 24/7 Access To The
           </p>
           <p
-            class="text-white text-center ff_oxygen fw-bold fs_xxll ready_to_get_text_shadow"
+            class="text-white text-center ff_oxygen fw-bold fs_xxll text_shadow_blue"
           >
             World's Most Profitable Strategy?
           </p>
@@ -1101,7 +1353,7 @@
           </div>
         </div>
         <p
-          class="mb-4 pb-2 mt-md-5 pt-4 text-white text-center ff_oxygen fw-bold fs_3xl ready_to_get_text_shadow"
+          class="mb-4 pb-2 mt-md-5 pt-4 text-white text-center ff_oxygen fw-bold fs_3xl text_shadow_blue"
         >
           Get Access For Free!
         </p>
@@ -1637,7 +1889,7 @@
           </div>
           <div class="footer_border_line"></div>
           <div
-            class="d-flex justify-content-between align-items-center pt-lg-3 pb-4 flex-column flex-sm-row"
+            class="d-flex justify-content-between align-items-center pt-lg-3 pt-2 pb-4 flex-column flex-sm-row"
           >
             <div
               class="fs_base text-white fw-normal mb-1 d-flex align-items-center gap-1 ps-1 ps-sm-0"

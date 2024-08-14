@@ -118,11 +118,11 @@
   min-height: 52px;
 }
 input:focus-visible {
-  outline: var(--green) auto 1px;
+  outline: var(--bluish-cyan) auto 1px;
 }
 .sign_up_btn {
   background: var(--bluish-cyan);
-  border: 2px solid var(--green);
+  border: 2px solid var(--bluish-cyan);
   padding: 10px;
   margin-top: 35px;
   transition: all ease-in-out 300ms;
@@ -132,7 +132,7 @@ input:focus-visible {
 }
 .sign_up_btn:hover {
   background: white;
-  color: var(--green) !important;
+  color: var(--bluish-cyan) !important;
 }
 #first-counter {
   max-width: 340px;
@@ -173,12 +173,7 @@ input:focus-visible {
 .form_max_w {
   max-width: 528px;
 }
-.ready_to_get_text_shadow {
-  box-shadow: 0px 4px 4px 0px #00000040;
-  text-shadow: 0px 0px 20px #00bfff;
-  max-width: 533px;
-  margin: 0 auto;
-}
+
 .ai_winner_bg {
   background-image: url("../images/method-pro/dots-black-bg.png");
   background-repeat: no-repeat;
@@ -208,6 +203,9 @@ input:focus-visible {
   width: 414px;
   height: 112px;
 }
+.mb_150_lg {
+  margin-bottom: 150px;
+}
 @media (max-width: 1280px) {
   .form_box {
     padding: 32px;
@@ -226,9 +224,6 @@ input:focus-visible {
   }
 }
 @media (max-width: 1024px) {
-  .mb_150_lg {
-    margin-bottom: 150px;
-  }
   .form_box {
     padding: 60px;
   }
