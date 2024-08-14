@@ -326,7 +326,7 @@ input:focus-visible {
     height: 80px;
   }
   .forbes_section_padding {
-    padding: 60px 0 18px 0;
+    padding: 60px 0;
   }
 }
 @media (max-width: 575.58px) {

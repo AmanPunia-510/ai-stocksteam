@@ -31,16 +31,12 @@
 .sponsor_slide,
 .sponsor_slide_img {
   max-width: 1250px;
-  padding-bottom: 42px;
   column-gap: 57px;
   row-gap: 30px;
 }
 
 .cg_wise {
   max-width: 116px;
-}
-.sponsor_slide_img {
-  padding: 0 12px 42px;
 }
 .sponsor_slide .slick-track {
   display: flex !important;
@@ -93,7 +89,7 @@
 
 /* BACK-TO-TOP */
 .back_top_top {
-  background: var(--green);
+  background: var(--bluish-cyan);
   box-shadow: 0px 2px 10px 0px #00000026;
   bottom: 20px;
   right: 20px;
