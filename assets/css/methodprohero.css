@@ -1,15 +1,4 @@
 /* ======== COMMON CLASSES ===== */
-:root {
-  --dark-blue: "#15161B";
-  --fs-2xxl: "36px";
-}
-
-.fs_2xxl {
-  font-size: var(--fs-2xxl) !important;
-}
-.bg_dark_blue {
-  background-color: var(--dark-blue);
-}
 .leading_174 {
   line-height: 174%;
 }
@@ -34,9 +23,7 @@
 .pointer_event_none {
   pointer-events: none;
 }
-.z_10 {
-  z-index: 10000000000 !important;
-}
+
 .modal-backdrop {
   z-index: 0 !important;
   background-color: #00000080 !important;

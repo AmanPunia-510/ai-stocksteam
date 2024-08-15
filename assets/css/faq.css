@@ -90,26 +90,7 @@
 .form_input {
   padding: 20px 30px 20px 30px;
 }
-/* .spots_left {
-  width: 15px;
-  height: 21px;
-  display: inline-block;
-}
-.spots_left::after {
-  content: "4";
-  position: absolute;
-  top: 0;
-  left: 0;
-  animation: spots 300s ease-in-out 5s ;
-}
-@keyframes spots {
-  0% {
-    content: "4";
-  }
-  1% {
-    content: "3";
-  }
-} */
+
 .form_input label {
   margin: 8px 0;
 }

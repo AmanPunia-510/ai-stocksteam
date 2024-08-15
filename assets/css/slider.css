@@ -35,9 +35,6 @@
   row-gap: 30px;
 }
 
-.cg_wise {
-  max-width: 116px;
-}
 .sponsor_slide .slick-track {
   display: flex !important;
   align-items: center !important;
@@ -52,35 +49,7 @@
 .review_slide .slick-slide {
   height: inherit !important;
 }
-.market_go_img {
-  width: 260px;
-  height: 38px;
-}
-.cg_wise_img {
-  width: 116px;
-  height: 70px;
-}
-.fargo_img {
-  width: 220px;
-  height: 70px;
-}
-.stanford_img {
-  width: 146px;
-  height: 54px;
-}
-.reserve_img {
-  width: 189px;
-  height: 53px;
-}
-.join_btn {
-  border-radius: 30px;
-  padding: 16px 24px;
-  border: 1px solid white;
-}
-.join_btn:hover {
-  color: white;
-  background: var(--green) !important;
-}
+
 .px_12 {
   padding-left: 12px;
   padding-right: 12px;
@@ -126,43 +95,9 @@
   .back_top_top img {
     width: 45px;
   }
-  .market_go_img {
-    width: 200px;
-    height: 30px;
-  }
-  .cg_wise_img {
-    width: 90px;
-    height: 60px;
-  }
-  .fargo_img {
-    width: 190px;
-    height: 60px;
-  }
-  .stanford_img {
-    width: 130px;
-    height: 45px;
-  }
-  .reserve_img {
-    width: 150px;
-    height: 45px;
-  }
+
   .sponsor_slide {
     padding-bottom: 32px;
-  }
-  .market_go {
-    width: 160px;
-  }
-  .cg_wise {
-    width: 100px;
-  }
-  .frago {
-    width: 160px;
-  }
-  .standford {
-    width: 130px;
-  }
-  .reserve {
-    width: 160px;
   }
 }
 @media (max-width: 639.98px) {
@@ -182,9 +117,6 @@
   .accordion-button::after {
     width: 15px;
     height: 15px;
-  }
-  .join_btn {
-    padding: 8px 24px;
   }
 }
 

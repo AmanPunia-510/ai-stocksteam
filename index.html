@@ -14,7 +14,7 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://arbitrange-method.vercel.app/" />
+    <meta property="og:url" content="https://ai-arbitrage-psi.vercel.app/" />
     <meta property="og:title" content="AI-arbitrage" />
     <meta
       property="og:description"
@@ -22,7 +22,7 @@
     />
     <meta
       property="og:image"
-      content="https://arbitrange-method.vercel.app/assets/meta.webp"
+      content="https://ai-arbitrage-psi.vercel.app/assets/meta-image.webp"
     />
     <!-- Google tag (gtag.js) -->
     <script
@@ -41,7 +41,7 @@
     <meta property="twitter:card" content="summary_large_image" />
     <meta
       property="twitter:url"
-      content="https://arbitrange-method.vercel.app/"
+      content="https://ai-arbitrage-psi.vercel.app/"
     />
     <meta property="twitter:title" content="AI-arbitrage" />
     <meta
@@ -50,7 +50,7 @@
     />
     <meta
       property="twitter:image"
-      content="https://arbitrange-method.vercel.app/assets/meta.webp"
+      content="https://ai-arbitrage-psi.vercel.app/assets/meta-image.webp"
     />
 
     <!-- ============ INPUT COUNTRY TEL CODE ===========  -->
@@ -89,6 +89,7 @@
     <link rel="stylesheet" href="./assets/css/faq.css" />
     <link rel="stylesheet" href="./assets/css/hero.css" />
     <link rel="stylesheet" href="./assets/css/slider.css" />
+    <link rel="stylesheet" href="./assets/css/methodprohero.css" />
   </head>
 
   <body>
@@ -135,80 +136,138 @@
       send_params["sub"] = "<?php echo $_GET['sub']; ?>";
     </script>
     <?php } ?>
-    <div class="bg_green navbar py-0">
-      <a class="navbar_logo mx-auto" href="/"
-        ><img class="w-100" src="./assets/images/common/logo.webp" alt="logo"
-      /></a>
-    </div>
-    <div class="bg-white custom_container container mx-auto">
-      <!-- =========== HERO SECTION ============ -->
-      <section class="pb-md-5">
-        <div class="pt-4 mt-3">
-          <h1 class="text-center fs_3xl fw-bold leading_130 pb-3 mb-0">
-            Unlock Effortless Wealth with
-            <span class="text_green">Automated AI Arbitrage Method!</span>
-            Elevate Your Financial Success with Cutting-Edge
-            <span class="text_green">AI Technology!</span>
-          </h1>
+
+    <!-- =========== HERO SECTION ========= -->
+    <section class="pt-3 bg_dark_blue pb-5 position-relative z-1">
+      <video
+        muted
+        loop
+        autoplay
+        class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center z-n1 pointer_event_none"
+      >
+        <source src="./assets/video/background-particle.webm" />
+        Your browser does not support the video tag.
+      </video>
+      <div
+        class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center bg-black z-1 opacity_05 pointer_event_none"
+      ></div>
+      <div class="position-absolute menu_button position-relative z-1">
+        <span class="menu_button_line d-block"></span>
+        <span class="menu_button_line d-block mt_2"></span>
+        <span class="menu_button_line d-block mt_2"></span>
+      </div>
+      <div
+        class="container custom_container mx-auto mb-md-5 position-relative z-2"
+      >
+        <div class="max_w_hero mx-auto">
+          <div class="d-flex justify-content-center">
+            <img
+              class="arrow_size"
+              src="./assets/images/method-pro/hero-down-arrow.png"
+              alt="arrow"
+            />
+          </div>
+          <h2
+            class="mt-2 pt-1 text-uppercase fs_xxll text-white ff_oxanium text-center text_shadow_white fw-semibold leading_124"
+          >
+            AI Arbitrage Method Pro
+          </h2>
+          <span
+            class="text_bottom_line d-block mx-auto bg-white mb-lg-5 mb-md-4 mb-3"
+          ></span>
+          <h2
+            class="text_shadow_blue text-center text-white ff_oxygen fw-bold fs_xxll leading_124"
+          >
+            AI POWERED Arbitrage Method Pro
+          </h2>
           <p
-            class="text_green pt-4 text-center fs_3lg px-lg-4 fw-semibold leading_150 pb-md-5 mb-0"
+            class="mt-3 pt-1 text-center text-white ff_roboto fw-bold text_shadow_blue fs_xl leading_114"
+          >
+            Tap into AI for Wealth Building With The World's #1 AI Method
+          </p>
+          <p
+            class="mt-3 text-center text-white ff_roboto fw-normal fs_3lg mb-0 leading_120 px-xl-5"
           >
             Watch Your Investment Skyrocket Effortlessly with a Simple AI System
-            that Capitalizes on Price Differences! Investors Have Seen
-            Remarkable 36.5%+ Gains in Less Than 24 Hours! Watch the Video Below
-            to Discover How!
+            that Capitalizes on Price Differences! Investors Have Seen a
+            Remarkable
+            <span class="text_bluish_cyan fw-semibold">36.5%+</span> Gains in
+            Less Than 24 Hours! Watch the Video Below to Discover How
           </p>
-          <div
-            class="video-container mx-sm-2 mx-md-3 mx-xl-4 position-relative"
-          >
-            <video
-              id="video4"
-              class="w-100 d-block"
-              id="video1"
-              muted
-              controls
-              playsinline
-              poster="./assets/images/hero/thumbnail.webp"
-            >
-              <source
-                src="./assets/video/Ai_Arbitrage_VR.mp4"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video>
-            <div
-              class="position-absolute top-0 start-50 pt-sm-2 translate-middle-x pt-1 hero_video_btn transition_03 d-inline-block"
-            >
-              <span
-                id="soundIcon4"
-                class="p-md-3 py-md-2 p-2 bg-black cursior_pointer rounded-3 unmute_btn transition_03 d-inline-block d-flex align-items-center gap-2"
-              >
-                <img
-                  class="hero_sound_icon"
-                  src="./assets/images/success-story/unmute.svg"
-                  alt="Sound Icon"
-                />
-                <p class="hero_sound text-white fs_lg mb-0 fw-semibold">
-                  Unmute
-                </p>
-              </span>
+          <div class="d-flex justify-content-center mt-3 pt-1 mb-4 pb-2">
+            <div class="border_blue radius_xl video_shadow">
+              <div class="border_white radius_xl">
+                <div class="border_white_gray radius_xl">
+                  <div
+                    class="video-container position-relative video_container_hero radius_xl"
+                  >
+                    <video
+                      id="video4"
+                      class="w-100 d-block"
+                      id="video1"
+                      muted
+                      controls
+                      playsinline
+                      poster="./assets/images/method-pro/video-thumbnail.webp"
+                    >
+                      <source
+                        src="./assets/video/arbitrage.mp4"
+                        type="video/mp4"
+                      />
+                      Your browser does not support the video tag.
+                    </video>
+                    <div
+                      class="position-absolute top-0 start-50 pt-sm-2 translate-middle-x pt-1 hero_video_btn transition_03 d-inline-block"
+                    >
+                      <span
+                        id="soundIcon4"
+                        class="p-md-3 py-md-2 p-2 bg-black cursior_pointer rounded-3 unmute_btn transition_03 d-inline-block d-flex align-items-center gap-2"
+                      >
+                        <img
+                          class="hero_sound_icon"
+                          src="./assets/images/success-story/unmute.svg"
+                          alt="Sound Icon"
+                        />
+                        <p class="hero_sound text-white fs_lg mb-0 fw-semibold">
+                          Unmute
+                        </p>
+                      </span>
+                    </div>
+                    <span class="position-absolute live_position">
+                      <img
+                        class="transition_03"
+                        src="./assets/images/hero/live.svg"
+                        alt="live"
+                    /></span>
+                  </div>
+                </div>
+              </div>
             </div>
-            <span class="position-absolute live_position">
-              <img
-                class="transition_03"
-                src="./assets/images/hero/live.svg"
-                alt="live"
-            /></span>
           </div>
-          <div class="mx-auto d-flex justify-content-center">
+
+          <!-- ========= FORM MODAL ======= -->
+          <div
+            class="mx-auto d-flex justify-content-center position-relative z-3"
+          >
             <button
               data-bs-toggle="modal"
               data-bs-target="#registerModal"
-              class="bg_green py-sm-3 py-2 px-4 rounded-pill transition_03 fw-bold fs_lg text-white mb-md-5 mb-4 register_btn"
+              class="access_button fw-normal hero_button fs_md ff_roboto text-white d-flex flex-column justify-content-center align-items-center mx-auto leading_140"
             >
-              Register Now
+              <span class="d-flex align-items-center gap-2">
+                <img
+                  class="access_arrow"
+                  src="./assets/images/method-pro/arrow-icon.svg"
+                  alt="arrow"
+                />
+                <span
+                  class="ff_oxygen fw-bold text-white fs_xl fs_hero_button leading_140"
+                  >Unlimited Access For Free!</span
+                >
+              </span>
+              Risk Free Strategy
             </button>
-            <!-- Modal -->
+            <!-- MODAL CONTENT -->
             <div
               class="modal fade"
               id="registerModal"
@@ -219,7 +278,7 @@
                 <div class="modal-content rounded-4 overflow-hidden border-0">
                   <div class="modal-header p-0">
                     <div
-                      class="bg_green w-100 d-flex align-items-center justify-content-between px-4 py-3"
+                      class="bg_bluish_cyan w-100 d-flex align-items-center justify-content-between px-4 py-3"
                     >
                       <p class="fw-bold fs_lg text-white form_heading mb-0">
                         Invest 350 CAD and Let AI Secure Profits with Prime
@@ -342,238 +401,346 @@
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <div
-        class="counter position-fixed justify-content-center bg_light_gray rounded-4"
-      >
-        <div
-          class="d-flex flex-column align-items-center p-3 position-relative"
-        >
-          <span
-            onclick="activeUserPopup()"
-            class="position-absolute active_user_cross cursior_pointer bg-black rounded-pill d-flex justify-content-center align-items-center"
-            ><svg
-              width="12"
-              height="12"
-              viewBox="0 0 12 12"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M10.192 0.343994L5.94897 4.58599L1.70697 0.343994L0.292969 1.75799L4.53497 5.99999L0.292969 10.242L1.70697 11.656L5.94897 7.41399L10.192 11.656L11.606 10.242L7.36397 5.99999L11.606 1.75799L10.192 0.343994Z"
-                fill="white"
-              />
-            </svg>
-          </span>
-          <span id="userCounter" class="text_green fs_3lg fw-bold">5303</span>
-          <p class="text-black fs_base fw-semibold mb-0 fw-bold">
-            Active Web Sessions
+
+          <p
+            class="ff_roboto text-white font-normal text-center pt-lg-5 pt-4 mb-lg-5 mb-4 pb-xl-1 fs_lg leading_140"
+          >
+            <span class="me-2"
+              ><img
+                src="./assets/images/method-pro/share-up-arrow.svg"
+                alt="share-up-arrow"
+            /></span>
+            Just apply this simple AI Method, and you'll instantly see where to
+            buy, sell, and take profit within seconds. With up to 93.2% daily
+            accuracy, our AI system simplifies your decisions and helps you
+            achieve consistent gains with minimal effort. Start today and
+            experience how effortless and profitable your account will grow
+            using AI-Arbitrage.
           </p>
+          <h2
+            class="max_w_heading fs_xxll text_shadow_blue text-center text-white ff_roboto fw-bold mx-auto mb-4 leading_140"
+          >
+            The <span class="text_green">world's</span> must trusted AI method,
+            proved by Experts all over the world.
+          </h2>
+          <div class="d-flex justify-content-center mb-md-5 mb-4">
+            <ul class="p-0 m-0">
+              <li
+                class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_2lg d-flex align-items-start gap-sm-3 gap-2 leading_145"
+              >
+                <span
+                  ><img
+                    class="blue_tick"
+                    src="./assets/images/method-pro/blue-tick.svg"
+                    alt="blue-tick"
+                /></span>
+                Extremely Easy Setup: Get started in just (1 minute).
+              </li>
+              <li
+                class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_2lg d-flex align-items-start gap-sm-3 gap-2 leading_145"
+              >
+                <span
+                  ><img
+                    class="blue_tick"
+                    src="./assets/images/method-pro/blue-tick.svg"
+                    alt="blue-tick"
+                /></span>
+                Highly accuracy.: AI Arbitrage achieves up to 93.2% daily
+                accuracy.
+              </li>
+              <li
+                class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_2lg d-flex align-items-start gap-sm-3 gap-2 leading_145"
+              >
+                <span
+                  ><img
+                    class="blue_tick"
+                    src="./assets/images/method-pro/blue-tick.svg"
+                    alt="blue-tick"
+                /></span>
+                Real-Time: Receive live AI alerts.
+              </li>
+              <li
+                class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_2lg d-flex align-items-start gap-sm-3 gap-2 leading_145"
+              >
+                <span
+                  ><img
+                    class="blue_tick"
+                    src="./assets/images/method-pro/blue-tick.svg"
+                    alt="blue-tick"
+                /></span>
+                Beginner-Friendly: Perfect for those with zero experience.
+              </li>
+              <li
+                class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_2lg d-flex align-items-start gap-sm-3 gap-2 leading_145"
+              >
+                <span
+                  ><img
+                    class="blue_tick"
+                    src="./assets/images/method-pro/blue-tick.svg"
+                    alt="blue-tick"
+                /></span>
+                Comprehensive Support: Includes 1-on-1 calls with your account
+                manager.
+              </li>
+            </ul>
+          </div>
+          <button
+            class="hero_button get_start_button fw-bold mx-auto d-flex ff_lato text-white fs_3lg leading_140"
+          >
+            Get Started!
+            <span class="ms-3 ps-lg-1"
+              ><img
+                class="play_icon"
+                src="./assets/images/method-pro/play-icon-button.svg"
+                alt="play-icon-button"
+            /></span>
+          </button>
         </div>
       </div>
-      <!--=========== REAL SUCCESS STORIES ============= -->
-      <div class="pt-3 container custom_container mx-auto">
-        <h2
-          class="pb-3 text-center text-black fs_3xl fw-bold leading_130 mb-0 ff_oxygen"
+    </section>
+<!-- ========== RANDOM COUNTDOWN ======= -->
+    <div
+      class="counter position-fixed justify-content-center bg-white rounded-4 video_shadow"
+    >
+      <div class="d-flex flex-column align-items-center p-3 position-relative">
+        <span
+          onclick="activeUserPopup()"
+          class="position-absolute active_user_cross cursior_pointer bg_bluish_cyan rounded-pill d-flex justify-content-center align-items-center"
+          ><svg
+            width="12"
+            height="12"
+            viewBox="0 0 12 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.192 0.343994L5.94897 4.58599L1.70697 0.343994L0.292969 1.75799L4.53497 5.99999L0.292969 10.242L1.70697 11.656L5.94897 7.41399L10.192 11.656L11.606 10.242L7.36397 5.99999L11.606 1.75799L10.192 0.343994Z"
+              fill="white"
+            />
+          </svg>
+        </span>
+        <span id="userCounter" class="text_bluish_cyan fs_3lg fw-bold"
+          >5303</span
         >
-          Real success stories
-        </h2>
-        <p
-          class="text-center fs_lg text-black opacity_08 leading_150 pb-4 mb-2 success_story_paragraph mx-auto fw-medium mb-0 ff_roboto"
-        >
-          These testimonials highlight how AI Automated Arbitrage can lead to
-          significant positive changes in the lives of many canadian families.
+        <p class="text-black fs_base fw-semibold mb-0 fw-bold">
+          Active Web Sessions
         </p>
-        <div class="row story_video_parent justify-content-center">
-          <div class="col-lg-4 col-sm-6">
-            <div
-              class="bg_light_gray rounded-2 overflow-hidden position-relative"
+      </div>
+    </div>
+    <!--=========== REAL SUCCESS STORIES ============= -->
+    <div class="pt-5 mt-lg-2 container custom_container mx-auto">
+      <h2
+        class="pb-3 text-center text-black fs_3xl fw-bold leading_130 mb-0 ff_oxygen"
+      >
+        Real success stories
+      </h2>
+      <p
+        class="text-center fs_lg text-black opacity_08 leading_150 pb-4 mb-2 success_story_paragraph mx-auto fw-medium mb-0 ff_roboto"
+      >
+        These testimonials highlight how AI Automated Arbitrage can lead to
+        significant positive changes in the lives of many canadian families.
+      </p>
+      <div class="row story_video_parent justify-content-center">
+        <div class="col-lg-4 col-sm-6">
+          <div
+            class="bg_light_gray rounded-2 overflow-hidden position-relative"
+          >
+            <video
+              id="video1"
+              class="w-100 story_video d-block object-fit-cover"
+              autoplay
+              loop
+              muted
+              playsinline
+              controls
+              src="./assets/video/melani.mp4"
+            ></video>
+            <p
+              class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase"
             >
-              <video
-                id="video1"
-                class="w-100 story_video d-block object-fit-cover"
-                autoplay
-                loop
-                muted
-                playsinline
-                controls
-                src="./assets/video/melani.mp4"
-              ></video>
-              <p
-                class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase"
-              >
-                MELANI FROM TORONTO
-              </p>
-              <span class="position-absolute top-0 end-0 pe-2 pt-2">
-                <img
-                  id="soundIcon1"
-                  class="mt-1 me-1 cursior_pointer"
-                  width="20"
-                  src="./assets/images/success-story/unmute.svg"
-                  alt="sound"
-                />
-              </span>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div
-              class="bg_light_gray rounded-2 overflow-hidden position-relative"
-            >
-              <video
-                id="video2"
-                class="w-100 story_video d-block object-fit-cover"
-                autoplay
-                loop
-                muted
-                playsinline
-                controls
-                src="./assets/video/alex.mp4"
-              ></video>
-              <p
-                class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase"
-              >
-                ALEX FROM HAMILTON
-              </p>
-              <span class="position-absolute top-0 end-0 pe-2 pt-2">
-                <img
-                  id="soundIcon2"
-                  class="mt-1 me-1 cursior_pointer"
-                  width="20"
-                  src="./assets/images/success-story/unmute.svg"
-                  alt="sound"
-                />
-              </span>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div
-              class="bg_light_gray rounded-2 overflow-hidden position-relative"
-            >
-              <video
-                id="video3"
-                class="w-100 story_video d-block object-fit-cover"
-                autoplay
-                loop
-                muted
-                playsinline
-                controls
-                src="./assets/video/lilly.mp4"
-              ></video>
-              <p
-                class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase"
-              >
-                LILLY FROM MONTREAL
-              </p>
-              <span class="position-absolute top-0 end-0 pe-2 pt-2">
-                <img
-                  id="soundIcon3"
-                  class="mt-1 me-1 cursior_pointer"
-                  width="20"
-                  src="./assets/images/success-story/unmute.svg"
-                  alt="sound"
-                />
-              </span>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div
-              class="bg_light_gray rounded-2 overflow-hidden position-relative"
-            >
-              <video
-                id="video1"
-                class="w-100 story_video d-block object-fit-cover"
-                autoplay
-                loop
-                muted
-                playsinline
-                controls
-                src="./assets/video/melani.mp4"
-              ></video>
-              <p
-                class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase"
-              >
-                hana FROM toronto
-              </p>
-              <span class="position-absolute top-0 end-0 pe-2 pt-2">
-                <img
-                  id="soundIcon3"
-                  class="mt-1 me-1 cursior_pointer"
-                  width="20"
-                  src="./assets/images/success-story/unmute.svg"
-                  alt="sound"
-                />
-              </span>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div
-              class="bg_light_gray rounded-2 overflow-hidden position-relative"
-            >
-              <video
-                id="video2"
-                class="w-100 story_video d-block object-fit-cover"
-                autoplay
-                loop
-                muted
-                playsinline
-                controls
-                src="./assets/video/alex.mp4"
-              ></video>
-              <p
-                class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase"
-              >
-                Alex FROM brampton
-              </p>
-              <span class="position-absolute top-0 end-0 pe-2 pt-2">
-                <img
-                  id="soundIcon3"
-                  class="mt-1 me-1 cursior_pointer"
-                  width="20"
-                  src="./assets/images/success-story/unmute.svg"
-                  alt="sound"
-                />
-              </span>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div
-              class="bg_light_gray rounded-2 overflow-hidden position-relative"
-            >
-              <video
-                id="video3"
-                class="w-100 story_video d-block object-fit-cover"
-                autoplay
-                loop
-                muted
-                playsinline
-                controls
-                src="./assets/video/lilly.mp4"
-              ></video>
-              <p
-                class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase"
-              >
-                Sam FROM markham
-              </p>
-              <span class="position-absolute top-0 end-0 pe-2 pt-2">
-                <img
-                  id="soundIcon3"
-                  class="mt-1 me-1 cursior_pointer"
-                  width="20"
-                  src="./assets/images/success-story/unmute.svg"
-                  alt="sound"
-                />
-              </span>
-            </div>
+              MELANI FROM TORONTO
+            </p>
+            <span class="position-absolute top-0 end-0 pe-2 pt-2">
+              <img
+                id="soundIcon1"
+                class="mt-1 me-1 cursior_pointer"
+                width="20"
+                src="./assets/images/success-story/unmute.svg"
+                alt="sound"
+              />
+            </span>
           </div>
         </div>
+        <div class="col-lg-4 col-sm-6">
+          <div
+            class="bg_light_gray rounded-2 overflow-hidden position-relative"
+          >
+            <video
+              id="video2"
+              class="w-100 story_video d-block object-fit-cover"
+              autoplay
+              loop
+              muted
+              playsinline
+              controls
+              src="./assets/video/alex.mp4"
+            ></video>
+            <p
+              class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase"
+            >
+              ALEX FROM HAMILTON
+            </p>
+            <span class="position-absolute top-0 end-0 pe-2 pt-2">
+              <img
+                id="soundIcon2"
+                class="mt-1 me-1 cursior_pointer"
+                width="20"
+                src="./assets/images/success-story/unmute.svg"
+                alt="sound"
+              />
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div
+            class="bg_light_gray rounded-2 overflow-hidden position-relative"
+          >
+            <video
+              id="video3"
+              class="w-100 story_video d-block object-fit-cover"
+              autoplay
+              loop
+              muted
+              playsinline
+              controls
+              src="./assets/video/lilly.mp4"
+            ></video>
+            <p
+              class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase"
+            >
+              LILLY FROM MONTREAL
+            </p>
+            <span class="position-absolute top-0 end-0 pe-2 pt-2">
+              <img
+                id="soundIcon3"
+                class="mt-1 me-1 cursior_pointer"
+                width="20"
+                src="./assets/images/success-story/unmute.svg"
+                alt="sound"
+              />
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div
+            class="bg_light_gray rounded-2 overflow-hidden position-relative"
+          >
+            <video
+              id="video5"
+              class="w-100 story_video d-block object-fit-cover"
+              autoplay
+              loop
+              muted
+              playsinline
+              controls
+              src="./assets/video/hana-video.webm"
+            ></video>
+            <p
+              class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase"
+            >
+              hana FROM toronto
+            </p>
+            <span class="position-absolute top-0 end-0 pe-2 pt-2">
+              <img
+                id="soundIcon5"
+                class="mt-1 me-1 cursior_pointer"
+                width="20"
+                src="./assets/images/success-story/unmute.svg"
+                alt="sound"
+              />
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div
+            class="bg_light_gray rounded-2 overflow-hidden position-relative"
+          >
+            <video
+              id="video6"
+              class="w-100 story_video d-block object-fit-cover"
+              autoplay
+              loop
+              muted
+              playsinline
+              controls
+              src="./assets/video/alex-video.webm"
+            ></video>
+            <p
+              class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase"
+            >
+              Alex FROM brampton
+            </p>
+            <span class="position-absolute top-0 end-0 pe-2 pt-2">
+              <img
+                id="soundIcon6"
+                class="mt-1 me-1 cursior_pointer"
+                width="20"
+                src="./assets/images/success-story/unmute.svg"
+                alt="sound"
+              />
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div
+            class="bg_light_gray rounded-2 overflow-hidden position-relative"
+          >
+            <video
+              id="video7"
+              class="w-100 story_video d-block object-fit-cover"
+              autoplay
+              loop
+              muted
+              playsinline
+              controls
+              src="./assets/video/sam-video.webm"
+            ></video>
+            <p
+              class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase"
+            >
+              Sam FROM markham
+            </p>
+            <span class="position-absolute top-0 end-0 pe-2 pt-2">
+              <img
+                id="soundIcon7"
+                class="mt-1 me-1 cursior_pointer"
+                width="20"
+                src="./assets/images/success-story/unmute.svg"
+                alt="sound"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
     <!--===========  BECOME A PROFITABLE AI ARBITRAGE WINNER ! ===========-->
-    <section class="ai_winner_bg pb-md-3">
-      <div class="pt-2 container custom_container">
+    <section class="ai_winner_bg pb-md-3 position-relative z-3">
+      <video
+        muted
+        loop
+        autoplay
+        class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center z-n1 pointer_event_none"
+      >
+        <source src="./assets/video/background-particle.webm" />
+        Your browser does not support the video tag.
+      </video>
+      <div
+        class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center bg-black z-1 opacity_05 pointer_event_none"
+      ></div>
+      <div class="pt-2 container custom_container position-relative z-3">
         <h2
-          class="fs_3xl leading_130 fw-bold text-white arbitrage_winner_heading ff_oxygen mx-auto text-center pt-5 mb-3"
+          class="fs_3xl leading_130 fw-bold text-white arbitrage_winner_heading ff_oxygen mx-auto text-center pt-5 mb-3 text_shadow_blue"
         >
           Become a profitable AI Winner!
         </h2>
@@ -591,6 +758,7 @@
         ></div>
       </div>
     </section>
+    <!-- ========== LOGOES ======= -->
     <div class="forbes_slider_container container forbes_section_padding">
       <div
         class="mx-auto d-flex align-items-center justify-content-center flex-wrap sponsor_slide_img"
@@ -622,9 +790,119 @@
         />
       </div>
     </div>
+    <!-- =============== LIVE RESULT ========= -->
+    <section class="bg_dark_blue bg_hero py-5 position-relative z-3">
+      <video
+        muted
+        loop
+        autoplay
+        class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center z-n1 pointer_event_none"
+      >
+        <source src="./assets/video/background-particle.webm" />
+        Your browser does not support the video tag.
+      </video>
+      <div
+        class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center bg-black z-1 opacity_05 pointer_event_none"
+      ></div>
+      <div
+        class="container custom_container py-lg-5 my-sm-5 position-relative z-3"
+      >
+        <img
+          class="mb-sm-5 mb-4 mx-auto d-flex group_people_icon mt-xl-2"
+          src="./assets/images/method-pro/people-group.svg"
+          alt="people-group"
+        />
+        <h2
+          class="text_shadow_blue text-center leading_174 text-white ff_oxygen fw-bold fs_xxll d-flex align-items-center gap-2 justify-content-center mt-md-4 pt-lg-2"
+        >
+          <span class="live_dot d-block rounded-pill"></span> Live Results :
+        </h2>
+        <span class="live_result_line d-block mx-auto bg-white mt-3"></span>
+        <div class="mt-5 pt-2 pb-lg-4">
+          <ul
+            class="p-0 m-0 d-flex align-items-start justify-content-center flex-wrap gap-4"
+          >
+            <li class="d-flex align-items-center gap-sm-2 gap-1">
+              <img
+                src="./assets/images/method-pro/blue_bg_tick.svg"
+                alt="blue-tick"
+              />
+              <p
+                class="ff_roboto text-white font-normal fs_lg mb-0 leading_140"
+              >
+                VIP Arbitrage Winning Rate:
+                <span id="winningRate" class="text_dark_green">93.2% </span>
+              </p>
+            </li>
+            <li class="d-flex align-items-center gap-sm-2 gap-1">
+              <img
+                src="./assets/images/method-pro/blue_bg_tick.svg"
+                alt="blue-tick"
+              />
+              <p
+                class="ff_roboto text-white font-normal fs_lg mb-0 leading_140"
+              >
+                Active AI Arbitrage Opportunities:
+                <span class="text_dark_green">6063</span>
+              </p>
+            </li>
+            <li class="d-flex align-items-center gap-sm-2 gap-1">
+              <img
+                src="./assets/images/method-pro/blue_bg_tick.svg"
+                alt="blue-tick"
+              />
+              <p
+                class="ff_roboto text-white font-normal fs_lg mb-0 leading_140"
+              >
+                Number of opportunities taken:
+                <span class="text_dark_green">6041</span>
+              </p>
+            </li>
+            <li class="d-flex align-items-center gap-sm-2 gap-1">
+              <img
+                src="./assets/images/method-pro/blue_bg_tick.svg"
+                alt="blue-tick"
+              />
+              <p
+                class="ff_roboto text-white font-normal fs_lg mb-0 leading_140"
+              >
+                Active payouts:
+                <span id="payouts" class="text_dark_green">3665</span>
+              </p>
+            </li>
+            <li class="d-flex align-items-center gap-sm-2 gap-1 ms-xl-5">
+              <img
+                src="./assets/images/method-pro/blue_bg_tick.svg"
+                alt="blue-tick"
+              />
+              <p
+                class="ff_roboto text-white font-normal fs_lg mb-0 leading_140"
+              >
+                Average Member Profit:
+                <span class="text_dark_green">$862/ Day</span>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a
+            href="#thankyou-form"
+            class="hero_button get_start_live_button fw-bold ff_oxygen text-white fs_lg leading_140 mt-4 mt-lg-5 mb-xl-2"
+          >
+            Get started here
+            <span class="ps-2"
+              ><img
+                class=""
+                src="./assets/images/method-pro/get-start-arrow.svg"
+                alt="arrow"
+            /></span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- ============= FREQUENTLY ASKED QUESTIONS ============ -->
     <div class="container custom_container bg-white">
-      <!-- ============= FREQUENTLY ASKED QUESTIONS ============ -->
-      <section class="mb_115 mb_100_md mb_150_lg">
+      <div class="mb_115 mb_100_md mb_150_lg">
         <p
           class="fw-bold ff_inter text-center fs_3xl pt_123 pt_80 pt_50 mb-md-5 mb-sm-4 mb-3 text-black leading_130"
         >
@@ -826,20 +1104,33 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
-
     <!--============= THANKS YOU SECTION ==============-->
-    <section class="bg_form mb-md-5">
-      <div class="form_container container pb-sm-5 pb-4 px_12">
+    <section id="thankyou-form" class="bg_form mb-md-5 position-relative z-3">
+      <video
+        muted
+        loop
+        autoplay
+        class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center z-n1 pointer_event_none"
+      >
+        <source src="./assets/video/background-particle.webm" />
+        Your browser does not support the video tag.
+      </video>
+      <div
+        class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center bg-black z-1 opacity_05 pointer_event_none"
+      ></div>
+      <div
+        class="form_container container pb-sm-5 pb-4 px_12 position-relative z-3"
+      >
         <div class="pt-5 mt-md-5 pb-2">
           <p
-            class="pt-lg-4 mt-3 text-white text-center ff_oxygen fw-bold fs_xxll ready_to_get_text_shadow"
+            class="pt-lg-4 mt-3 text-white text-center ff_oxygen fw-bold fs_xxll text_shadow_blue mb-0 leading_124"
           >
             Ready To Get 24/7 Access To The
           </p>
           <p
-            class="text-white text-center ff_oxygen fw-bold fs_xxll ready_to_get_text_shadow"
+            class="text-white text-center ff_oxygen fw-bold fs_xxll text_shadow_blue mb-0 leading_124"
           >
             World's Most Profitable Strategy?
           </p>
@@ -855,12 +1146,12 @@
             <p
               class="fw-bold text-black fs_2xl leading_135 ff_oxygen thanks_ai_arbitrage_text"
             >
-              Thanks to AI Arbitrage, more than 100,000 Canadians have already
+              Thanks to AI Arbitrage, more than 120,000 Canadians have already
               been able to afford:
             </p>
             <ul class="ps-0 mb-sm-5 mb-4 pb-xl-5 d-flex flex-column gap-2">
               <li
-                class="fw-medium text-black opacity_08 fs_lg d-flex align-items-center gap-1"
+                class="fw-normal ff_oxygen text-black fs_lg d-flex align-items-center gap-1"
               >
                 <img
                   src="./assets/images/thanks/blue-tick.svg"
@@ -870,7 +1161,7 @@
                 <p class="mb-0">Pay off their mortgage</p>
               </li>
               <li
-                class="fw-medium text-black opacity_08 fs_lg d-flex align-items-center gap-1"
+                class="fw-normal ff_oxygen text-black fs_lg d-flex align-items-center gap-1"
               >
                 <img
                   src="./assets/images/thanks/blue-tick.svg"
@@ -880,7 +1171,7 @@
                 <p class="mb-0">Purchase modern cars</p>
               </li>
               <li
-                class="fw-medium text-black opacity_08 fs_lg d-flex align-items-xl-center gap-1"
+                class="fw-normal ff_oxygen text-black fs_lg d-flex align-items-xl-center gap-1"
               >
                 <img
                   src="./assets/images/thanks/blue-tick.svg"
@@ -890,7 +1181,7 @@
                 <p class="mb-0">To finance their children's education</p>
               </li>
               <li
-                class="fw-medium text-black opacity_08 fs_lg d-flex align-items-xl-center gap-1"
+                class="fw-normal ff_oxygen text-black fs_lg d-flex align-items-xl-center gap-1"
               >
                 <img
                   src="./assets/images/thanks/blue-tick.svg"
@@ -900,7 +1191,7 @@
                 <p class="mb-0">Quit a demanding job</p>
               </li>
               <li
-                class="fw-medium text-black opacity_08 fs_lg d-flex align-items-xl-center gap-1"
+                class="fw-normal ff_oxygen text-black fs_lg d-flex align-items-xl-center gap-1"
               >
                 <img
                   src="./assets/images/thanks/blue-tick.svg"
@@ -932,10 +1223,15 @@
               />
             </div>
           </div>
-          <div class="col-lg-6 col-12 mt-lg-0 mt-sm-5 mt-4 form_max_w">
-            <div class="preloader" id="preloader" style="z-index: 9999">
+          <div class="col-lg-6 col-12 mt-lg-0 mt-sm-5 mt-4 d-flex justify-content-lg-start justify-content-center">
+            <div class="form_max_w">
+              <div class="preloader" id="preloader" style="z-index: 9999">
               <div class="preloader-content">
-                <img src="Crystal.svg" alt="OpenAi" />
+                <p
+                  class="fw-bold text_bluish_cyan ff_oxygen fs_2xxl d-inline-block px-4 py-3 bg-white video_shadow rounded-2"
+                >
+                  Form Submitted Successfully
+                </p>
               </div>
             </div>
             <form
@@ -945,7 +1241,7 @@
             >
               <div class="bg_bluish_cyan w-100 px-4 py-3">
                 <p
-                  class="fw-bold fs_lg text-white form_heading py-1 pe-xl-3 mb-2"
+                  class="fw-bold fs_lg text-white ff_oxygen form_heading py-1 pe-xl-3 mb-2"
                 >
                   Let AI Secure Profits with Prime Arbitrage Opportunities for
                   You!
@@ -1053,7 +1349,7 @@
             <!-- countdown -->
             <div id="first-counter" class="mx-auto">
               <ul
-                class="px-3 mx-auto d-flex justify-content-center justify-content-between"
+                class="px-3 mx-auto d-flex justify-content-center justify-content-between mb-0"
               >
                 <li
                   class="d-flex flex-column text_light_black text-center ff_roboto"
@@ -1098,16 +1394,16 @@
                 </li>
               </ul>
             </div>
+            </div>
           </div>
         </div>
         <p
-          class="mb-4 pb-2 mt-md-5 pt-4 text-white text-center ff_oxygen fw-bold fs_3xl ready_to_get_text_shadow"
+          class="mb-4 pb-2 mt-md-5 pt-4 text-white text-center ff_oxygen fw-bold fs_3xl text_shadow_blue"
         >
           Get Access For Free!
         </p>
       </div>
     </section>
-
     <!-- =========== COMMENT SECTION  -->
     <section>
       <div class="custom_container container py-5 mt-lg-5">
@@ -1158,46 +1454,6 @@
             </form>
           </div>
         </div>
-        <!-- Modal -->
-        <div
-          class="modal fade"
-          id="sendMessage"
-          tabindex="-1"
-          aria-labelledby="sendMessageModal"
-        >
-          <div class="modal-dialog">
-            <div class="modal-content position-relative">
-              <div
-                class="modal-header d-flex align-items-center justify-content-center sign_up_modal border-0"
-              >
-                <h1
-                  class="modal-title fs_3lg text-white fw-bold text-center"
-                  id="sendMessageModal"
-                >
-                  Please SignUp in orders to add a comment
-                </h1>
-                <button
-                  class="border-0 bg-transparent position-absolute top-0 end-0 mt-2 me-2"
-                  data-bs-dismiss="modal"
-                >
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000"
-                    fill="white"
-                    class="close-icon"
-                  >
-                    <path
-                      d="M6.41408 5.00002C6.0236 4.60953 5.3905 4.60953 5.00002 5.00002C4.60953 5.3905 4.60953 6.0236 5.00002 6.41408L10.586 12L5.00002 17.586C4.60953 17.9764 4.60953 18.6095 5.00002 19C5.3905 19.3905 6.0236 19.3905 6.41408 19L12 13.4141L17.586 19C17.9764 19.3905 18.6095 19.3905 19 19C19.3905 18.6095 19.3905 17.9764 19 17.586L13.4141 12L19 6.41408C19.3905 6.0236 19.3905 5.3905 19 5.00002C18.6095 4.60953 17.9764 4.60953 17.586 5.00002L12 10.586L6.41408 5.00002Z"
-                    ></path>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- modal end here -->
         <div class="d-flex align-items-start pt-4 pt-sm-5 gap-3 gap-sm-4">
           <img
             class="rounded-circle object-fit-cover user_profile w-100"
@@ -1215,6 +1471,7 @@
               <div class="d-flex align-items-center gap-1">
                 <a
                   href="#thanksForm"
+                  onclick="likeToastHandler()"
                   class="bg-transparent border-0 text_bluish_cyan fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03"
                 >
                   Like.
@@ -1258,6 +1515,7 @@
                     <div class="d-flex align-items-center gap-1">
                       <a
                         href="#thanksForm"
+                        onclick="likeToastHandler()"
                         class="bg-transparent border-0 text_bluish_cyan fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03"
                       >
                         Like.
@@ -1301,6 +1559,7 @@
                     <div class="d-flex align-items-center gap-1">
                       <a
                         href="#thanksForm"
+                        onclick="likeToastHandler()"
                         class="bg-transparent border-0 text_bluish_cyan fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03"
                       >
                         Like.
@@ -1341,6 +1600,7 @@
               <div class="d-flex align-items-center gap-1">
                 <a
                   href="#thanksForm"
+                  onclick="likeToastHandler()"
                   class="bg-transparent border-0 text_bluish_cyan fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03"
                 >
                   Like.
@@ -1384,6 +1644,7 @@
               <div class="d-flex align-items-center gap-1">
                 <a
                   href="#thanksForm"
+                  onclick="likeToastHandler()"
                   class="bg-transparent border-0 text_bluish_cyan fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03"
                 >
                   Like.
@@ -1421,6 +1682,7 @@
               <div class="d-flex align-items-center gap-1">
                 <a
                   href="#thanksForm"
+                  onclick="likeToastHandler()"
                   class="bg-transparent border-0 text_bluish_cyan fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03"
                 >
                   Like.
@@ -1466,6 +1728,7 @@
                     <div class="d-flex align-items-center gap-1">
                       <a
                         href="#thanksForm"
+                        onclick="likeToastHandler()"
                         class="bg-transparent border-0 text_bluish_cyan fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 comment_replay_like_buttons transition_03"
                       >
                         Like.
@@ -1510,6 +1773,7 @@
                     <div class="d-flex align-items-center gap-1">
                       <a
                         href="#thanksForm"
+                        onclick="likeToastHandler()"
                         class="bg-transparent border-0 text_bluish_cyan fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03"
                       >
                         Like.
@@ -1554,7 +1818,7 @@
             <p class="text_bluish_cyan fs_lg fw-semibold mb-2 leading_130">
               Sophia Martinez
             </p>
-            <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
+            <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1 pe-xl-4">
               I am in shock and my friends too! At first I thought that there
               was some kind of scam, it was not clear what and how it worked.
               But then the manager contacted me and explained everything in
@@ -1567,6 +1831,7 @@
               <div class="d-flex align-items-center gap-1">
                 <a
                   href="#thanksForm"
+                  onclick="likeToastHandler()"
                   class="bg-transparent border-0 text_bluish_cyan fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03"
                 >
                   Like.
@@ -1588,7 +1853,6 @@
         </div>
       </div>
     </section>
-
     <!-- ============= FOOTER ============== -->
     <footer>
       <div class="bg_cyan_blue">
@@ -1637,7 +1901,7 @@
           </div>
           <div class="footer_border_line"></div>
           <div
-            class="d-flex justify-content-between align-items-center pt-lg-3 pb-4 flex-column flex-sm-row"
+            class="d-flex justify-content-between align-items-center pt-lg-3 pt-2 pb-4 flex-column flex-sm-row"
           >
             <div
               class="fs_base text-white fw-normal mb-1 d-flex align-items-center gap-1 ps-1 ps-sm-0"
@@ -1654,7 +1918,6 @@
         </div>
       </div>
     </footer>
-
     <!-- ============ BACK TO TOP ============= -->
     <button
       aria-label="back-to-top"
@@ -1734,28 +1997,55 @@
     </script>
     <script>
       document.addEventListener("DOMContentLoaded", () => {
-        const counterElement = document.getElementById("userCounter");
-        let userCount = 5300;
+        const counters = [
+          { elementId: "userCounter", userCount: 5300 },
+          { elementId: "winningRate", userCount: "93.2%", type: "percentage" },
+          { elementId: "payouts", userCount: 3665, type: "lastDigit" },
+          // Add more counters as needed
+        ];
 
-        function updateUserCount() {
-          // Randomly increase or decrease the user count by 1-10
-          const change = Math.floor(Math.random() * 21) - 10;
-          userCount += change;
+        function updateUserCount(counter) {
+          const counterElement = document.getElementById(counter.elementId);
 
-          // Ensure the user count does not go below a certain threshold
-          if (userCount < 5000) {
-            userCount = 5000;
+          if (counter.type === "percentage") {
+            // For percentage-based counters (e.g., winningRate)
+            let currentRate = parseFloat(counter.userCount);
+            const change = (Math.random() * 2 - 1) / 10; // Change by ±0.1
+            currentRate = Math.max(0, Math.min(100, currentRate + change));
+            counter.userCount = currentRate.toFixed(1) + "%";
+          } else if (counter.type === "lastDigit") {
+            // For counters where only the last digit should change (e.g., payouts)
+            let number = Math.floor(counter.userCount);
+            const lastDigitChange = Math.floor(Math.random() * 10); // Random digit 0-9
+            number = Math.floor(number / 10) * 10 + lastDigitChange; // Replace last digit
+            counter.userCount = number;
+          } else {
+            // For regular number counters
+            const change = Math.floor(Math.random() * 21) - 10;
+            counter.userCount += change;
+
+            // Ensure the user count does not go below a certain threshold
+            if (counter.userCount < 5000) {
+              counter.userCount = 5000;
+            }
           }
 
-          counterElement.textContent = userCount.toLocaleString();
+          if (counterElement) {
+            counterElement.textContent = counter.userCount.toLocaleString();
+          }
 
           // Update the count every 1 to 3 seconds
-          setTimeout(updateUserCount, Math.floor(Math.random() * 2000) + 1000);
+          setTimeout(
+            () => updateUserCount(counter),
+            Math.floor(Math.random() * 2000) + 1000
+          );
         }
 
-        updateUserCount();
+        // Start updating each counter
+        counters.forEach((counter) => updateUserCount(counter));
       });
     </script>
+
     <script>
       const activeUserPopup = () => [
         document.querySelector(".counter").classList.add("d-none"),
