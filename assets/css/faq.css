@@ -38,8 +38,9 @@
 }
 .accordion .accordion-button::after {
   background-image: url("../images/common/plus.svg");
-  background-position: center;
-  transform: scale(3);
+  background-position: bottom !important;
+  transform: scale(3) translateY(3px);
+  background-size: 100% !important;
 }
 .accordion .accordion-button:not(.collapsed)::after {
   background-image: url("../images/common/minus.svg");
