@@ -24,26 +24,9 @@ body {
   background: #ffffff;
 }
 
-/* CUSTOM SCROLL BAR  */
-/* width */
+
 ::-webkit-scrollbar {
-  width: 6px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  border-radius: 4px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: var(--green);
-  border-radius: 4px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: var(--green);
+  display: none;
 }
 
 /* root  */
@@ -221,6 +204,7 @@ form .iti__selected-flag {
     --fs-lg: 16px;
     --fs-base: 14px;
     --fs-3lg: 20px;
+    --fs-2lg: 18px;
     --fs-xl: 24px;
     --fs-xxll: 28px;
     --fs-2xl: 30px;
@@ -231,6 +215,7 @@ form .iti__selected-flag {
   :root {
     --fs-base: 14px;
     --fs-md: 15px;
+    --fs-2lg: 15px;
     --fs-3lg: 15px;
     --fs-xl: 20px;
     --fs-xxl: 26px;

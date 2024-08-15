@@ -20,12 +20,17 @@
 .opacity_05 {
   opacity: 50%;
 }
+.opacity_06 {
+  opacity: 60%;
+}
 .pointer_event_none {
   pointer-events: none;
 }
 
 .modal-backdrop {
   z-index: 0 !important;
+}
+.modal{
   background-color: #00000080 !important;
 }
 /* ======== HERO CSS ====== */
