@@ -224,51 +224,46 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 // =======video ==
 document.addEventListener("DOMContentLoaded", function () {
+  // Function to mute all videos except the one being clicked
+  function muteAllExcept(videoId) {
+    document.querySelectorAll("video").forEach((video) => {
+      if (video.id !== videoId) {
+        video.muted = true;
+        const icon = document.querySelector(`[data-video-id="${video.id}"]`);
+        if (icon) {
+          icon.src = "./assets/images/success-story/unmute.svg";
+        }
+      }
+    });
+  }
+
   // Function to toggle mute and change icon
   function toggleMute(videoId, iconId) {
     var video = document.getElementById(videoId);
     var icon = document.getElementById(iconId);
-    var iconhero = soundIcon4.querySelector(".hero_sound_icon");
-    const soundText = soundIcon4.querySelector(".hero_sound");
+    var iconhero = document.querySelector(".hero_sound_icon");
+    const soundText = document.querySelector(".hero_sound");
 
     if (video.muted) {
+      muteAllExcept(videoId);
       video.muted = false;
       icon.src = "./assets/images/success-story/sound.svg";
-      // document.querySelector(".hero_video_btn").classList.add("opacity_0");
       iconhero.src = "./assets/images/success-story/sound.svg";
       soundText.textContent = "Mute";
     } else {
       video.muted = true;
       icon.src = "./assets/images/success-story/unmute.svg";
-      // document.querySelector(".hero_video_btn").classList.remove("opacity_0");
       iconhero.src = "./assets/images/success-story/unmute.svg";
       soundText.textContent = "Unmute";
     }
   }
 
   // Add event listeners to sound icons
-  document.getElementById("soundIcon1").addEventListener("click", function () {
-    toggleMute("video1", "soundIcon1");
-  });
-
-  document.getElementById("soundIcon2").addEventListener("click", function () {
-    toggleMute("video2", "soundIcon2");
-  });
-
-  document.getElementById("soundIcon3").addEventListener("click", function () {
-    toggleMute("video3", "soundIcon3");
-  });
-  document.getElementById("soundIcon4").addEventListener("click", function () {
-    toggleMute("video4", "soundIcon4");
-  });
-  document.getElementById("soundIcon5").addEventListener("click", function () {
-    toggleMute("video5", "soundIcon5");
-  });
-  document.getElementById("soundIcon6").addEventListener("click", function () {
-    toggleMute("video6", "soundIcon6");
-  });
-  document.getElementById("soundIcon7").addEventListener("click", function () {
-    toggleMute("video7", "soundIcon7");
+  document.querySelectorAll("[id^='soundIcon']").forEach((icon) => {
+    icon.addEventListener("click", function () {
+      const videoId = icon.getAttribute("data-video-id");
+      toggleMute(videoId, icon.id);
+    });
   });
 
   // Intersection Observer for autoplay on view
@@ -294,6 +289,7 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(video);
   });
 });
+
 
 document.querySelectorAll(".accordion-item").forEach((item) => {
   item.addEventListener("click", function () {
