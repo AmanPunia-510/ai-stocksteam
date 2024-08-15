@@ -58,6 +58,7 @@
 .story_video {
   border: 1.52px solid #4c697b3d;
   border-radius: 9px;
+  aspect-ratio: 16/9;
 }
 .story_video_parent {
   margin-left: -12px;
@@ -83,7 +84,10 @@
 }
 #soundIcon1,
 #soundIcon2,
-#soundIcon3 {
+#soundIcon3,
+#soundIcon5,
+#soundIcon6,
+#soundIcon7 {
   width: 30px;
 }
 .unmute_btn {
@@ -154,6 +158,14 @@
   .tick_space {
     margin-top: 2px;
   }
+  #soundIcon1,
+#soundIcon2,
+#soundIcon3,
+#soundIcon5,
+#soundIcon6,
+#soundIcon7 {
+  width: 20px;
+}
 }
 @media (max-width: 1200px) and (min-width: 992px) {
   .tick_space {

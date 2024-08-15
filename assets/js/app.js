@@ -107,7 +107,9 @@ function handleFormSubmit(event, formId, index) {
       }
     },
     complete: function () {
-      $(".preloader").fadeOut();
+      setTimeout(function () {
+        $(".preloader").fadeOut();
+      }, 2000); 
     },
   });
   form.reset();
@@ -174,7 +176,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // TOST SCRIPT
 function showTostHandler() {
   Toastify({
-    text: "Please Sign-up in order to add a comment.",
+    text: "Please Sign-up in order to add a comment or like.",
     duration: 3000,
     gravity: "top",
     position: "right",
@@ -184,6 +186,10 @@ function showTostHandler() {
     },
     onClick: function () {}, // Callback after click
   }).showToast();
+}
+// ==== LIKE CLICK SHOW TOASTIFY ==
+function likeToastHandler(){
+  showTostHandler()
 }
 
 // Run the following code when the DOM is fully loaded
@@ -216,7 +222,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Attach the handleSubmit function to the submit event on the form
   form.addEventListener("submit", handleSubmit);
 });
-
+// =======video ==
 document.addEventListener("DOMContentLoaded", function () {
   // Function to toggle mute and change icon
   function toggleMute(videoId, iconId) {
@@ -254,6 +260,15 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   document.getElementById("soundIcon4").addEventListener("click", function () {
     toggleMute("video4", "soundIcon4");
+  });
+  document.getElementById("soundIcon5").addEventListener("click", function () {
+    toggleMute("video5", "soundIcon5");
+  });
+  document.getElementById("soundIcon6").addEventListener("click", function () {
+    toggleMute("video6", "soundIcon6");
+  });
+  document.getElementById("soundIcon7").addEventListener("click", function () {
+    toggleMute("video7", "soundIcon7");
   });
 
   // Intersection Observer for autoplay on view
