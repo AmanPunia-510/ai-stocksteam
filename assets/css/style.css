@@ -52,6 +52,7 @@ body {
   --dark-green: #3bff00;
   --white-gray: #d4dbdf;
   --dark-blue: "#15161b";
+  --light-white: "#f6f6f6";
 }
 
 /* font sizes  */
@@ -124,6 +125,9 @@ body {
 }
 .bg_bluish_cyan {
   background-color: var(--bluish-cyan);
+}
+.bg_light_white {
+  background-color: var(--light-white);
 }
 
 /* Font Weight */

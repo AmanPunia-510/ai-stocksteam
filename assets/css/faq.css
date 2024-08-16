@@ -89,7 +89,7 @@
   margin-left: 8px;
 }
 .form_input {
-  padding: 20px 30px 20px 30px;
+  padding: 12px 30px 12px 30px;
 }
 
 .form_input label {
@@ -149,8 +149,14 @@ input:focus-visible {
   border-top: 3px solid #00a4ff;
 }
 .form_box {
-  padding: 105px 76px 75px 76px;
+  padding: 0px 76px 75px 76px;
   border-radius: 24px;
+}
+.form_spacing{
+  padding-top: 105px;
+}
+.form_content_spacing{
+  padding-top: 135px;
 }
 .form_max_w {
   max-width: 528px;
@@ -190,7 +196,13 @@ input:focus-visible {
 }
 @media (max-width: 1280px) {
   .form_box {
-    padding: 32px;
+    padding: 0px 32px 32px 32px;
+  }
+  .form_spacing{
+    padding-top: 32px;
+  }
+  .form_content_spacing{
+    padding-top: 75px;
   }
   .goggle {
     max-width: 90px;
@@ -214,6 +226,12 @@ input:focus-visible {
   }
   .form_box {
     border-radius: 16px;
+  }
+  .form_spacing{
+    padding-top: 48px;
+  }
+  .form_content_spacing{
+    padding-top: 0px;
   }
   .forbes_section_padding {
     padding: 100px 0;
@@ -312,6 +330,9 @@ input:focus-visible {
   }
   .form_box {
     padding: 32px 14px;
+  }
+  .form_spacing{
+    padding-top: 24px;
   }
   .form_box {
     border-radius: 0px;
