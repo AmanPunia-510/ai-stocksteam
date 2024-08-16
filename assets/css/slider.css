@@ -84,7 +84,7 @@
     display: flex;
   }
   .sponsor_slide_img {
-    column-gap: 50px;
+    column-gap: 25px;
   }
 }
 @media (max-width: 767.9px) {
