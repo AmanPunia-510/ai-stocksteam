@@ -37,19 +37,6 @@
   margin-top: -6px;
 }
 /* ======== HERO CSS ====== */
-.mt_2 {
-  margin-top: 2px;
-}
-.menu_button_line {
-  width: 14px;
-  height: 2px;
-  background-color: white;
-}
-.menu_button {
-  cursor: pointer;
-  left: 40px;
-  top: 35px;
-}
 .arrow_size {
   height: 92px;
   width: 92px;
@@ -185,9 +172,6 @@
   }
   .group_people_icon {
     width: 80px;
-  }
-  .menu_button {
-    left: 12px;
   }
   .radius_xl {
     border-radius: 16px !important;
