@@ -21,10 +21,6 @@ input::-webkit-inner-spin-button {
 .method_pro_comment_sort_by {
   border-radius: 100px;
   padding: 8px 18px;
-  background: linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .user_profile {
   max-width: 91px;
