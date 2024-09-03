@@ -19,9 +19,12 @@ input::-webkit-inner-spin-button {
   padding: 8px 18px;
 }
 .method_pro_comment_sort_by {
-  border: 2px solid #00A4FF;
-  border-radius: 3px;
+  border-radius: 100px;
   padding: 8px 18px;
+  background: linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .user_profile {
   max-width: 91px;
@@ -67,22 +70,32 @@ input::-webkit-inner-spin-button {
   max-width: 281px;
 }
 .footer_border_line {
-  background: linear-gradient(90deg, #7DD0FF 0%, #00A4FF 100%);
+  background: linear-gradient(90deg, #7dd0ff 0%, #00a4ff 100%);
   height: 1px;
   width: 100%;
 }
-.footer_para{
+.bg_footer {
+  background: linear-gradient(180deg, #56ccf2 0%, #2f80ed 100%),
+    linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
+}
+.footer_para {
   max-width: 1138px;
 }
-.method_pro_footer_logo{
+.lg_w_260 {
+  min-width: 260px;
+}
+.mw_1440 {
+  max-width: 1440px;
+}
+.method_pro_footer_logo {
   width: 82px;
   height: 82px;
 }
-.max_w_261{
+.max_w_261 {
   max-width: 261px;
 }
-.white_text_shadow{
-  text-shadow: 0px 1px 25px #FFFFFF;
+.white_text_shadow {
+  text-shadow: 0px 1px 25px #ffffff;
 }
 @media (max-width: 991.98px) {
   .user_profile {
@@ -96,6 +109,9 @@ input::-webkit-inner-spin-button {
   }
   .fs_footer_btn {
     font-size: 32px;
+  }
+  .mw_1440 {
+    max-width: 768px;
   }
 }
 @media (max-width: 767.98px) {

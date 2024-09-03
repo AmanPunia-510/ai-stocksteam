@@ -48,7 +48,7 @@ body {
   --cyan-blue: #29333a;
   --bluish-cyan: #00a4ff;
   --green: #01d61b;
-  --dark-green: #00bcff;
+  --dark-green: #3bff00;
   --white-gray: #d4dbdf;
   --dark-blue: "#15161b";
   --light-white: "#f6f6f6";
@@ -89,7 +89,23 @@ body {
   font-size: var(--fs-4xl);
 }
 .text_bluish_cyan {
-  color: var(--bluish-cyan);
+  background: linear-gradient(180deg, #56ccf2 0%, #2f80ed 100%),
+    linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg_light_gradient {
+  background: linear-gradient(
+      180deg,
+      rgba(86, 204, 242, 0.1) 0%,
+      rgba(47, 128, 237, 0.1) 100%
+    ),
+    linear-gradient(
+      133.83deg,
+      rgba(0, 185, 255, 0.2) 3.77%,
+      rgba(111, 105, 242, 0.2) 81.07%
+    );
 }
 .bg_light_gray {
   background: var(--light-gray);
@@ -120,15 +136,25 @@ body {
   background: var(--green);
 }
 .bg_cyan_blue {
-  background-color: var(--cyan-blue);
+  background: linear-gradient(180deg, #56ccf2 0%, #2f80ed 100%),
+    linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
 }
 .bg_bluish_cyan {
-  background-color: var(--bluish-cyan);
+  background: linear-gradient(180deg, #56ccf2 0%, #2f80ed 100%),
+    linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
 }
 .bg_light_white {
   background-color: var(--light-white);
 }
-
+.rounded_full{
+  border-radius: 100px;
+}
+.comment_top {
+  padding: 2px;
+  background: linear-gradient(180deg, #56ccf2 0%, #2f80ed 100%),
+    linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
+    border-radius: 100px;
+}
 /* Font Weight */
 .fw_800 {
   font-weight: 800;

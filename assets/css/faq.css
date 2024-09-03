@@ -7,10 +7,20 @@
 }
 .accordion {
   max-width: 1000px;
+  min-width: 1000px;
   margin: 0 auto;
 }
 .faq_questionmark_img {
-  max-width: 405px;
+  max-width: 337px;
+}
+.max_w_1440 {
+  max-width: 1440px;
+}
+.faq_heading {
+  background: linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .accordion .accordion-button:not(.collapsed) {
   background-color: transparent !important;
@@ -103,11 +113,15 @@ input:focus-visible {
   outline: var(--bluish-cyan) auto 1px;
 }
 .sign_up_btn {
-  background: var(--bluish-cyan);
-  border: 2px solid var(--bluish-cyan);
+  background: linear-gradient(180deg, #56ccf2 0%, #2f80ed 100%),
+    linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
+
+  border: 2px solid white;
   padding: 10px;
   margin-top: 35px;
   transition: all ease-in-out 300ms;
+  box-shadow: 0px 4px 25px 0px #00bfff7a;
+  box-shadow: 0px 12px 30px 0px #706af300;
 }
 .get_btn {
   line-height: 115%;
@@ -115,6 +129,7 @@ input:focus-visible {
 .sign_up_btn:hover {
   background: white;
   color: var(--bluish-cyan) !important;
+  border-color: #00b9ff;
 }
 #first-counter {
   max-width: 340px;
@@ -148,14 +163,25 @@ input:focus-visible {
   background-position: center;
   border-top: 3px solid #00a4ff;
 }
+.bg_faq {
+  background: linear-gradient(180deg, #56ccf2 0%, #2f80ed 100%),
+    linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer_text {
+  max-width: 948px;
+}
 .form_box {
   padding: 0px 76px 75px 76px;
   border-radius: 24px;
 }
-.form_spacing{
+.form_spacing {
   padding-top: 105px;
 }
-.form_content_spacing{
+.form_content_spacing {
   padding-top: 135px;
 }
 .form_max_w {
@@ -194,14 +220,23 @@ input:focus-visible {
 .mb_150_lg {
   margin-bottom: 150px;
 }
+@media (max-width: 1439.98px) {
+  .accordion {
+    min-width: auto;
+  }
+}
 @media (max-width: 1280px) {
+  .faq_questionmark_img {
+    max-width: 307px;
+  }
+
   .form_box {
     padding: 0px 32px 32px 32px;
   }
-  .form_spacing{
+  .form_spacing {
     padding-top: 32px;
   }
-  .form_content_spacing{
+  .form_content_spacing {
     padding-top: 75px;
   }
   .goggle {
@@ -227,10 +262,10 @@ input:focus-visible {
   .form_box {
     border-radius: 16px;
   }
-  .form_spacing{
+  .form_spacing {
     padding-top: 48px;
   }
-  .form_content_spacing{
+  .form_content_spacing {
     padding-top: 0px;
   }
   .forbes_section_padding {
@@ -238,6 +273,12 @@ input:focus-visible {
   }
 }
 @media (max-width: 992px) {
+  .max_w_1440 {
+    max-width: 768px;
+  }
+  .faq_questionmark_img {
+    max-width: 257px;
+  }
   .faq_answers {
     padding-left: 20px;
   }
@@ -325,13 +366,16 @@ input:focus-visible {
   }
 }
 @media (max-width: 575.58px) {
+  .faq_questionmark_img {
+    max-width: 200px;
+  }
   .pt_50 {
     padding-top: 50px;
   }
   .form_box {
     padding: 32px 14px;
   }
-  .form_spacing{
+  .form_spacing {
     padding-top: 24px;
   }
   .form_box {
