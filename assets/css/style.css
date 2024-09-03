@@ -24,7 +24,6 @@ body {
   background: #ffffff;
 }
 
-
 ::-webkit-scrollbar {
   display: none;
 }
@@ -49,7 +48,7 @@ body {
   --cyan-blue: #29333a;
   --bluish-cyan: #00a4ff;
   --green: #01d61b;
-  --dark-green: #3bff00;
+  --dark-green: #00bcff;
   --white-gray: #d4dbdf;
   --dark-blue: "#15161b";
   --light-white: "#f6f6f6";
