@@ -195,3 +195,15 @@
     height: 325px;
   }
 }
+
+@media (min-width:1200px) {
+  .slider_box {
+    height: 351px;
+  }
+}
+
+@media (min-width:1440px) {
+  .slider_box {
+    height: 325px;
+  }
+}
