@@ -147,6 +147,12 @@
   }
 }
 /* =========================================================== live result code  ===================================================== */
+.live_result_spacing {
+  margin-top: 32px;
+}
+.live_result_section {
+  padding: 123px 0;
+}
 .result_container {
   max-width: 1134px;
   padding: 0 24px;
@@ -154,9 +160,6 @@
 .result_image {
   width: 109px;
   height: 88px;
-}
-.live_result_section {
-  margin-top: 123px;
 }
 .blue_ball {
   width: 22px;
@@ -186,14 +189,14 @@
   background: linear-gradient(102.5deg, #6e5df6 -2.76%, #00ffe1 97.18%);
 }
 .blue_tick_box {
-  width: 254px;
+  width: 354px;
   height: 240px;
   position: relative;
   border-radius: 12px;
   background-color: white;
   overflow: hidden;
   z-index: 1;
-  padding: 0 33px;
+  padding: 0 86px;
 }
 .result_gradient {
   border-radius: 12px;
@@ -244,6 +247,11 @@
 }
 
 /* ========== MEDIA QURIES ====== */
+@media (max-width: 1399.99px) {
+  .live_result_section {
+    padding-bottom: 44px;
+  }
+}
 @media (max-width: 1199.99px) {
   .common_slider_img {
     width: 298px;
@@ -255,6 +263,14 @@
 @media (max-width: 991.98px) {
   .mt_button_icon {
     margin-top: -3px;
+  }
+  .blue_tick_box {
+    width: 328px;
+    padding: 0 50px;
+  }
+  .live_result_section {
+    padding-bottom: 0;
+    padding-top: 64px;
   }
 }
 @media (max-width: 767.98px) {
@@ -268,6 +284,9 @@
   }
   .logo_slider_section {
     padding: 29px 0;
+  }
+  .live_result_section {
+    padding-top: 44px;
   }
 }
 @media (max-width: 575.98px) {
