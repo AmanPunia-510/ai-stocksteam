@@ -224,7 +224,7 @@ input:focus-visible {
 }
 @media (max-width: 1280px) {
     .pt_123 {
-    padding-top: 30px;
+    padding-top: 50px;
   }
   .faq_questionmark_img {
     max-width: 307px;
@@ -253,8 +253,8 @@ input:focus-visible {
   }
 }
 @media (max-width: 1024px) {
-  .pt_123 {
-    padding-top: 0px;
+   .pt_123 {
+    padding-top: 80px;
   }
   .form_box {
     padding: 60px;
@@ -316,7 +316,9 @@ input:focus-visible {
   }
 }
 @media (max-width: 768px) {
-
+  .pt_123 {
+    padding-top: 60px;
+  }
   .form_input {
     padding: 20px;
   }

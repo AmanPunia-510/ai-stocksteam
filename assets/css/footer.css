@@ -21,7 +21,7 @@ input::-webkit-inner-spin-button {
 .method_pro_comment_sort_by {
   border-radius: 100px;
   padding: 8px 18px;
-  color: #809BCE;
+  color:var(--light-green);
 }
 .user_profile {
   max-width: 91px;

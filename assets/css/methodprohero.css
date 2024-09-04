@@ -116,53 +116,24 @@
   background-color: var(--bluish-cyan);
 }
 /* =========================================================== logo slider code  ===================================================== */
-.logo_slider_section {
-  background: linear-gradient(102.5deg, #6e5df6 -2.76%, #00ffe1 97.18%);
-  padding: 50px 0;
-}
 
 .common_slider_img {
-  width: 395px;
-  height: 177px;
   animation-name: logo_slider;
 }
 
+.logo_slider_section {
+  padding: 58px 0px;
+  max-width: 1761px;
+  margin: 0 auto;
+}
+
 .logo_slider {
-  gap: 20px;
+  gap: 105px;
   width: auto;
-  animation-duration: 40s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-name: slide;
-  --slider-inner-width: 1920px;
-  --slider-speed: 60s;
-  animation: scroll linear infinite var(--slider-speed);
-  width: calc(2 * var(--slider-inner-width));
-  transition: animation-play-state ease 110s;
 }
 
 .logo_slider:hover {
   animation-play-state: paused;
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(calc((0px - var(--slider-inner-width)) - 0%));
-  }
 }
 
 /* =========================================================== live result code  ===================================================== */
@@ -204,10 +175,23 @@
 .get_start_live_button {
   background: linear-gradient(0deg, #36cef0, #36cef0);
   border: 2px solid #ffffff;
+  background: linear-gradient(0deg, #36cef0, #36cef0);
+  border: 2px solid #ffffff;
+  max-width: 272px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 19px;
 }
 
 .get_start_live_button:hover {
   box-shadow: unset !important;
+}
+
+.get_btn_live {
+  max-width: 272px;
+  gap: 19px;
+  width: 100%;
 }
 
 .live_result_line {
@@ -306,14 +290,37 @@
   .live_result_section {
     padding: 64px 0;
   }
-}
 
-@media (max-width: 1199.99px) {
-  .common_slider_img {
-    width: 298px;
-    height: 104px;
-    object-fit: cover;
-    border-radius: 10px;
+  .logo_slider {
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: slide;
+    --slider-inner-width: 1920px;
+    --slider-speed: 60s;
+    animation: scroll linear infinite var(--slider-speed);
+    width: calc(2 * var(--slider-inner-width));
+    transition: animation-play-state ease 110s;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(calc((0px - var(--slider-inner-width)) - 0%));
+    }
   }
 }
 
@@ -336,11 +343,6 @@
   .live_dot {
     width: 16px;
     height: 16px;
-  }
-
-  .common_slider_img {
-    width: 268px;
-    height: 107px;
   }
 
   .live_result_section {
@@ -386,13 +388,11 @@
     border-radius: 16px !important;
   }
 
-  .common_slider_img {
-    width: 219px;
-    height: 82px;
-  }
-
   .live_result_section {
     padding: 48px 0px;
+  }
+  .blue_tick_box {
+    height: 187px;
   }
 }
 
