@@ -282,8 +282,8 @@
 
 /* common spacing  */
 .common-section-spacing {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 /* ========= VIDEO SECTION ====== */
@@ -393,5 +393,33 @@
 
   .live_result_section {
     padding: 48px 0px;
+  }
+}
+
+@media (min-width: 576px) {
+  .common-section-spacing {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+}
+
+@media (min-width: 768px) {
+  .common-section-spacing {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}
+
+@media (min-width: 768px) {
+  .common-section-spacing {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .common-section-spacing {
+    padding-top: 160px;
+    padding-bottom: 160px;
   }
 }
