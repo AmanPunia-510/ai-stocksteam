@@ -169,9 +169,11 @@
 .live_result_spacing {
   margin-top: 32px;
 }
+
 .live_result_section {
   padding: 123px 0;
 }
+
 .result_container {
   max-width: 1134px;
   padding: 0 24px;
@@ -181,6 +183,7 @@
   width: 109px;
   height: 88px;
 }
+
 .blue_ball {
   width: 22px;
   height: 22px;
@@ -247,6 +250,16 @@
   color: var(--bluish-cyan);
 }
 
+.mute-unmute-icon {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  z-index: 10;
+}
+
 .blue_tick_box p {
   padding-top: 10px;
 }
@@ -265,6 +278,12 @@
 
 .blue_tick_box:hover span {
   color: white !important;
+}
+
+/* common spacing  */
+.common-section-spacing {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 /* ========= VIDEO SECTION ====== */
@@ -288,6 +307,7 @@
     padding: 64px 0;
   }
 }
+
 @media (max-width: 1199.99px) {
   .common_slider_img {
     width: 298px;
@@ -301,10 +321,12 @@
   .mt_button_icon {
     margin-top: -3px;
   }
+
   .blue_tick_box {
     width: 328px;
     padding: 0 50px;
   }
+
   .live_result_section {
     padding: 48px 0px 0px 0px;
   }
@@ -368,6 +390,7 @@
     width: 219px;
     height: 82px;
   }
+
   .live_result_section {
     padding: 48px 0px;
   }
