@@ -207,6 +207,12 @@
   box-shadow: unset !important;
 }
 
+.get_btn_live {
+  max-width: 272px;
+  gap: 19px;
+  width: 100%;
+}
+
 .live_result_line {
   max-width: 550px;
   height: 1px;
@@ -295,6 +301,9 @@
     object-fit: cover;
     border-radius: 10px;
   }
+  .logo_slider_section {
+    padding: 30px 0px;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -308,6 +317,10 @@
   .live_result_section {
     padding: 48px 0px 0px 0px;
   }
+  .common_slider_img {
+    width: 248px;
+    height: 80px;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -317,8 +330,8 @@
   }
 
   .common_slider_img {
-    width: 268px;
-    height: 107px;
+    width: 224px;
+    height: 78px;
   }
 
   .live_result_section {
@@ -370,5 +383,8 @@
   }
   .live_result_section {
     padding: 48px 0px;
+  }
+  .blue_tick_box {
+    height: 187px;
   }
 }
