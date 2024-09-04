@@ -109,7 +109,7 @@ function handleFormSubmit(event, formId, index) {
     complete: function () {
       setTimeout(function () {
         $(".preloader").fadeOut();
-      }, 2000); 
+      }, 2000);
     },
   });
   form.reset();
@@ -188,8 +188,8 @@ function showTostHandler() {
   }).showToast();
 }
 // ==== LIKE CLICK SHOW TOASTIFY ==
-function likeToastHandler(){
-  showTostHandler()
+function likeToastHandler() {
+  showTostHandler();
 }
 
 // Run the following code when the DOM is fully loaded
@@ -289,7 +289,6 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(video);
   });
 });
-
 
 document.querySelectorAll(".accordion-item").forEach((item) => {
   item.addEventListener("click", function () {
