@@ -49,7 +49,7 @@ body {
   --bluish-cyan: #00a4ff;
   --green: #01d61b;
   --dark-green: #3bff00;
-  --light-green:#4CC973;
+  --light-green: #4cc973;
   --white-gray: #d4dbdf;
   --dark-blue: "#15161b";
   --light-white: "#f6f6f6";
@@ -90,11 +90,10 @@ body {
   font-size: var(--fs-4xl);
 }
 .text_bluish_cyan {
- color: var(--light-green);
+  color: var(--light-green);
 }
 .bg_light_gradient {
-  background:
-    var(--light-green)
+  background: var(--light-green);
 }
 .bg_light_gray {
   background: var(--light-gray);
@@ -124,32 +123,30 @@ body {
 .bg_green {
   background: var(--green);
 }
-.bg_light_green{
-  background-color:var(--light-green);
+.bg_light_green {
+  background-color: var(--light-green);
 }
 .bg_cyan_blue {
-  background:
-    linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
+  background: linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
 }
-.bg_bluish_cyan {
-  background:
-    linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
+.bg_light_green {
+  background-color: var(--light-green);
 }
 .bg_light_white {
   background-color: var(--light-white);
 }
-.rounded_full{
+.rounded_full {
   border-radius: 100px;
 }
 .comment_top {
   padding: 2px;
-  background:var(--light-green);
-    border-radius: 100px;
+  background: var(--light-green);
+  border-radius: 100px;
 }
- .top_padding{
+.top_padding {
   padding: 8px 18px;
- }
- 
+}
+
 /* Font Weight */
 .fw_800 {
   font-weight: 800;
