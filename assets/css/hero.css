@@ -209,7 +209,7 @@
 
 .bg_gradient_blue {
   background:
-    linear-gradient(133.83deg, #00B9FF 3.77%, #6F69F2 81.07%);
+    linear-gradient(175.83deg, #00B9FF 3.77%, #6F69F2 81.07%);
 
 }
 
@@ -218,7 +218,7 @@
 }
 
 .blue_gradient_text {
-  background: linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
+  background: linear-gradient(175.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
