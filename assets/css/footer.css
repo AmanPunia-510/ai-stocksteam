@@ -69,10 +69,7 @@ input::-webkit-inner-spin-button {
 .footer_border_line {
   height: 1px;
 }
-.bg_footer {
-  background:
-    linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
-}
+
 .footer_para {
   max-width: 1138px;
 }

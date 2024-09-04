@@ -49,6 +49,7 @@ body {
   --bluish-cyan: #00a4ff;
   --green: #01d61b;
   --dark-green: #3bff00;
+  --light-green:#4CC973;
   --white-gray: #d4dbdf;
   --dark-blue: "#15161b";
   --light-white: "#f6f6f6";
@@ -89,19 +90,11 @@ body {
   font-size: var(--fs-4xl);
 }
 .text_bluish_cyan {
-  background: linear-gradient(180deg, #56ccf2 0%, #2f80ed 100%),
-    linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+ color: var(--light-green);
 }
 .bg_light_gradient {
   background:
-    linear-gradient(
-      133.83deg,
-      rgba(0, 185, 255, 0.2) 3.77%,
-      rgba(111, 105, 242, 0.2) 81.07%
-    );
+    var(--light-green)
 }
 .bg_light_gray {
   background: var(--light-gray);
@@ -130,6 +123,9 @@ body {
 }
 .bg_green {
   background: var(--green);
+}
+.bg_light_green{
+  background-color:var(--light-green);
 }
 .bg_cyan_blue {
   background:
