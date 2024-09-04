@@ -110,7 +110,7 @@
   min-height: 52px;
 }
 input:focus-visible {
-  outline: var(--bluish-cyan) auto 1px;
+  outline: var(--light-green) auto 1px;
 }
 .sign_up_btn {
   background: linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
@@ -125,14 +125,14 @@ input:focus-visible {
 }
 .sign_up_btn:hover {
   background: white;
-  color: var(--bluish-cyan) !important;
+  color: var(--light-green) !important;
   border-color: #00b9ff;
 }
 #first-counter {
   max-width: 340px;
 }
 .coutdown_digit_box {
-  border: 2px solid #00a4ff;
+  border: 2px solid #4cc973;
   border-radius: 15px;
   overflow: hidden;
   width: 60px;
@@ -158,7 +158,7 @@ input:focus-visible {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  border-top: 3px solid #00a4ff;
+  border-top: 3px solid #4cc973;
 }
 .bg_faq {
   background: linear-gradient(180deg, #56ccf2 0%, #2f80ed 100%),
@@ -223,7 +223,7 @@ input:focus-visible {
   }
 }
 @media (max-width: 1280px) {
-    .pt_123 {
+  .pt_123 {
     padding-top: 50px;
   }
   .faq_questionmark_img {
@@ -253,7 +253,7 @@ input:focus-visible {
   }
 }
 @media (max-width: 1024px) {
-   .pt_123 {
+  .pt_123 {
     padding-top: 80px;
   }
   .form_box {
@@ -375,7 +375,6 @@ input:focus-visible {
   }
 }
 @media (max-width: 575.58px) {
-
   .faq_questionmark_img {
     max-width: 200px;
   }

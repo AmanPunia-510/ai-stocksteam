@@ -46,7 +46,7 @@ body {
   --light-black: #000c03;
   --rich-black: #020507;
   --cyan-blue: #29333a;
-  --bluish-cyan: #00a4ff;
+  --light-green: #4cc973;
   --green: #01d61b;
   --dark-green: #3bff00;
   --white-gray: #d4dbdf;
@@ -96,12 +96,11 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .bg_light_gradient {
-  background:
-    linear-gradient(
-      133.83deg,
-      rgba(0, 185, 255, 0.2) 3.77%,
-      rgba(111, 105, 242, 0.2) 81.07%
-    );
+  background: linear-gradient(
+    133.83deg,
+    rgba(0, 185, 255, 0.2) 3.77%,
+    rgba(111, 105, 242, 0.2) 81.07%
+  );
 }
 .bg_light_gray {
   background: var(--light-gray);
@@ -132,24 +131,22 @@ body {
   background: var(--green);
 }
 .bg_cyan_blue {
-  background:
-    linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
+  background: linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
 }
 .bg_bluish_cyan {
-  background:
-    linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
+  background: linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
 }
 .bg_light_white {
   background-color: var(--light-white);
 }
-.rounded_full{
+.rounded_full {
   border-radius: 100px;
 }
 .comment_top {
   padding: 2px;
   background: linear-gradient(180deg, #56ccf2 0%, #2f80ed 100%),
     linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
-    border-radius: 100px;
+  border-radius: 100px;
 }
 /* Font Weight */
 .fw_800 {

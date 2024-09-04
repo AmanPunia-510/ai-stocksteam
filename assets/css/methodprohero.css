@@ -12,7 +12,7 @@
 }
 
 .border_blue {
-  border: 1px solid var(--bluish-cyan) !important;
+  border: 1px solid var(--light-green) !important;
 }
 
 .radius_xl {
@@ -79,7 +79,7 @@
   border-radius: 24px !important;
 }
 .video_shadow {
-  box-shadow: 0px 4px 25px 0px var(--bluish-cyan);
+  box-shadow: 0px 4px 25px 0px var(--light-green);
 }
 .border_white_gray {
   border: 3px solid var(--white-gray);
@@ -96,24 +96,24 @@
   padding: 16.5px 28px;
 }
 .access_button:hover {
-  background-color: var(--bluish-cyan);
+  background-color: var(--light-green);
 }
 .hero_button {
   border: 4px solid white;
   border-radius: 32px;
   background-color: #36cef0;
   transition: all 300ms linear;
-  box-shadow: 0px 4px 25px 0px var(--bluish-cyan);
+  box-shadow: 0px 4px 25px 0px var(--light-green);
 }
 .max_w_heading {
   max-width: 875px;
 }
 .get_start_button {
   padding: 10.6px 24px;
-  box-shadow: 0px 4px 25px 0px var(--bluish-cyan);
+  box-shadow: 0px 4px 25px 0px var(--light-green);
 }
 .get_start_button:hover {
-  background-color: var(--bluish-cyan);
+  background-color: var(--light-green);
 }
 /* =========================================================== logo slider code  ===================================================== */
 .logo_slider_section {
@@ -244,7 +244,7 @@
 .percentage_txt {
   font-weight: 700;
   font-size: var(--fs-xxl);
-  color: var(--bluish-cyan);
+  color: var(--light-green);
 }
 
 .blue_tick_box p {
