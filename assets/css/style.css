@@ -96,11 +96,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .bg_light_gradient {
-  background: linear-gradient(
-      180deg,
-      rgba(86, 204, 242, 0.1) 0%,
-      rgba(47, 128, 237, 0.1) 100%
-    ),
+  background:
     linear-gradient(
       133.83deg,
       rgba(0, 185, 255, 0.2) 3.77%,
@@ -136,11 +132,11 @@ body {
   background: var(--green);
 }
 .bg_cyan_blue {
-  background: linear-gradient(180deg, #56ccf2 0%, #2f80ed 100%),
+  background:
     linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
 }
 .bg_bluish_cyan {
-  background: linear-gradient(180deg, #56ccf2 0%, #2f80ed 100%),
+  background:
     linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
 }
 .bg_light_white {

@@ -4,41 +4,41 @@ var swiper = new Swiper(".reviewSwiper", {
   slidesPerView: 1,
   spaceBetween: 30,
   loop: true,
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
+  // autoplay: {
+  //   delay: 2500,
+  //   disableOnInteraction: false,
+  // },
   breakpoints: {
     576: {
       slidesPerView: 1,
       spaceBetween: 20,
     },
     640: {
-      slidesPerView: 1.5,
+      slidesPerView: 1,
       spaceBetween: 20,
     },
     1024: {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 30,
     },
     1200: {
-      slidesPerView: 3,
+      slidesPerView: 2,
       spaceBetween: 30,
     },
     1440: {
-      slidesPerView: 3.2,
+      slidesPerView: 2.1,
       spaceBetween: 30,
     },
     1600: {
-      slidesPerView: 4,
+      slidesPerView: 2.1,
       spaceBetween: 30,
     },
     2200: {
-      slidesPerView: 5,
+      slidesPerView: 2.1,
       spaceBetween: 30,
     },
     2500: {
-      slidesPerView: 6,
+      slidesPerView: 3,
       spaceBetween: 30,
     },
   },

@@ -58,7 +58,6 @@
     <link rel="stylesheet" href="./assets/css/hero.css" />
     <link rel="stylesheet" href="./assets/css/slider.css" />
     <link rel="stylesheet" href="./assets/css/methodprohero.css" />
-    <link rel="stylesheet" href="./assets/css/styleversion.css">
 </head>
 
 <body>
@@ -107,14 +106,14 @@
     <?php } ?>
 
     <!-- =========== HERO SECTION ========= -->
-    <section class="pt-3 bg_dark_blue pb-5 position-relative z-1">
+    <section class="pt-3 bg_dark_gray pb-5 position-relative z-1">
         <video playsinline muted loop autoplay
             class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center z-n1 pointer_event_none">
             <source src="./assets/video/background-particle.webm" />
             Your browser does not support the video tag.
         </video>
         <div
-            class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center bg_cyan_blue opacity_05 z-1 pointer_event_none">
+            class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center bg_gradient_blue opacity_05 z-1 pointer_event_none">
         </div>
         <div class="container custom_container mx-auto mb-md-5 position-relative z-2">
             <div class="max_w_hero mx-auto">
@@ -128,211 +127,220 @@
                 <span class="text_bottom_line d-block mx-auto bg-white mb-lg-5 mb-md-4 mb-3"></span>
                 <h2
                     class="text_shadow_blue text-center text-white ff_oxygen fw-bold fs_xxll leading_124 text-uppercase mb-0">
-                    AI POWERED Arbitrage Method Pro
+                    Revolutionary AI-Driven Arbitrage System
                 </h2>
                 <p class="mt-3 pt-1 text-center text-white ff_roboto fw-bold text_shadow_blue fs_xl leading_114">
-                    Tap into AI for Wealth Building With The World's #1 AI Method
+                    Leverage Cutting-Edge AI for Financial Growth with the Top AI-Driven Method Globally!
                 </p>
                 <p class="mt-3 text-center text-white ff_roboto fw-normal fs_3lg mb-0 leading_120 px-xl-5">
-                    Watch Your Investment Skyrocket Effortlessly with a Simple AI System
-                    that Capitalizes on Price Differences! Investors Have Seen a
-                    Remarkable
-                    <span class="text_bluish_cyan fw-semibold">36.5%+</span> Gains in
-                    Less Than 24 Hours! Watch the Video Below to Discover How
+                    Experience Effortless Investment Growth with a Smart AI Tool that Exploits Market Price Gaps!
+                    Investors Have Achieved an Impressive
+                    <span class="color_brown fw-semibold">36.5%+</span> Returns in Under 24 Hours!
+                    Check Out the Video Below to Learn More!
                 </p>
                 <div class="d-flex justify-content-center mt-3 pt-1 mb-4 pb-2">
-                    <div class="border_blue radius_xl video_shadow">
-                        <div class="border_white radius_xl">
-                            <div class="border_white_gray radius_xl">
-                                <div class="video-container position-relative video_container_hero radius_xl">
-                                    <video id="video4" class="w-100 d-block" id="video1" muted controls playsinline
-                                        poster="./assets/images/method-pro/video-thumbnail.webp">
-                                        <source src="./assets/video/arbitrage.mp4" type="video/mp4" />
-                                        Your browser does not support the video tag.
-                                    </video>
-                                    <div
-                                        class="position-absolute top-0 start-50 pt-sm-2 translate-middle-x pt-1 hero_video_btn transition_03 d-inline-block">
-                                        <span id="soundIcon4" data-video-id="video4"
-                                            class="p-md-3 py-md-2 p-2 bg-black cursior_pointer rounded-3 unmute_btn transition_03 d-inline-block d-flex align-items-center gap-2">
-                                            <img class="hero_sound_icon" src="./assets/images/success-story/unmute.svg"
-                                                alt="Sound Icon" />
-                                            <p class="hero_sound text-white fs_lg mb-0 fw-semibold">
-                                                Unmute
-                                            </p>
-                                        </span>
-                                    </div>
-                                    <span class="position-absolute live_position">
-                                        <img class="transition_03" src="./assets/images/hero/live.svg"
-                                            alt="live" /></span>
+                    <div class="border_white radius_xl">
+                        <div class="border_white_gray radius_xl">
+                            <div
+                                class="video-container position-relative video_container_hero overflow-hidden radius_xl">
+                                <video id="video4" class="w-100 d-block" id="video1" muted controls playsinline
+                                    poster="./assets/images/method-pro/video-thumbnail.webp">
+                                    <source src="./assets/video/arbitrage.mp4" type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
+                                <span id="playButton" class="position-absolute play_hero_button"><img
+                                        src="./assets/images/hero/play-icon.svg" alt="play-icon-button"></span>
+                                <div
+                                    class="position-absolute top-0 start-50 pt-sm-2 translate-middle-x pt-1 hero_video_btn transition_03 d-inline-block">
+                                    <span id="soundIcon4" data-video-id="video4"
+                                        class="p-md-3 py-md-2 p-2 bg-black cursior_pointer rounded-3 unmute_btn transition_03 d-inline-block d-flex align-items-center gap-2">
+                                        <img class="hero_sound_icon" src="./assets/images/success-story/unmute.svg"
+                                            alt="Sound Icon" />
+                                        <p class="hero_sound text-white fs_lg mb-0 fw-semibold">
+                                            Unmute
+                                        </p>
+                                    </span>
                                 </div>
+                                <span class="position-absolute live_position">
+                                    <img class="transition_03" src="./assets/images/hero/live.svg" alt="live" /></span>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- ========= FORM MODAL ======= -->
-                <div class="mx-auto d-flex justify-content-center position-relative z-3">
-                    <button data-bs-toggle="modal" data-bs-target="#registerModal"
-                        class="access_button fw-normal hero_button fs_md ff_roboto text-white d-flex flex-column justify-content-center align-items-center mx-auto leading_140">
-                        <span class="d-flex align-items-center gap-2">
-                            <img class="access_arrow" src="./assets/images/method-pro/arrow-icon.svg" alt="arrow" />
-                            <span class="ff_oxygen fw-bold text-white fs_xl fs_hero_button leading_140">Unlimited Access
-                                For Free!</span>
+            <!-- ========= FORM MODAL ======= -->
+            <div class="mx-auto d-flex justify-content-center position-relative z-3">
+                <button data-bs-toggle="modal" data-bs-target="#registerModal"
+                    class="access_button fw-normal hero_button fs_md ff_roboto text-black d-flex flex-column justify-content-center align-items-center mx-auto leading_140">
+                    <span class="d-flex align-items-center gap-2">
+                        <span class="access_arrow">
+                            <svg width="28" height="29" viewBox="0 0 28 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13.6766 0.9375C21.1688 0.9375 27.2391 7.00781 27.2391 14.5C27.2391 21.9922 21.1688 28.0625 13.6766 28.0625C6.18438 28.0625 0.114063 21.9922 0.114063 14.5C0.114063 7.00781 6.18438 0.9375 13.6766 0.9375ZM12.0906 8.8125L16.1922 12.75H6.23906C5.47344 12.75 4.92656 13.3516 4.92656 14.0625V14.9375C4.92656 15.7031 5.47344 16.25 6.23906 16.25H16.1922L12.0906 20.2422C11.5438 20.7344 11.5438 21.6094 12.0359 22.1016L12.6375 22.7031C13.1844 23.1953 14.0047 23.1953 14.4969 22.7031L21.7703 15.4297C22.2625 14.9375 22.2625 14.1172 21.7703 13.625L14.4969 6.35156C14.0047 5.80469 13.1844 5.80469 12.6375 6.35156L12.0359 6.95312C11.5438 7.44531 11.5438 8.32031 12.0906 8.8125Z"
+                                    fill="#010101" />
+                            </svg>
+
                         </span>
-                        Risk Free Strategy
-                    </button>
-                    <!-- MODAL CONTENT -->
-                    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content rounded-4 overflow-hidden border-0">
-                                <div class="modal-header p-0 position-relative">
-                                    <span data-bs-dismiss="modal" aria-label="Close"
-                                        class="position-absolute form_cross_icon cursior_pointer bg-white rounded-pill d-flex justify-content-center align-items-center"><svg
-                                            width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M10.192 0.343994L5.94897 4.58599L1.70697 0.343994L0.292969 1.75799L4.53497 5.99999L0.292969 10.242L1.70697 11.656L5.94897 7.41399L10.192 11.656L11.606 10.242L7.36397 5.99999L11.606 1.75799L10.192 0.343994Z"
-                                                fill="#00A4FF" />
-                                        </svg>
-                                    </span>
-                                    <div
-                                        class="bg_bluish_cyan w-100 d-flex align-items-center justify-content-between px-4 py-3">
-                                        <p class="fw-bold fs_lg text-white form_heading mb-0 pe-3">
-                                            Let AI Secure Profits with Prime
-                                            Arbitrage Opportunities for You!
-                                        </p>
-                                    </div>
+                        <span class="ff_oxygen fw-bold text-black fs_xl fs_hero_button leading_140">Unlimited Access
+                            For Free!</span>
+                    </span>
+                    Risk Free Strategy
+                </button>
+                <!-- MODAL CONTENT -->
+                <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content rounded-4 overflow-hidden border-0">
+                            <div class="modal-header p-0 position-relative">
+                                <span data-bs-dismiss="modal" aria-label="Close"
+                                    class="position-absolute form_cross_icon cursior_pointer bg-white rounded-pill d-flex justify-content-center align-items-center"><svg
+                                        width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.192 0.343994L5.94897 4.58599L1.70697 0.343994L0.292969 1.75799L4.53497 5.99999L0.292969 10.242L1.70697 11.656L5.94897 7.41399L10.192 11.656L11.606 10.242L7.36397 5.99999L11.606 1.75799L10.192 0.343994Z"
+                                            fill="#00A4FF" />
+                                    </svg>
+                                </span>
+                                <div
+                                    class="bg_bluish_cyan w-100 d-flex align-items-center justify-content-between px-4 py-3">
+                                    <p class="fw-bold fs_lg text-white form_heading mb-0 pe-3">
+                                        Let AI Secure Profits with Prime
+                                        Arbitrage Opportunities for You!
+                                    </p>
                                 </div>
+                            </div>
 
-                                <div class="modal-body border-0 p-0">
-                                    <form onsubmit="handleFormSubmit(event, 'myForm','')"
-                                        class="thanks_form border-0 overflow-hidden mb-0" id="myForm">
-                                        <div class="form_input">
-                                            <div class="d-flex flex-sm-row flex-column mb-2">
-                                                <div class="w-100 pe-1">
-                                                    <label for="firstName3"
-                                                        class="text-black fw-normal fs_base mt-0">First Name</label>
-                                                    <input required aria-label="first_name"
-                                                        class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base"
-                                                        type="text" name="first_name" id="first_name" />
-                                                    <p class="mb-0 error bg-white text-danger fw-normal fs_xs"
-                                                        id="tradingFirstNameError"></p>
-                                                    <!-- Placeholder for error message -->
-                                                </div>
-                                                <div class="w-100 pe-0 pt-sm-0 pt_10 mt-sm-0 mt-1">
-                                                    <label for="lastname3"
-                                                        class="text-black fw-normal fs_base mt-sm-0">Last Name</label>
-                                                    <input required aria-label="last_name"
-                                                        class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base"
-                                                        type="text" name="last_name" id="last_name" />
-                                                    <p class="mb-0 error bg-white text-danger fw-normal fs_xs"
-                                                        id="tradingLastNameError"></p>
-                                                    <!-- Placeholder for error message -->
-                                                </div>
-                                            </div>
-                                            <label for="email3"
-                                                class="text-black fw-normal fs_base pt_10 mt-1">Email</label>
-                                            <div class="rounded-pill mb-2">
-                                                <input required aria-label="email"
+                            <div class="modal-body border-0 p-0">
+                                <form onsubmit="handleFormSubmit(event, 'myForm','')"
+                                    class="thanks_form border-0 overflow-hidden mb-0" id="myForm">
+                                    <div class="form_input">
+                                        <div class="d-flex flex-sm-row flex-column mb-2">
+                                            <div class="w-100 pe-1">
+                                                <label for="firstName3" class="text-black fw-normal fs_base mt-0">First
+                                                    Name</label>
+                                                <input required aria-label="first_name"
                                                     class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base"
-                                                    type="email" name="email" id="email" />
+                                                    type="text" name="first_name" id="first_name" />
+                                                <p class="mb-0 error bg-white text-danger fw-normal fs_xs"
+                                                    id="tradingFirstNameError"></p>
+                                                <!-- Placeholder for error message -->
                                             </div>
-                                            <p class="mb-0 error bg-white text-danger fw-normal fs_xs"
-                                                id="tradingEmailError"></p>
-                                            <!-- Placeholder for error message -->
-                                            <label for="Number3" class="text-black fw-normal fs_base pt_10 mt-1">Phone
-                                                Number</label>
-                                            <input required
-                                                class="rounded-pill bg-white max_h_37 trading_input w-100 pe-3 fs_sm remove_input_number_arrow"
-                                                type="number" name="number" id="Number3" />
-                                            <p class="mb-0 error bg-white text-danger fw-normal fs_xs"
-                                                id="tradingNumberError"></p>
-                                            <!-- Placeholder for error message -->
-                                            <button type="submit"
-                                                class="text-white sign_up_btn rounded-pill fw-bold fs_base w-100">
-                                                Sign Up
-                                            </button>
+                                            <div class="w-100 pe-0 pt-sm-0 pt_10 mt-sm-0 mt-1">
+                                                <label for="lastname3" class="text-black fw-normal fs_base mt-sm-0">Last
+                                                    Name</label>
+                                                <input required aria-label="last_name"
+                                                    class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base"
+                                                    type="text" name="last_name" id="last_name" />
+                                                <p class="mb-0 error bg-white text-danger fw-normal fs_xs"
+                                                    id="tradingLastNameError"></p>
+                                                <!-- Placeholder for error message -->
+                                            </div>
                                         </div>
-                                        <p class="pb-3 mb-1 text-center fw-bold fs_lg text_rich_black">
-                                            <span class="spots_left">4</span> Spots Left
-                                        </p>
-                                        <div class="help-block help-block-error">
-                                            <p class="error_answer" id="error_answer" style="
+                                        <label for="email3"
+                                            class="text-black fw-normal fs_base pt_10 mt-1">Email</label>
+                                        <div class="rounded-pill mb-2">
+                                            <input required aria-label="email"
+                                                class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base"
+                                                type="email" name="email" id="email" />
+                                        </div>
+                                        <p class="mb-0 error bg-white text-danger fw-normal fs_xs"
+                                            id="tradingEmailError"></p>
+                                        <!-- Placeholder for error message -->
+                                        <label for="Number3" class="text-black fw-normal fs_base pt_10 mt-1">Phone
+                                            Number</label>
+                                        <input required
+                                            class="rounded-pill bg-white max_h_37 trading_input w-100 pe-3 fs_sm remove_input_number_arrow"
+                                            type="number" name="number" id="Number3" />
+                                        <p class="mb-0 error bg-white text-danger fw-normal fs_xs"
+                                            id="tradingNumberError"></p>
+                                        <!-- Placeholder for error message -->
+                                        <button type="submit"
+                                            class="text-white sign_up_btn rounded-pill fw-bold fs_base w-100">
+                                            Sign Up
+                                        </button>
+                                    </div>
+                                    <p class="pb-3 mb-1 text-center fw-bold fs_lg text_rich_black">
+                                        <span class="spots_left">4</span> Spots Left
+                                    </p>
+                                    <div class="help-block help-block-error">
+                                        <p class="error_answer" id="error_answer" style="
                             display: none;
                             font-weight: bold;
                             color: red;
                             text-align: center;
                             font-size: 15px;
                           "></p>
-                                        </div>
-                                    </form>
-                                </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <p
-                    class="ff_roboto text-white font-normal text-center pt-lg-5 pt-4 mb-lg-5 mb-4 pb-xl-1 fs_lg leading_140">
-                    <span class="me-2"><img src="./assets/images/method-pro/share-up-arrow.svg"
-                            alt="share-up-arrow" /></span>
-                    Just apply this simple AI Method, and you'll instantly see where to
-                    buy, sell, and take profit within seconds. With up to 93.2% daily
-                    accuracy, our AI system simplifies your decisions and helps you
-                    achieve consistent gains with minimal effort. Start today and
-                    experience how effortless and profitable your account will grow
-                    using AI-Arbitrage.
-                </p>
-                <h2
-                    class="max_w_heading fs_xxll text_shadow_blue text-center text-white ff_roboto fw-bold mx-auto mb-4 leading_140 text-capitalize">
-                    The <span class="text_green">world's</span> must trusted AI method,
-                    proved by Experts all over the world.
-                </h2>
-                <div class="d-flex justify-content-center mb-md-5 mb-4">
-                    <ul class="p-0 m-0">
-                        <li
-                            class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_2lg d-flex align-items-start gap-sm-3 gap-2 leading_145">
-                            <span><img class="blue_tick" src="./assets/images/method-pro/blue-tick.svg"
-                                    alt="blue-tick" /></span>
-                            Extremely Easy Setup: Get started in just (1 minute).
-                        </li>
-                        <li
-                            class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_2lg d-flex align-items-start gap-sm-3 gap-2 leading_145">
-                            <span><img class="blue_tick" src="./assets/images/method-pro/blue-tick.svg"
-                                    alt="blue-tick" /></span>
-                            Highly accuracy.: AI Arbitrage achieves up to 93.2% daily
-                            accuracy.
-                        </li>
-                        <li
-                            class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_2lg d-flex align-items-start gap-sm-3 gap-2 leading_145">
-                            <span><img class="blue_tick" src="./assets/images/method-pro/blue-tick.svg"
-                                    alt="blue-tick" /></span>
-                            Real-Time: Receive live AI alerts.
-                        </li>
-                        <li
-                            class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_2lg d-flex align-items-start gap-sm-3 gap-2 leading_145">
-                            <span><img class="blue_tick" src="./assets/images/method-pro/blue-tick.svg"
-                                    alt="blue-tick" /></span>
-                            Beginner-Friendly: Perfect for those with zero experience.
-                        </li>
-                        <li
-                            class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_2lg d-flex align-items-start gap-sm-3 gap-2 leading_145">
-                            <span><img class="blue_tick" src="./assets/images/method-pro/blue-tick.svg"
-                                    alt="blue-tick" /></span>
-                            Comprehensive Support: Includes 1-on-1 calls with your account
-                            manager.
-                        </li>
-                    </ul>
-                </div>
-                <div class="d-flex justify-content-center">
-                    <a href="#thankyou-form"
-                        class="hero_button get_start_button fw-bold mx-auto d-flex align-items-center ff_lato text-white fs_3lg leading_140">
-                        Get Started!
-                        <span class="ms-3 ps-lg-1 mt_button_icon"><img class="play_icon"
-                                src="./assets/images/method-pro/play-icon-button.svg" alt="play-icon-button" /></span>
-                    </a>
-                </div>
             </div>
+
+            <p class="ff_roboto text-white font-normal text-center pt-lg-5 pt-4 mb-lg-5 mb-4 pb-xl-1 fs_lg leading_140">
+                Utilize this simple AI method, and you’ll quickly see exactly where to buy, sell, and secure profits
+                in just seconds. Achieving up to <span class="color_brown"> 93.2% </span>ily accuracy, our AI system
+                takes the guesswork out of
+                decision-making, helping you earn consistent returns with ease. Begin today and watch your account
+                grow effortlessly and profitably with AI-Arbitrage.
+            </p>
+            <h2
+                class="max_w_heading fs_xxll text_shadow_blue text-center text-white ff_roboto fw-bold mx-auto mb-4 leading_140 text-capitalize">
+                The most trusted AI method <span class="color_brown">worldwide,</span> validated by experts across
+                the globe.
+            </h2>
+            <div class="d-flex justify-content-center mb-md-5 mb-4">
+                <ul class="p-0 m-0">
+                    <li
+                        class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_2lg d-flex align-items-start gap-sm-3 gap-2 leading_145">
+                        <span><img class="blue_tick" src="./assets/images/method-pro/blue-tick.svg"
+                                alt="blue-tick" /></span>
+                        Extremely Easy Setup: Get started in just (1 minute).
+                    </li>
+                    <li
+                        class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_2lg d-flex align-items-start gap-sm-3 gap-2 leading_145">
+                        <span><img class="blue_tick" src="./assets/images/method-pro/blue-tick.svg"
+                                alt="blue-tick" /></span>
+                        Highly accuracy.: AI Arbitrage achieves up to 93.2% daily
+                        accuracy.
+                    </li>
+                    <li
+                        class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_2lg d-flex align-items-start gap-sm-3 gap-2 leading_145">
+                        <span><img class="blue_tick" src="./assets/images/method-pro/blue-tick.svg"
+                                alt="blue-tick" /></span>
+                        Real-Time: Receive live AI alerts.
+                    </li>
+                    <li
+                        class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_2lg d-flex align-items-start gap-sm-3 gap-2 leading_145">
+                        <span><img class="blue_tick" src="./assets/images/method-pro/blue-tick.svg"
+                                alt="blue-tick" /></span>
+                        Beginner-Friendly: Perfect for those with zero experience.
+                    </li>
+                    <li
+                        class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_2lg d-flex align-items-start gap-sm-3 gap-2 leading_145">
+                        <span><img class="blue_tick" src="./assets/images/method-pro/blue-tick.svg"
+                                alt="blue-tick" /></span>
+                        Comprehensive Support: Includes 1-on-1 calls with your account
+                        manager.
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a href="#thankyou-form"
+                    class="hero_button get_start_button fw-bold mx-auto d-flex align-items-center ff_lato text-black fs_3lg leading_140">
+                    Get Started!
+                    <span class="ms-3 ps-lg-1 mt_button_icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.9922 0.375C18.4141 0.375 23.6172 5.57812 23.6172 12C23.6172 18.4219 18.4141 23.625 11.9922 23.625C5.57031 23.625 0.367188 18.4219 0.367188 12C0.367188 5.57812 5.57031 0.375 11.9922 0.375ZM17.3828 13.125C18.1797 12.7031 18.1797 11.625 17.3828 11.1562L9.13281 6.14062C8.38281 5.76562 7.49219 6.28125 7.49219 7.125V16.875C7.49219 17.7656 8.38281 18.2812 9.13281 17.8594L17.3828 13.125Z"
+                                fill="#010101" />
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
         </div>
     </section>
     <!-- ========== RANDOM COUNTDOWN ======= -->
@@ -353,116 +361,99 @@
         </div>
     </div>
     <!--=========== REAL SUCCESS STORIES ============= -->
-    <div class="pt-5 mt-lg-2 container custom_container mx-auto">
+    <div class="pt-5 mt-lg-2 container real_success_custom_container mx-auto">
         <h2 class="pb-3 text-center text-black fs_3xl fw-bold leading_130 mb-0 ff_oxygen">
-            Real success stories
+            Real <span class="blue_gradient_text">success stories</span>
         </h2>
         <p
             class="text-center fs_lg text-black opacity_08 leading_150 pb-4 mb-2 success_story_paragraph mx-auto fw-medium mb-0 ff_roboto">
-            These testimonials highlight how AI Automated Arbitrage can lead to
-            significant positive changes in the lives of many canadian families.
+            Discover testimonials that showcase how AI Automated Arbitrage has brought remarkable positive
+            transformations to many Canadian families.
         </p>
         <div class="row story_video_parent justify-content-center">
             <div class="col-lg-4 col-sm-6">
-                <div class="bg_light_gray rounded-2 overflow-hidden position-relative">
-                    <video id="video1" class="w-100 story_video d-block object-fit-cover" autoplay loop muted
-                        playsinline controls src="./assets/video/melani.mp4"></video>
-                    <p class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase">
+                <div class="bg-white rounded-2 overflow-hidden position-relative real_card_shadow p-3">
+                    <video id="video1" class="w-100 story_video d-block object-fit-cover" loop muted playsinline
+                        controls src="./assets/video/melani.mp4"></video>
+                    <p class="text-center text-black ff_roboto mt-3 mb-0 fw-semibold fs_base text-uppercase">
                         MELANI FROM TORONTO
                     </p>
-                    <span class="position-absolute top-0 end-0 pe-2 pt-2">
-                        <img id="soundIcon1" data-video-id="video1" class="mt-1 me-1 cursior_pointer" width="20"
-                            src="./assets/images/success-story/unmute.svg" alt="sound" />
-                    </span>
+                    <span class="position-absolute success_play_button_pos"><img
+                            src="./assets/images/success-story/blue-play-icon.svg" alt="success-play-button"></span>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="bg_light_gray rounded-2 overflow-hidden position-relative">
-                    <video id="video2" class="w-100 story_video d-block object-fit-cover" autoplay loop muted
-                        playsinline controls src="./assets/video/alex.mp4"></video>
-                    <p class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase">
+                <div class="bg-white rounded-2 overflow-hidden position-relative  real_card_shadow p-3">
+                    <video id="video2" class="w-100 story_video d-block object-fit-cover" loop muted playsinline
+                        controls src="./assets/video/alex.mp4"></video>
+                    <p class="text-center text-black ff_roboto mt-3 mb-0 fw-semibold fs_base text-uppercase">
                         ALEX FROM HAMILTON
                     </p>
-                    <span class="position-absolute top-0 end-0 pe-2 pt-2">
-                        <img id="soundIcon2" data-video-id="video2" class="mt-1 me-1 cursior_pointer" width="20"
-                            src="./assets/images/success-story/unmute.svg" alt="sound" />
-                    </span>
+                    <span class="position-absolute success_play_button_pos"><img
+                            src="./assets/images/success-story/blue-play-icon.svg" alt="success-play-button"></span>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="bg_light_gray rounded-2 overflow-hidden position-relative">
-                    <video id="video3" class="w-100 story_video d-block object-fit-cover" autoplay loop muted
-                        playsinline controls src="./assets/video/lilly.mp4"></video>
-                    <p class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase">
+                <div class="bg-white rounded-2 overflow-hidden position-relative real_card_shadow p-3">
+                    <video id="video3" class="w-100 story_video d-block object-fit-cover" loop muted playsinline
+                        controls src="./assets/video/lilly.mp4"></video>
+                    <p class="text-center text-black ff_roboto mt-3 mb-0 fw-semibold fs_base text-uppercase">
                         LILLY FROM MONTREAL
                     </p>
-                    <span class="position-absolute top-0 end-0 pe-2 pt-2">
-                        <img id="soundIcon3" data-video-id="video3" class="mt-1 me-1 cursior_pointer" width="20"
-                            src="./assets/images/success-story/unmute.svg" alt="sound" />
-                    </span>
+                    <span class="position-absolute success_play_button_pos"><img
+                            src="./assets/images/success-story/blue-play-icon.svg" alt="success-play-button"></span>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="bg_light_gray rounded-2 overflow-hidden position-relative">
-                    <video id="video5" class="w-100 story_video d-block object-fit-cover" autoplay loop muted
-                        playsinline controls src="./assets/video/hana-video.webm"></video>
-                    <p class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase">
+                <div class="bg-white rounded-2 overflow-hidden position-relative real_card_shadow p-3">
+                    <video id="video5" class="w-100 story_video d-block object-fit-cover" loop muted playsinline
+                        controls src="./assets/video/hana-video.webm"></video>
+                    <p class="text-center text-black ff_roboto mt-3 mb-0 fw-semibold fs_base text-uppercase">
                         hana FROM toronto
                     </p>
-                    <span class="position-absolute top-0 end-0 pe-2 pt-2">
-                        <img id="soundIcon5" data-video-id="video5" class="mt-1 me-1 cursior_pointer" width="20"
-                            src="./assets/images/success-story/unmute.svg" alt="sound" />
-                    </span>
+                    <span class="position-absolute success_play_button_pos"><img
+                            src="./assets/images/success-story/blue-play-icon.svg" alt="success-play-button"></span>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="bg_light_gray rounded-2 overflow-hidden position-relative">
-                    <video id="video6" class="w-100 story_video d-block object-fit-cover" autoplay loop muted
-                        playsinline controls src="./assets/video/alex-video.webm"></video>
-                    <p class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase">
+                <div class="bg-white rounded-2 overflow-hidden position-relative real_card_shadow p-3">
+                    <video id="video6" class="w-100 story_video d-block object-fit-cover" loop muted playsinline
+                        controls src="./assets/video/alex-video.webm"></video>
+                    <p class="text-center text-black ff_roboto mt-3 mb-0 fw-semibold fs_base text-uppercase">
                         Alex FROM brampton
                     </p>
-                    <span class="position-absolute top-0 end-0 pe-2 pt-2">
-                        <img id="soundIcon6" data-video-id="video6" class="mt-1 me-1 cursior_pointer" width="20"
-                            src="./assets/images/success-story/unmute.svg" alt="sound" />
-                    </span>
+                    <span class="position-absolute success_play_button_pos"><img
+                            src="./assets/images/success-story/blue-play-icon.svg" alt="success-play-button"></span>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="bg_light_gray rounded-2 overflow-hidden position-relative">
-                    <video id="video7" class="w-100 story_video d-block object-fit-cover" autoplay loop muted
-                        playsinline controls src="./assets/video/sam-video.webm"></video>
-                    <p class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase">
+                <div class="bg-white rounded-2 overflow-hidden position-relative real_card_shadow p-3">
+                    <video id="video7" class="w-100 story_video d-block object-fit-cover" loop muted playsinline
+                        controls src="./assets/video/sam-video.webm"></video>
+                    <p class="text-center text-black ff_roboto mt-3 mb-0 fw-semibold fs_base text-uppercase">
                         Sam FROM markham
                     </p>
-                    <span class="position-absolute top-0 end-0 pe-2 pt-2">
-                        <img id="soundIcon7" data-video-id="video7" class="mt-1 me-1 cursior_pointer" width="20"
-                            src="./assets/images/success-story/unmute.svg" alt="sound" />
-                    </span>
+                    <span class="position-absolute success_play_button_pos"><img
+                            src="./assets/images/success-story/blue-play-icon.svg" alt="success-play-button"></span>
                 </div>
             </div>
         </div>
     </div>
     </div>
-    <!--===========  BECOME A PROFITABLE AI ARBITRAGE WINNER ! ===========-->
-    <section class="ai_winner_bg pb-md-3 position-relative z-3">
-        <video playsinline muted loop autoplay
-            class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center z-n1 pointer_event_none">
-            <source src="./assets/video/background-particle.webm" />
-            Your browser does not support the video tag.
-        </video>
+    <!--===========  BECOME A Successful  AI ARBITRAGE WINNER ! ===========-->
+    <section class="bg-white pb-md-3 position-relative z-3">
         <div
-            class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center bg_cyan_blue opacity_05 pointer_event_none">
+            class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center bg-white   opacity_05 pointer_event_none">
         </div>
         <div class="pt-2 container custom_container position-relative z-3">
             <h2
-                class="fs_3xl leading_130 fw-bold text-white arbitrage_winner_heading ff_oxygen mx-auto text-center pt-5 mb-3 text_shadow_blue">
-                Become a profitable AI Winner!
+                class="fs_3xl leading_130 fw-bold text-black arbitrage_winner_heading ff_oxygen mx-auto text-center pt-5 mb-3">
+                Become a <span class="blue_gradient_text">Successful AI</span> Winner!
             </h2>
             <p
-                class="fw-medium fs_lg leading_150 text-white text-center mx-auto ff_roboto arbitrage_winner_paragraph mb-0">
-                People with different professions, were able to boost their income in
-                the first day using the AI-Method
+                class="fw-medium fs_lg leading_150 text-black text-center mx-auto ff_roboto arbitrage_winner_paragraph mb-0">
+                Individuals from various professions have successfully increased their income on the very first day
+                using the AI method.
             </p>
         </div>
         <div class="swiper reviewSwiper">
@@ -508,27 +499,32 @@
                         <li
                             class="blue_tick_box d-flex flex-column justify-content-center align-items-center gap-sm-2 gap-1">
                             <div class="svg_box">
-                                <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg width="42" height="42" viewBox="0 0 42 42" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <g filter="url(#filter0_d_7314_2690)">
                                         <path
                                             d="M39.2422 19.9375C39.2422 30.6406 30.4922 39.3125 19.8672 39.3125C9.16406 39.3125 0.492188 30.6406 0.492188 19.9375C0.492188 9.3125 9.16406 0.5625 19.8672 0.5625C30.4922 0.5625 39.2422 9.3125 39.2422 19.9375ZM17.6016 30.25L31.9766 15.875C32.4453 15.4062 32.4453 14.5469 31.9766 14.0781L30.1797 12.3594C29.7109 11.8125 28.9297 11.8125 28.4609 12.3594L16.7422 24.0781L11.1953 18.6094C10.7266 18.0625 9.94531 18.0625 9.47656 18.6094L7.67969 20.3281C7.21094 20.7969 7.21094 21.6562 7.67969 22.125L15.8047 30.25C16.2734 30.7188 17.1328 30.7188 17.6016 30.25Z"
                                             fill="url(#paint0_linear_7314_2690)" />
                                     </g>
                                     <defs>
-                                        <filter id="filter0_d_7314_2690" x="0.492188" y="0.5625" width="40.75" height="40.75"
-                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <filter id="filter0_d_7314_2690" x="0.492188" y="0.5625" width="40.75"
+                                            height="40.75" filterUnits="userSpaceOnUse"
+                                            color-interpolation-filters="sRGB">
                                             <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                                                result="hardAlpha" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                                             <feOffset dx="1" dy="1" />
                                             <feGaussianBlur stdDeviation="0.5" />
                                             <feComposite in2="hardAlpha" operator="out" />
-                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" />
-                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7314_2690" />
-                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7314_2690" result="shape" />
+                                            <feColorMatrix type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix"
+                                                result="effect1_dropShadow_7314_2690" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7314_2690"
+                                                result="shape" />
                                         </filter>
-                                        <linearGradient id="paint0_linear_7314_2690" x1="-69.6328" y1="3.86058" x2="-54.2134" y2="73.5886"
-                                            gradientUnits="userSpaceOnUse">
+                                        <linearGradient id="paint0_linear_7314_2690" x1="-69.6328" y1="3.86058"
+                                            x2="-54.2134" y2="73.5886" gradientUnits="userSpaceOnUse">
                                             <stop stop-color="#00B9FF" />
                                             <stop offset="0.82" stop-color="#6F69F2" />
                                         </linearGradient>
@@ -544,34 +540,39 @@
                     <div class="result_gradient">
                         <li
                             class="blue_tick_box d-flex flex-column justify-content-center align-items-center gap-sm-2 gap-1">
-                        <div class="svg_box">
-                            <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g filter="url(#filter0_d_7314_2690)">
-                                    <path
-                                        d="M39.2422 19.9375C39.2422 30.6406 30.4922 39.3125 19.8672 39.3125C9.16406 39.3125 0.492188 30.6406 0.492188 19.9375C0.492188 9.3125 9.16406 0.5625 19.8672 0.5625C30.4922 0.5625 39.2422 9.3125 39.2422 19.9375ZM17.6016 30.25L31.9766 15.875C32.4453 15.4062 32.4453 14.5469 31.9766 14.0781L30.1797 12.3594C29.7109 11.8125 28.9297 11.8125 28.4609 12.3594L16.7422 24.0781L11.1953 18.6094C10.7266 18.0625 9.94531 18.0625 9.47656 18.6094L7.67969 20.3281C7.21094 20.7969 7.21094 21.6562 7.67969 22.125L15.8047 30.25C16.2734 30.7188 17.1328 30.7188 17.6016 30.25Z"
-                                        fill="url(#paint0_linear_7314_2690)" />
-                                </g>
-                                <defs>
-                                    <filter id="filter0_d_7314_2690" x="0.492188" y="0.5625" width="40.75" height="40.75"
-                                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                                            result="hardAlpha" />
-                                        <feOffset dx="1" dy="1" />
-                                        <feGaussianBlur stdDeviation="0.5" />
-                                        <feComposite in2="hardAlpha" operator="out" />
-                                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" />
-                                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7314_2690" />
-                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7314_2690" result="shape" />
-                                    </filter>
-                                    <linearGradient id="paint0_linear_7314_2690" x1="-69.6328" y1="3.86058" x2="-54.2134" y2="73.5886"
-                                        gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#00B9FF" />
-                                        <stop offset="0.82" stop-color="#6F69F2" />
-                                    </linearGradient>
-                                </defs>
-                            </svg>
-                        </div>
+                            <div class="svg_box">
+                                <svg width="42" height="42" viewBox="0 0 42 42" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_d_7314_2690)">
+                                        <path
+                                            d="M39.2422 19.9375C39.2422 30.6406 30.4922 39.3125 19.8672 39.3125C9.16406 39.3125 0.492188 30.6406 0.492188 19.9375C0.492188 9.3125 9.16406 0.5625 19.8672 0.5625C30.4922 0.5625 39.2422 9.3125 39.2422 19.9375ZM17.6016 30.25L31.9766 15.875C32.4453 15.4062 32.4453 14.5469 31.9766 14.0781L30.1797 12.3594C29.7109 11.8125 28.9297 11.8125 28.4609 12.3594L16.7422 24.0781L11.1953 18.6094C10.7266 18.0625 9.94531 18.0625 9.47656 18.6094L7.67969 20.3281C7.21094 20.7969 7.21094 21.6562 7.67969 22.125L15.8047 30.25C16.2734 30.7188 17.1328 30.7188 17.6016 30.25Z"
+                                            fill="url(#paint0_linear_7314_2690)" />
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_d_7314_2690" x="0.492188" y="0.5625" width="40.75"
+                                            height="40.75" filterUnits="userSpaceOnUse"
+                                            color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                            <feOffset dx="1" dy="1" />
+                                            <feGaussianBlur stdDeviation="0.5" />
+                                            <feComposite in2="hardAlpha" operator="out" />
+                                            <feColorMatrix type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix"
+                                                result="effect1_dropShadow_7314_2690" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7314_2690"
+                                                result="shape" />
+                                        </filter>
+                                        <linearGradient id="paint0_linear_7314_2690" x1="-69.6328" y1="3.86058"
+                                            x2="-54.2134" y2="73.5886" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#00B9FF" />
+                                            <stop offset="0.82" stop-color="#6F69F2" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
                             <p class="ff_roboto text-black font-normal fs_lg mb-0 leading_140 text-center">
                                 Active AI Arbitrage Opportunities:
                             </p>
@@ -582,27 +583,32 @@
                         <li
                             class="blue_tick_box d-flex flex-column justify-content-center align-items-center gap-sm-2 gap-1">
                             <div class="svg_box">
-                                <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg width="42" height="42" viewBox="0 0 42 42" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <g filter="url(#filter0_d_7314_2690)">
                                         <path
                                             d="M39.2422 19.9375C39.2422 30.6406 30.4922 39.3125 19.8672 39.3125C9.16406 39.3125 0.492188 30.6406 0.492188 19.9375C0.492188 9.3125 9.16406 0.5625 19.8672 0.5625C30.4922 0.5625 39.2422 9.3125 39.2422 19.9375ZM17.6016 30.25L31.9766 15.875C32.4453 15.4062 32.4453 14.5469 31.9766 14.0781L30.1797 12.3594C29.7109 11.8125 28.9297 11.8125 28.4609 12.3594L16.7422 24.0781L11.1953 18.6094C10.7266 18.0625 9.94531 18.0625 9.47656 18.6094L7.67969 20.3281C7.21094 20.7969 7.21094 21.6562 7.67969 22.125L15.8047 30.25C16.2734 30.7188 17.1328 30.7188 17.6016 30.25Z"
                                             fill="url(#paint0_linear_7314_2690)" />
                                     </g>
                                     <defs>
-                                        <filter id="filter0_d_7314_2690" x="0.492188" y="0.5625" width="40.75" height="40.75"
-                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <filter id="filter0_d_7314_2690" x="0.492188" y="0.5625" width="40.75"
+                                            height="40.75" filterUnits="userSpaceOnUse"
+                                            color-interpolation-filters="sRGB">
                                             <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                                                result="hardAlpha" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                                             <feOffset dx="1" dy="1" />
                                             <feGaussianBlur stdDeviation="0.5" />
                                             <feComposite in2="hardAlpha" operator="out" />
-                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" />
-                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7314_2690" />
-                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7314_2690" result="shape" />
+                                            <feColorMatrix type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix"
+                                                result="effect1_dropShadow_7314_2690" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7314_2690"
+                                                result="shape" />
                                         </filter>
-                                        <linearGradient id="paint0_linear_7314_2690" x1="-69.6328" y1="3.86058" x2="-54.2134" y2="73.5886"
-                                            gradientUnits="userSpaceOnUse">
+                                        <linearGradient id="paint0_linear_7314_2690" x1="-69.6328" y1="3.86058"
+                                            x2="-54.2134" y2="73.5886" gradientUnits="userSpaceOnUse">
                                             <stop stop-color="#00B9FF" />
                                             <stop offset="0.82" stop-color="#6F69F2" />
                                         </linearGradient>
@@ -619,27 +625,32 @@
                         <li
                             class="blue_tick_box d-flex flex-column justify-content-center align-items-center gap-sm-2 gap-1">
                             <div class="svg_box">
-                                <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg width="42" height="42" viewBox="0 0 42 42" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <g filter="url(#filter0_d_7314_2690)">
                                         <path
                                             d="M39.2422 19.9375C39.2422 30.6406 30.4922 39.3125 19.8672 39.3125C9.16406 39.3125 0.492188 30.6406 0.492188 19.9375C0.492188 9.3125 9.16406 0.5625 19.8672 0.5625C30.4922 0.5625 39.2422 9.3125 39.2422 19.9375ZM17.6016 30.25L31.9766 15.875C32.4453 15.4062 32.4453 14.5469 31.9766 14.0781L30.1797 12.3594C29.7109 11.8125 28.9297 11.8125 28.4609 12.3594L16.7422 24.0781L11.1953 18.6094C10.7266 18.0625 9.94531 18.0625 9.47656 18.6094L7.67969 20.3281C7.21094 20.7969 7.21094 21.6562 7.67969 22.125L15.8047 30.25C16.2734 30.7188 17.1328 30.7188 17.6016 30.25Z"
                                             fill="url(#paint0_linear_7314_2690)" />
                                     </g>
                                     <defs>
-                                        <filter id="filter0_d_7314_2690" x="0.492188" y="0.5625" width="40.75" height="40.75"
-                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <filter id="filter0_d_7314_2690" x="0.492188" y="0.5625" width="40.75"
+                                            height="40.75" filterUnits="userSpaceOnUse"
+                                            color-interpolation-filters="sRGB">
                                             <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                                                result="hardAlpha" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                                             <feOffset dx="1" dy="1" />
                                             <feGaussianBlur stdDeviation="0.5" />
                                             <feComposite in2="hardAlpha" operator="out" />
-                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" />
-                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7314_2690" />
-                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7314_2690" result="shape" />
+                                            <feColorMatrix type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix"
+                                                result="effect1_dropShadow_7314_2690" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7314_2690"
+                                                result="shape" />
                                         </filter>
-                                        <linearGradient id="paint0_linear_7314_2690" x1="-69.6328" y1="3.86058" x2="-54.2134" y2="73.5886"
-                                            gradientUnits="userSpaceOnUse">
+                                        <linearGradient id="paint0_linear_7314_2690" x1="-69.6328" y1="3.86058"
+                                            x2="-54.2134" y2="73.5886" gradientUnits="userSpaceOnUse">
                                             <stop stop-color="#00B9FF" />
                                             <stop offset="0.82" stop-color="#6F69F2" />
                                         </linearGradient>
@@ -707,153 +718,172 @@
         </div>
     </section>
     <!-- ============= FREQUENTLY ASKED QUESTIONS ============ -->
-    <div class="container custom_container bg-white">
+    <section class="max_w_1440 mx-auto container container-lg-fluid bg-white px-3">
         <div class="mb_115 mb_100_md mb_150_lg">
             <p
-                class="fw-bold ff_oxygen text-center fs_3xl pt_123 pt_80 pt_50 mb-md-5 mb-sm-4 mb-3 text-black leading_130">
-                Frequently Asked Questions
+                class="fw-bold ff_oxygen text-center text-lg-start fs_3xl pt_123 pt_80 pt_50 mb-md-5 mb-sm-4 mb-3 text-black leading_130">
+                Frequently <span class="faq_heading">Asked </span> Questions
             </p>
-            <div class="d-flex align-items-center justify-content-between pt-2">
-                <div class="w-100">
-                    <div class="accordion w-100" id="faqAccordian">
-                        <div data-id="1" class="accordion-item active_question accordion_shadow">
-                            <h2 class="accordion-header">
-                                <button
-                                    class="accordion-button fw-bold ff_oxygen fs_lg text_light_black align-items-start"
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                    aria-expanded="true" aria-controls="collapseOne">
-                                    <span class="clr_darkgray">1. </span>&ensp;
-                                    <span class="fw-bold ff_oxygen fs_lg text_light_black">How to get started?
-                                    </span>
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show"
-                                data-bs-parent="#faqAccordian">
-                                <div class="accordion-body">
-                                    <p class="faq_answers fw-normal mb-0 fs_base text-black opacity_07 ff_roboto">
-                                        To get started, simply sign up in the form below. Within a
-                                        few minutes, you'll receive a call from your dedicated
-                                        account manager who will guide you through setting up the
-                                        AI system in less than 5 minutes so you can relax and
-                                        watch your investments grow effortlessly. Be sure to have
-                                        your phone nearby and be available within the first 15
-                                        minutes after registration to ensure you don't miss the
-                                        call.
-                                    </p>
+            <div class="d-flex flex-lg-row flex-column-reverse justify-content-center justify-content-lg-between">
+                <div class="flex-column pe-lg-5 me-lg-5 ">
+                    <div class="d-flex align-items-center justify-content-between pt-2">
+                        <div class="w-100">
+                            <div class="accordion w-100" id="faqAccordian">
+                                <div data-id="1" class="accordion-item active_question accordion_shadow">
+                                    <h2 class="accordion-header">
+                                        <button
+                                            class="accordion-button fw-bold ff_oxygen fs_lg text_light_black align-items-start"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            <span class="clr_darkgray">1. </span>&ensp;
+                                            <span class="fw-bold ff_oxygen fs_lg text_light_black">How to get started?
+                                            </span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#faqAccordian">
+                                        <div class="accordion-body">
+                                            <p
+                                                class="faq_answers fw-normal mb-0 fs_base text-black opacity_07 ff_roboto">
+                                                To get started, simply sign up in the form below. Within a
+                                                few minutes, you'll receive a call from your dedicated
+                                                account manager who will guide you through setting up the
+                                                AI system in less than 5 minutes so you can relax and
+                                                watch your investments grow effortlessly. Be sure to have
+                                                your phone nearby and be available within the first 15
+                                                minutes after registration to ensure you don't miss the
+                                                call.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div data-id="2" class="accordion-item mt-4 accordion_border">
-                            <h2 class="accordion-header">
-                                <button
-                                    class="accordion-button collapsed fw-bold ff_oxygen fs_lg text_light_black align-items-center"
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                    aria-expanded="false" aria-controls="collapseTwo">
-                                    <span class="fw-bold ff_oxygen fs_lg text_light_black">2.
-                                    </span>
-                                    &ensp;
-                                    <span class="fw-bold ff_oxygen fs_lg text_light_black">Is Arbitrage Legal?</span>
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordian">
-                                <div class="accordion-body">
-                                    <p class="faq_answers fw-normal mb-0 fs_base text-black opacity_07 ff_roboto">
-                                        Yes, arbitrage is legal in Canada, Europe, and the U.S.
-                                        Many investors favor this type of trading because it
-                                        provides liquidity and encourages market efficiency by
-                                        identifying price discrepancies and fostering price
-                                        convergence.
-                                    </p>
+                                <div data-id="2" class="accordion-item mt-4 accordion_border">
+                                    <h2 class="accordion-header">
+                                        <button
+                                            class="accordion-button collapsed fw-bold ff_oxygen fs_lg text_light_black align-items-center"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            <span class="fw-bold ff_oxygen fs_lg text_light_black">2.
+                                            </span>
+                                            &ensp;
+                                            <span class="fw-bold ff_oxygen fs_lg text_light_black">Is Arbitrage
+                                                Legal?</span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#faqAccordian">
+                                        <div class="accordion-body">
+                                            <p
+                                                class="faq_answers fw-normal mb-0 fs_base text-black opacity_07 ff_roboto">
+                                                Yes, arbitrage is legal in Canada, Europe, and the U.S.
+                                                Many investors favor this type of trading because it
+                                                provides liquidity and encourages market efficiency by
+                                                identifying price discrepancies and fostering price
+                                                convergence.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div data-id="3" class="accordion-item mt-4 accordion_border">
-                            <h2 class="accordion-header">
-                                <button
-                                    class="accordion-button collapsed fw-bold ff_oxygen fs_lg text_light_black align-items-center"
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                    aria-expanded="false" aria-controls="collapseThree">
-                                    <span class="clr_darkgray">3. </span> &ensp;
-                                    <span class="fw-bold ff_oxygen fs_lg text_light_black">Do I need trading
-                                        experience?</span>
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordian">
-                                <div class="accordion-body">
-                                    <p class="faq_answers fw-normal mb-0 fs_base text-black opacity_07 ff_roboto">
-                                        Not at all! AI Arbitrage is designed to be an easy and
-                                        simple process, even for beginners. Our support agents are
-                                        available to help you with the setup within minutes. All
-                                        you have to do is set up the simple AI system with your
-                                        account manager, and you can start capitalizing on
-                                        arbitrage opportunities without any prior trading
-                                        experience.
-                                    </p>
+                                <div data-id="3" class="accordion-item mt-4 accordion_border">
+                                    <h2 class="accordion-header">
+                                        <button
+                                            class="accordion-button collapsed fw-bold ff_oxygen fs_lg text_light_black align-items-center"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            <span class="clr_darkgray">3. </span> &ensp;
+                                            <span class="fw-bold ff_oxygen fs_lg text_light_black">Do I need trading
+                                                experience?</span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        data-bs-parent="#faqAccordian">
+                                        <div class="accordion-body">
+                                            <p
+                                                class="faq_answers fw-normal mb-0 fs_base text-black opacity_07 ff_roboto">
+                                                Not at all! AI Arbitrage is designed to be an easy and
+                                                simple process, even for beginners. Our support agents are
+                                                available to help you with the setup within minutes. All
+                                                you have to do is set up the simple AI system with your
+                                                account manager, and you can start capitalizing on
+                                                arbitrage opportunities without any prior trading
+                                                experience.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div data-id="4" class="accordion-item mt-4 accordion_border">
-                            <h2 class="accordion-header">
-                                <button
-                                    class="accordion-button collapsed fw-bold ff_oxygen fs_lg text_light_black align-items-center"
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                    aria-expanded="false" aria-controls="collapseFour">
-                                    <span class="clr_darkgray">4. </span>&ensp;
-                                    <span class="fw-bold ff_oxygen fs_lg text_light_black">Can You Lose Money in
-                                        Arbitrage?</span>
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordian">
-                                <div class="accordion-body">
-                                    <p class="faq_answers fw-normal mb-0 fs_base text-black opacity_07 ff_roboto">
-                                        While AI Arbitrage is considered no-risk and the price
-                                        differences are typically very small, traders have
-                                        experienced small losses of 0.2% to 0.5% on their
-                                        investment due to human error. However, these losses are
-                                        minimal compared to traditional day and swing trading,
-                                        where traders can lose up to 100% of their investment.
-                                    </p>
+                                <div data-id="4" class="accordion-item mt-4 accordion_border">
+                                    <h2 class="accordion-header">
+                                        <button
+                                            class="accordion-button collapsed fw-bold ff_oxygen fs_lg text_light_black align-items-center"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseFour">
+                                            <span class="clr_darkgray">4. </span>&ensp;
+                                            <span class="fw-bold ff_oxygen fs_lg text_light_black">Can You Lose Money in
+                                                Arbitrage?</span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                        data-bs-parent="#faqAccordian">
+                                        <div class="accordion-body">
+                                            <p
+                                                class="faq_answers fw-normal mb-0 fs_base text-black opacity_07 ff_roboto">
+                                                While AI Arbitrage is considered no-risk and the price
+                                                differences are typically very small, traders have
+                                                experienced small losses of 0.2% to 0.5% on their
+                                                investment due to human error. However, these losses are
+                                                minimal compared to traditional day and swing trading,
+                                                where traders can lose up to 100% of their investment.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div data-id="5" class="accordion-item mt-4 accordion_border">
-                            <h2 class="accordion-header">
-                                <button
-                                    class="accordion-button collapsed fw-bold ff_oxygen fs_lg text_light_black align-items-center"
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
-                                    aria-expanded="false" aria-controls="collapseFive">
-                                    <span class="clr_darkgray">5. </span>&ensp;
-                                    <span class="fw-bold ff_oxygen fs_lg text_light_black">What Makes Arbitrage
-                                        Low-Risk?</span>
-                                </button>
-                            </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordian">
-                                <div class="accordion-body">
-                                    <p class="faq_answers fw-normal mb-0 fs_base text-black opacity_07 ff_roboto">
-                                        Pure, "textbook" arbitrage is considered low- (or no-)
-                                        risk because it involves buying in one market and selling
-                                        in another without needing additional capital. The price
-                                        differences are usually minimal, reducing the risk
-                                        involved. However, it often involves large-volume trades,
-                                        leveraged capital, timing variations, and other factors.
-                                        We highly recommend starting with a minimum $250 initial
-                                        investment to gain experience and minimize risk as a
-                                        beginner. The Bottom LineIf all markets were perfectly
-                                        efficient, there would no longer be any arbitrage
-                                        opportunities. However, markets are rarely perfect,
-                                        providing arbitrage traders with numerous opportunities to
-                                        capitalize on pricing discrepancies.
-                                    </p>
+                                <div data-id="5" class="accordion-item mt-4 accordion_border">
+                                    <h2 class="accordion-header">
+                                        <button
+                                            class="accordion-button collapsed fw-bold ff_oxygen fs_lg text_light_black align-items-center"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                            aria-expanded="false" aria-controls="collapseFive">
+                                            <span class="clr_darkgray">5. </span>&ensp;
+                                            <span class="fw-bold ff_oxygen fs_lg text_light_black">What Makes Arbitrage
+                                                Low-Risk?</span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse"
+                                        data-bs-parent="#faqAccordian">
+                                        <div class="accordion-body">
+                                            <p
+                                                class="faq_answers fw-normal mb-0 fs_base text-black opacity_07 ff_roboto">
+                                                Pure, "textbook" arbitrage is considered low- (or no-)
+                                                risk because it involves buying in one market and selling
+                                                in another without needing additional capital. The price
+                                                differences are usually minimal, reducing the risk
+                                                involved. However, it often involves large-volume trades,
+                                                leveraged capital, timing variations, and other factors.
+                                                We highly recommend starting with a minimum $250 initial
+                                                investment to gain experience and minimize risk as a
+                                                beginner. The Bottom LineIf all markets were perfectly
+                                                efficient, there would no longer be any arbitrage
+                                                opportunities. However, markets are rarely perfect,
+                                                providing arbitrage traders with numerous opportunities to
+                                                capitalize on pricing discrepancies.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div
+                    class="lg:ps-5 d-flex py-md-4 py-3 py-lg-0  align-items-center justify-content-center justify-content-lg-start">
+                    <img class="cover faq_questionmark_img" src="./assets/images/faq/question.webp" alt="question">
+                </div>
             </div>
+
         </div>
-    </div>
+    </section>
     <!--============= THANKS YOU SECTION ==============-->
-    <section class="bg_form mb-md-5 position-relative z-3">
+    <section class="bg_cyan_blue mb-md-5 position-relative z-3">
         <video playsinline muted loop autoplay
             class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center z-n1 pointer_event_none">
             <source src="./assets/video/background-particle.webm" />
@@ -866,10 +896,10 @@
             <div class="pt-5 mt-md-5 pb-sm-2 pb-5">
                 <p
                     class="pt-lg-4 mt-3 text-white text-center ff_oxygen fw-bold fs_xxll text_shadow_blue mb-0 leading_124">
-                    Ready To Get 24/7 Access To The
+                    Are You Set for 24/7 Access to the
                 </p>
                 <p class="text-white text-center ff_oxygen fw-bold fs_xxll text_shadow_blue mb-0 leading_124">
-                    World's Most Profitable Strategy?
+                    Most Profitable Strategy Globally?
                 </p>
                 <p
                     class="pt-sm-4 pt-3 text-center text-white fs_3lg ff_roboto fw-normal leading_144 pb-md-5 mb-sm-4 mb-3">
@@ -885,27 +915,27 @@
                     </p>
                     <ul class="ps-0 mb-sm-5 mb-4 pb-xl-5 d-flex flex-column gap-2">
                         <li class="fw-normal ff_oxygen text-black fs_lg d-flex align-items-center gap-1">
-                            <img src="./assets/images/thanks/blue-tick.svg" class="tick tick_space blue_tick_shadow"
+                            <img src="./assets/images/faq/gradient-tick.svg" class="tick tick_space blue_tick_shadow"
                                 alt="tick" />
                             <p class="mb-0">Pay off their mortgage</p>
                         </li>
                         <li class="fw-normal ff_oxygen text-black fs_lg d-flex align-items-center gap-1">
-                            <img src="./assets/images/thanks/blue-tick.svg" class="tick tick_space blue_tick_shadow"
+                            <img src="./assets/images/faq/gradient-tick.svg" class="tick tick_space blue_tick_shadow"
                                 alt="tick" />
                             <p class="mb-0">Purchase modern cars</p>
                         </li>
                         <li class="fw-normal ff_oxygen text-black fs_lg d-flex align-items-xl-center gap-1">
-                            <img src="./assets/images/thanks/blue-tick.svg" class="tick tick_space blue_tick_shadow"
+                            <img src="./assets/images/faq/gradient-tick.svg" class="tick tick_space blue_tick_shadow"
                                 alt="tick" />
                             <p class="mb-0">To finance their children's education</p>
                         </li>
                         <li class="fw-normal ff_oxygen text-black fs_lg d-flex align-items-xl-center gap-1">
-                            <img src="./assets/images/thanks/blue-tick.svg" class="tick tick_space blue_tick_shadow"
+                            <img src="./assets/images/faq/gradient-tick.svg" class="tick tick_space blue_tick_shadow"
                                 alt="tick" />
                             <p class="mb-0">Quit a demanding job</p>
                         </li>
                         <li class="fw-normal ff_oxygen text-black fs_lg d-flex align-items-xl-center gap-1">
-                            <img src="./assets/images/thanks/blue-tick.svg" class="tick tick_space blue_tick_shadow"
+                            <img src="./assets/images/faq/gradient-tick.svg" class="tick tick_space blue_tick_shadow"
                                 alt="tick" />
                             <p class="mb-0">
                                 Provide financial support to their family and friends
@@ -984,12 +1014,12 @@
                             </p>
                             <div class="help-block help-block-error">
                                 <p class="error_answer" id="error_answer" style="
-                    display: none;
-                    font-weight: bold;
-                    color: red;
-                    text-align: center;
-                    font-size: 15px;
-                  "></p>
+                        display: none;
+                        font-weight: bold;
+                        color: red;
+                        text-align: center;
+                        font-size: 15px;
+                      "></p>
                             </div>
                         </form>
                         <!-- countdown -->
@@ -1034,9 +1064,13 @@
                 <p class="fs_lg fw-semibold text_rich_black mb-0">619 comments</p>
                 <div class="d-flex align-items-center gap-2 gap-sm-3">
                     <p class="fw-semibold fs_lg text_rich_black mb-0">Sort by:</p>
-                    <p class="fs_lg text_rich_black fw-semibold method_pro_comment_sort_by mb-0">
-                        Top
-                    </p>
+                    <div class="comment_top">
+                        <div class="bg-white rounded_full">
+                            <p class="fs_lg text_rich_black fw-semibold bg-white method_pro_comment_sort_by mb-0">
+                                Top
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="d-flex align-items-center pt-1 gap-3 gap-sm-4 pb-md-3 mb-lg-1">
@@ -1056,10 +1090,10 @@
             </div>
             <div class="d-flex align-items-start pt-4 pt-sm-5 gap-3 gap-sm-4">
                 <img class="rounded-circle object-fit-cover user_profile w-100"
-                    src="./assets/images/comments/james-jhonson.png" alt="james-jhonson" />
+                    src="./assets/images/comments/dainel.png" alt="james-jhonson" />
                 <div class="ms-lg-3 ps-1">
                     <p class="text_bluish_cyan fs_lg fw-semibold mb-2 leading_130">
-                        James Johnson
+                        Daniel
                     </p>
                     <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
                         Does this really work? How can I get started?
@@ -1082,17 +1116,17 @@
                     <div class="replay_parent ps-2 mt-4">
                         <div class="d-flex align-items-start ps-1 pt-2 gap-3">
                             <img class="rounded-circle object-fit-cover replay_user_profile w-100"
-                                src="./assets/images/comments/mia-moore.png" alt="mia-moore" />
+                                src="./assets/images/comments/madison.png" alt="mia-moore" />
 
                             <div>
                                 <p class="text_bluish_cyan fs_lg fw-semibold mb-2 leading_130">
-                                    Mia Moore
+                                    Madison
                                 </p>
                                 <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
-                                    Yes, it actually worked for me. Only 2 weeks and I have just
-                                    withdrawn my earned funds. I left my info in the
-                                    registration form and after 10 minutes, I received a call
-                                    from the support team, and they helped me with everything.
+                                    Yes, it actually worked for me. Only 2 weeks and I have just withdrawn my earned
+                                    funds. I left my info in the
+                                    registration form and after 10 minutes, I received a call from the support team, and
+                                    they helped me with everything.
                                 </p>
                                 <div class="d-flex align-items-center gap-3">
                                     <div class="d-flex align-items-center gap-1">
@@ -1113,11 +1147,11 @@
                         </div>
                         <div class="d-flex align-items-start ps-1 pt-4 mt-2 gap-3">
                             <img class="rounded-circle object-fit-cover replay_user_profile w-100"
-                                src="./assets/images/comments/david-williams.png" alt="david-williams" />
+                                src="./assets/images/comments/logan.png" alt="david-williams" />
 
                             <div>
                                 <p class="text_bluish_cyan fs_lg fw-semibold mb-2 leading_130">
-                                    David Williams
+                                    Logan
                                 </p>
                                 <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
                                     Yup, same here. I signed up, and they called me after 7
@@ -1145,15 +1179,14 @@
                 </div>
             </div>
             <div class="d-flex align-items-start pt-4 mt-sm-2 gap-3 gap-sm-4">
-                <img class="rounded-circle object-fit-cover user_profile w-100"
-                    src="./assets/images/comments/olivia-anderson.png" alt="olivia-anderson" />
+                <img class="rounded-circle object-fit-cover user_profile w-100" src="./assets/images/comments/lucy.png"
+                    alt="olivia-anderson" />
                 <div class="ms-lg-3 ps-1">
                     <p class="text_bluish_cyan fs_lg fw-semibold mb-2 leading_130">
-                        Olivia Anderson
+                        Lucy
                     </p>
                     <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
-                        I was finally able to buy a new car. Not life but a dream ... But
-                        dreams come true)))
+                        I signed up last week and have already earned CAD $2,800! I recommend to everyone.
                     </p>
                     <div class="d-flex align-items-center gap-3">
                         <div class="d-flex align-items-center gap-1">
@@ -1173,18 +1206,19 @@
                 </div>
             </div>
             <div class="d-flex align-items-start pt-4 mt-sm-2 gap-3 gap-sm-4">
-                <img class="rounded-circle object-fit-cover user_profile w-100"
-                    src="./assets/images/comments/andrew-harris.png" alt="andrew-harris" />
+                <img class="rounded-circle object-fit-cover user_profile w-100" src="./assets/images/comments/symon.png"
+                    alt="andrew-harris" />
                 <div class="ms-lg-3 ps-1">
                     <p class="text_bluish_cyan fs_lg fw-semibold mb-2 leading_130">
-                        Andrew Harris
+                        Symon
                     </p>
                     <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
                         Now I have the opportunity to go on holiday this year :) And the
                         buzz itself is that I will rest, and the system will earn day and
                         night. This is just a fairy tale!
                         <a href="#thankyou-form"
-                            class="text_bluish_cyan fw-semibold comment_replay_like_buttons transition_03">See More</a>
+                            class="text_bluish_cyan fw-semibold comment_replay_like_buttons transition_03">See
+                            More</a>
                     </p>
                     <div class="d-flex align-items-center gap-3">
                         <div class="d-flex align-items-center gap-1">
@@ -1204,11 +1238,11 @@
                 </div>
             </div>
             <div class="d-flex align-items-start pt-4 mt-sm-2 gap-3 gap-sm-4">
-                <img class="rounded-circle object-fit-cover user_profile w-100"
-                    src="./assets/images/comments/isabeela-harris.png" alt="isabeela-harris" />
+                <img class="rounded-circle object-fit-cover user_profile w-100" src="./assets/images/comments/mila.png"
+                    alt="isabeela-harris" />
                 <div class="ms-lg-3 ps-1">
                     <p class="text_bluish_cyan fs_lg fw-semibold mb-2 leading_130">
-                        Isabella Harris
+                        Mila
                     </p>
                     <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
                         I signed up last week and have already earned CAD $2,800! I
@@ -1232,11 +1266,11 @@
                     <div class="replay_parent ps-2 mt-4">
                         <div class="d-flex align-items-start ps-1 pt-2 gap-3">
                             <img class="rounded-circle object-fit-cover replay_user_profile w-100"
-                                src="./assets/images/comments/mary-smith.png" alt="mary-smith" />
+                                src="./assets/images/comments/watson.png" alt="mary-smith" />
 
                             <div>
                                 <p class="text_bluish_cyan fs_lg fw-semibold mb-2 leading_130">
-                                    Mary Smith
+                                    Watson
                                 </p>
                                 <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
                                     Just signed up, people, wish me good luck! ...
@@ -1263,11 +1297,11 @@
                         </div>
                         <div class="d-flex align-items-start ps-1 pt-4 mt-2 gap-3">
                             <img class="rounded-circle object-fit-cover replay_user_profile w-100"
-                                src="./assets/images/comments/anna-brown.png" alt="anna-brown" />
+                                src="./assets/images/comments/eliana.png" alt="anna-brown" />
 
                             <div>
                                 <p class="text_bluish_cyan fs_lg fw-semibold mb-2 leading_130">
-                                    Anna Brown
+                                    Eliana
                                 </p>
                                 <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
                                     I registered two days ago, the balance is already CAD$7,500,
@@ -1293,7 +1327,7 @@
                             </div>
                         </div>
                         <a href="#thankyou-form"
-                            class="bg_bright_gray mt-3 d-inline-block w-100 mt-md-4 mt-lg-5 cursior_pointer show_more_comments_parent ms-1">
+                            class="bg_light_gradient mt-3 d-inline-block w-100 mt-md-4 mt-lg-5 cursior_pointer show_more_comments_parent ms-1">
                             <p class="fs_base fw-normal leading_140 text-center text_rich_black mb-0">
                                 Show 10 more replies in this thread
                             </p>
@@ -1302,11 +1336,11 @@
                 </div>
             </div>
             <div class="d-flex align-items-start pt-4 pt-sm-5 py-lg-5 mb-5 pb-4 mt-sm-2 gap-3 gap-sm-4">
-                <img class="rounded-circle object-fit-cover user_profile w-100"
-                    src="./assets/images/comments/sophia-martinz.png" alt="sophia-martinz" />
+                <img class="rounded-circle object-fit-cover user_profile w-100" src="./assets/images/comments/ruby.png"
+                    alt="sophia-martinz" />
                 <div class="ms-lg-3 ps-1">
                     <p class="text_bluish_cyan fs_lg fw-semibold mb-2 leading_130">
-                        Sophia Martinez
+                        Ruby
                     </p>
                     <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1 pe-xl-4">
                         I am in shock and my friends too! At first I thought that there
@@ -1337,28 +1371,32 @@
         </div>
     </section>
     <!-- ============= FOOTER ============== -->
-    <footer>
-        <div class="bg_cyan_blue">
-            <div class="custom_container container">
-                <div class="pt-5 pb-4 pb-lg-5 d-flex align-items-center justify-content-center flex-column">
-                    <div class="footer_logo mx-auto pb-3 pb-md-4 pb-lg-4">
-                        <a href="/" class="d-flex justify-content-center">
-                            <img class="method_pro_footer_logo" src="./assets/images/method-pro/footer-logo.png"
-                                alt="footer-logo" /></a>
-                        <p
-                            class="mx-auto text-center text-white ff_oxanium fs_2lg fw-semibold mb-0 mt-1 pt-2 white_text_shadow">
-                            AI Arbitrage Method Pro
-                        </p>
-                        <p
-                            class="pt-2 mt-1 text-white text-center ff_inter fs_base mb-0 leading_160 opacity_08 ff_oxygen max_w_261 mx-auto">
-                            Empowering Your Financial Future with Intelligent Investments
-                        </p>
-                    </div>
-                    <p class="fs_lg text-white text-center fw-bold mb-2 mb-sm-3 ff_oxygen">
+    <footer class="bg_footer pt-1">
+
+        <div class="mw_1440 mx-auto px-3 ">
+            <div
+                class="d-flex align-items-start flex-lg-row flex-column justify-content-between w-100 py-4 py-lg-5 mt-2">
+                <div class="footer_logo lg_w_260  pb-1 mx-auto mx-lg-0">
+                    <a href="/" class="d-flex justify-content-center justify-content-lg-start">
+                        <img class="method_pro_footer_logo" src="./assets/images/method-pro/footer-logo.png"
+                            alt="footer-logo" /></a>
+                    <p
+                        class="mx-auto text-center text-lg-start text-white ff_oxanium fs_2lg fw-semibold mb-0 mt-1 pt-2 white_text_shadow">
+                        AI Arbitrage Method Pro
+                    </p>
+                    <p
+                        class="pt-2 mt-1 text-white text-center text-lg-start ff_inter fs_base mb-0 leading_160 opacity_08 ff_oxygen max_w_261 mx-auto">
+                        Empowering Your Financial Future with Intelligent Investments
+                    </p>
+                </div>
+                <div
+                    class=" d-flex align-items-center ps-lg-5 pt-4 pt-lg-0 footer_text align-items-lg-start justify-content-center justify-content-lg-start flex-column">
+
+                    <p class="fs_lg text-white text-center text-lg-start fw-bold mb-2 mb-sm-3 ff_oxygen">
                         Disclaimer
                     </p>
                     <p
-                        class="text-white text-center fs_base leading_160 mb-0 fw-normal ff_roboto opacity_08 footer_para">
+                        class="text-white text-center text-lg-start fs_base leading_160 mb-0 fw-normal ff_roboto opacity_08 footer_para">
                         This website is not a news agency, information website, or blog.
                         It is a webpage aimed at promotional publications that use the
                         technique of storytelling to illustrate the scope of the services
@@ -1372,21 +1410,22 @@
                         cannot afford to lose.
                     </p>
                 </div>
-                <div class="footer_border_line"></div>
-                <div
-                    class="d-flex justify-content-between align-items-center pt-lg-3 pt-2 pb-4 flex-column flex-sm-row">
-                    <div class="fs_base text-white fw-normal mb-1 d-flex align-items-center gap-1 ps-1 ps-sm-0">
-                        <a href="#privacy-policy" class="text-white">Privacy Policy</a>
-                        |
-                        <a href="#conditions" class="text-white"> Conditions </a>
-                    </div>
-                    <p class="text-white fs_base fw-normal mb-1">
-                        <a href="#report" class="text-white"> Report Abuse/ Spam </a>
-                        | Copyright@<span id="currentYear">2024</span>
-                    </p>
+            </div>
+
+            <div class="footer_border_line"></div>
+            <div class="d-flex justify-content-between align-items-center pt-lg-3 pt-2 pb-4 flex-column flex-sm-row">
+                <div class="fs_base text-white fw-normal mb-1 d-flex align-items-center opacity_08 gap-1 ps-1 ps-sm-0">
+                    <a href="#privacy-policy" class="text-white">Privacy Policy</a>
+                    |
+                    <a href="#conditions" class="text-white"> Conditions </a>
                 </div>
+                <p class="text-white fs_base opacity_08 fw-normal mb-1">
+                    <a href="#report" class="text-white"> Report Abuse/ Spam </a>
+                    | Copyright@<span id="currentYear">2024</span>
+                </p>
             </div>
         </div>
+
     </footer>
     <!-- ============ BACK TO TOP ============= -->
     <button aria-label="back-to-top" id="scrollToTop" style="display: none"
@@ -1402,6 +1441,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 
     <!--======== BOOTSTRAP JS LINK ========-->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
@@ -1412,6 +1452,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- Swiper JS -->
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!-- ============ JS LINK ============ -->
@@ -1506,6 +1547,7 @@
             document.querySelector(".counter").classList.add("d-none"),
         ];
     </script>
+
     <style>
         .preloader {
             display: none;

@@ -2,9 +2,11 @@
 .arbitrage_winner_heading {
   max-width: 500px;
 }
+
 .arbitrage_winner_paragraph {
   max-width: 690px;
 }
+
 .reviewSwiper {
   padding: 74px 20px;
 }
@@ -13,21 +15,48 @@
 .mySwiper {
   padding: 0 20px;
 }
+
 .slider_profile_img {
-  width: 44px;
-  height: 44px;
+  width: 184px;
+  height: 191px;
 }
+
 .slider_box {
-  min-height: 240px;
-  border-radius: 20px;
-  padding: 21px 14px;
+  max-width: 891px;
+  width: 100%;
+  min-height: 325px;
+  border-radius: 15px;
+  padding: 54px 57px 78px 58px;
   transition: all 0.3s ease-in-out;
   border: 1px solid white;
   box-shadow: 0px 25px 39px -9px #00000017;
+  position: relative;
 }
+
+.slider_box::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  border: 2px solid transparent;
+  background: linear-gradient(133.83deg, #00B9FF 3.77%, #6F69F2 81.07%) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  z-index: -1;
+}
+
+.swiper-slide.swiper-slide-active .slider_box {
+  box-shadow: 10px 10px 0px 0px #90AEFF;
+  background: linear-gradient(102.5deg, rgba(110, 93, 246, 0.2) -2.76%, rgba(0, 255, 225, 0.2) 97.18%);
+}
+
 .sponsor_slide {
   display: none;
 }
+
 .sponsor_slide,
 .sponsor_slide_img {
   max-width: 1250px;
@@ -39,13 +68,16 @@
   display: flex !important;
   align-items: center !important;
 }
+
 .slider_box:hover {
   border: 1px solid transparent;
   box-shadow: 0px 25px 39px -9px #00000017;
 }
+
 .review_slide .slick-track {
   display: flex !important;
 }
+
 .review_slide .slick-slide {
   height: inherit !important;
 }
@@ -54,6 +86,7 @@
   padding-left: 12px;
   padding-right: 12px;
 }
+
 /* ============ BACK TO TOP CSS =========== */
 
 /* BACK-TO-TOP */
@@ -68,30 +101,33 @@
   z-index: 40;
   animation: back-to-top infinite 1.2s linear alternate;
 }
+
 @keyframes back-to-top {
   0% {
     transform: translateY(-20px);
   }
+
   100% {
     transform: translateY(0px);
   }
 }
+
 @media (max-width: 1199.98px) {
-  .slider_box {
-    min-height: 215px;
-  }
   .sponsor_slide {
     display: flex;
   }
+
   .sponsor_slide_img {
     column-gap: 25px;
   }
 }
+
 @media (max-width: 767.9px) {
   .back_top_top {
     width: 35px;
     height: 35px;
   }
+
   .back_top_top img {
     width: 45px;
   }
@@ -100,20 +136,24 @@
     padding-bottom: 32px;
   }
 }
+
 @media (max-width: 639.98px) {
   .reviewSwiper {
     padding: 50px 40px;
   }
 }
+
 @media (max-width: 575.98px) {
   .reviewSwiper {
     padding: 40px 12px;
   }
+
   .coutdown_digit_box {
     height: 50px;
     width: 50px;
     border-radius: 10px;
   }
+
   .accordion-button::after {
     width: 15px;
     height: 15px;
@@ -124,10 +164,46 @@
   .flex_xsm_col {
     flex-direction: column !important;
   }
+
   .review_slider_parent {
     margin-top: 8px;
   }
+
   .slider_box {
     min-height: 260px;
+  }
+}
+
+@media (max-width:576px) {
+  .slider_box {
+    padding: 20px;
+  }
+
+  .slider_profile_img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.text-ceo {
+  color: #4d4d4d;
+  opacity: 50%;
+}
+
+@media (min-width:1920px) {
+  .slider_box {
+    height: 325px;
+  }
+}
+
+@media (min-width:1200px) {
+  .slider_box {
+    height: 351px;
+  }
+}
+
+@media (min-width:1440px) {
+  .slider_box {
+    height: 325px;
   }
 }

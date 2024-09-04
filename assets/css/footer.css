@@ -21,10 +21,7 @@ input::-webkit-inner-spin-button {
 .method_pro_comment_sort_by {
   border-radius: 100px;
   padding: 8px 18px;
-  background: linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #809BCE;
 }
 .user_profile {
   max-width: 91px;
@@ -70,12 +67,10 @@ input::-webkit-inner-spin-button {
   max-width: 281px;
 }
 .footer_border_line {
-  background: linear-gradient(90deg, #7dd0ff 0%, #00a4ff 100%);
   height: 1px;
-  width: 100%;
 }
 .bg_footer {
-  background: linear-gradient(180deg, #56ccf2 0%, #2f80ed 100%),
+  background:
     linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
 }
 .footer_para {
