@@ -143,10 +143,13 @@ body {
 }
 .comment_top {
   padding: 2px;
-  background: linear-gradient(180deg, #56ccf2 0%, #2f80ed 100%),
-    linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
+  background:var(--light-green);
     border-radius: 100px;
 }
+ .top_padding{
+  padding: 8px 18px;
+ }
+ 
 /* Font Weight */
 .fw_800 {
   font-weight: 800;
