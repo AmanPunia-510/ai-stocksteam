@@ -658,7 +658,7 @@
             </div>
           </ul>
         </div>
-        <div class="d-flex justify-content-center get_btn_live mx-auto">
+        <div class="d-flex justify-content-center">
           <a href="#thankyou-form"
             class="hero_button get_start_live_button fw-bold ff_oxygen text-white fs_lg leading_140 mt-4 mt-lg-5 mb-xl-2">
             Get started here
@@ -863,6 +863,93 @@
                 <p class="mb-0">To finance their children's education</p>
               </li>
               <li class="fw-normal ff_oxygen text-black fs_lg d-flex align-items-xl-center gap-1">
+                <img src="./assets/images/faq/gradient-tick.svg" class="tick tick_space blue_tick_shadow" alt="tick" />
+                <p class="mb-0">Quit a demanding job</p>
+              </li>
+              <li class="fw-normal ff_oxygen text-black fs_lg d-flex align-items-xl-center gap-1">
+                <img src="./assets/images/faq/gradient-tick.svg" class="tick tick_space blue_tick_shadow" alt="tick" />
+                <p class="mb-0">
+                  Provide financial support to their family and friends
+                </p>
+              </li>
+            </ul>
+            <div
+              class="d-flex align-items-center justify-content-lg-start justify-content-center gap_sm_30 gap_12 flex-wrap">
+              <img src="./assets/images/thanks/investing.webp" alt="investing" class="investing w-xl-75 w-50" />
+              <img src="./assets/images/thanks/goggle.webp" alt="goggle" class="goggle w-xl-75 w-50" />
+              <img src="./assets/images/thanks/forbes.webp" alt="forbes" class="forbes w-xl-75 w-50" />
+            </div>
+          </div>
+          <div id="thankyou-form"
+            class="col-lg-6 col-12 form_spacing d-flex justify-content-lg-start justify-content-center">
+            <div class="form_max_w">
+              <div class="preloader" id="preloader" style="z-index: 9999">
+                <div class="preloader-content">
+                  <p
+                    class="fw-bold text_bluish_cyan ff_oxygen fs_2xxl d-inline-block px-4 py-3 bg-white video_shadow rounded-2">
+                    Form Submitted Successfully
+                  </p>
+                </div>
+              </div>
+              <form onsubmit="handleFormSubmit(event, 'thanksForm','')"
+                class="thanks_form invest_form overflow-hidden mb-4" id="thanksForm">
+                <div class="bg_bluish_cyan w-100 px-4 py-3">
+                  <p class="fw-bold fs_lg text-white ff_oxygen form_heading py-1 pe-xl-3 mb-2">
+                    Let AI Secure Profits with Prime Arbitrage Opportunities for
+                    You!
+                  </p>
+                </div>
+                <div class="form_input bg-white">
+                  <div class="d-flex flex-sm-row flex-column mb-2">
+                    <div class="w-100 pe-1">
+                      <label for="firstName3" class="text-black fw-normal fs_base ff_roboto">First
+                        Name</label>
+                      <input required class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base ff_roboto"
+                        type="text" name="first_name" id="first_name" />
+                      <p class="mb-0 error bg-white text-danger fw-normal fs_xs" id="tradingFirstNameError"></p>
+                    </div>
+                    <div class="w-100 pe-0 ps-1 pt-sm-0 pt_10 mt-sm-0 mt-1">
+                      <label for="lastname3" class="text-black fw-normal fs_base ff_roboto">Last
+                        Name</label>
+                      <input required class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base ff_roboto"
+                        type="text" name="last_name" id="last_name" />
+                      <p class="mb-0 error bg-white text-danger fw-normal fs_xs" id="tradingLastNameError"></p>
+                    </div>
+                  </div>
+                  <label for="email3" class="text-black fw-normal fs_base ff_roboto pt_10 mt-1">Email</label>
+                  <div class="rounded-pill mb-2">
+                    <input required class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base ff_roboto"
+                      type="email" name="email" id="email" />
+                  </div>
+                  <p class="mb-0 error bg-white text-danger fw-normal fs_xs" id="tradingEmailError"></p>
+                  <label for="Number3" class="text-black fw-normal fs_base ff_roboto pt_10 mt-1">Phone
+                    Number</label>
+                  <input required class="rounded-pill bg-white max_h_37 trading_input w-100 pe-3 fs_sm ff_roboto"
+                    type="number" name="number" id="Number3" />
+                  <p class="mb-0 error bg-white text-danger fw-normal fs_xs" id="tradingNumberError"></p>
+                  <button type="submit" class="text-white sign_up_btn ff_roboto rounded-pill fw-bold fs_base w-100">
+                    Sign Up
+                  </button>
+                </div>
+                <p class="pb-3 mb-1 text-center fw-semibold ff_oxygen fs_lg text_rich_black">
+                  <span class="spots_left">4</span> Spots Left
+                </p>
+                <div class="help-block help-block-error">
+                  <p class="error_answer" id="error_answer" style="
+                        display: none;
+                        font-weight: bold;
+                        color: red;
+                        text-align: center;
+                        font-size: 15px;
+                      "></p>
+                </div>
+              </form>
+              <!-- countdown -->
+              <div id="first-counter" class="mx-auto">
+                <ul class="px-3 mx-auto d-flex justify-content-center justify-content-between mb-0">
+                  <li class="d-flex flex-column text_light_black text-center ff_roboto">
+                    <span
+                      class="d-flex justify-content-center align-items-center fw-bold fs_xxl text-black coutdown_digit_box ff_oxanium"
                       id="first-hours"></span>Hours
                   </li>
                   <li>
@@ -1008,85 +1095,12 @@
                       122 · 2 min
                     </p>
                   </div>
-                  <div class="form_input bg-white">
-                    <div class="d-flex flex-sm-row flex-column mb-2">
-                      <div class="w-100 pe-1">
-                        <label for="firstName3" class="text-black fw-normal fs_base ff_roboto">First
-                          Name</label>
-                        <input required class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base ff_roboto"
-                          type="text" name="first_name" id="first_name" />
-                        <p class="mb-0 error bg-white text-danger fw-normal fs_xs" id="tradingFirstNameError"></p>
-                      </div>
-                      <div class="w-100 pe-0 ps-1 pt-sm-0 pt_10 mt-sm-0 mt-1">
-                        <label for="lastname3" class="text-black fw-normal fs_base ff_roboto">Last
-                          Name</label>
-                        <input required class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base ff_roboto"
-                          type="text" name="last_name" id="last_name" />
-                        <p class="mb-0 error bg-white text-danger fw-normal fs_xs" id="tradingLastNameError"></p>
-                      </div>
-                    </div>
-                    <label for="email3" class="text-black fw-normal fs_base ff_roboto pt_10 mt-1">Email</label>
-                    <div class="rounded-pill mb-2">
-                      <input required class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base ff_roboto"
-                        type="email" name="email" id="email" />
-                    </div>
-                    <p class="mb-0 error bg-white text-danger fw-normal fs_xs" id="tradingEmailError"></p>
-                    <label for="Number3" class="text-black fw-normal fs_base ff_roboto pt_10 mt-1">Phone
-                      Number</label>
-                    <input required class="rounded-pill bg-white max_h_37 trading_input w-100 pe-3 fs_sm ff_roboto"
-                      type="number" name="number" id="Number3" />
-                    <p class="mb-0 error bg-white text-danger fw-normal fs_xs" id="tradingNumberError"></p>
-                    <button type="submit" class="text-white sign_up_btn ff_roboto rounded-pill fw-bold fs_base w-100">
-                      Sign Up
-                    </button>
-                  </div>
-                  <p class="pb-3 mb-1 text-center fw-semibold ff_oxygen fs_lg text_rich_black">
-                    <span class="spots_left">4</span> Spots Left
-                  </p>
-                  <div class="help-block help-block-error">
-                    <p class="error_answer" id="error_answer" style="
-                          display: none;
-                          font-weight: bold;
-                          color: red;
-                          text-align: center;
-                          font-size: 15px;
-                        "></p>
-                  </div>
-                </form>
-                <!-- countdown -->
-                <div id="first-counter" class="mx-auto">
-                  <ul class="px-3 mx-auto d-flex justify-content-center justify-content-between mb-0">
-                    <li class="d-flex flex-column text_light_black text-center ff_roboto">
-                      <span
-                        class="d-flex justify-content-center align-items-center fw-bold fs_xxl text-black coutdown_digit_box ff_oxanium"
-                        id="first-hours"></span>Hours
-                    </li>
-                    <li>
-                      <img src="./assets/images/thanks/blue-dots.svg" class="countdown_dots" alt="dots" />
-                    </li>
-                    <li class="d-flex flex-column text_light_black text-center ff_roboto">
-                      <span
-                        class="d-flex justify-content-center align-items-center fw-bold fs_xxl text-black coutdown_digit_box ff_oxanium"
-                        id="first-minutes"></span>Minutes
-                    </li>
-                    <li>
-                      <img src="./assets/images/thanks/blue-dots.svg" alt="dots" class="countdown_dots" />
-                    </li>
-                    <li class="d-flex flex-column text_light_black text-center ff_roboto">
-                      <span
-                        class="d-flex justify-content-center align-items-center fw-bold fs_xxl text-black coutdown_digit_box ff_oxanium"
-                        id="first-seconds"></span>Seconds
-                    </li>
-                  </ul>
                 </div>
               </div>
             </div>
           </div>
-          <p
-            class="mb-4 pb-2 mt-md-5 pt-4 text-white text-center ff_oxygen fw-bold fs_3xl text_shadow_blue d-sm-block d-none">
-            Get Access For Free!
-          </p>
         </div>
+        <div class="d-flex align-items-start pt-4 mt-sm-2 gap-3 gap-sm-4">
           <img class="rounded-circle object-fit-cover user_profile w-100" src="./assets/images/comments/lucy.png"
             alt="olivia-anderson" />
           <div class="ms-lg-3 ps-1">
@@ -1239,70 +1253,7 @@
                 <p class="fs_base fw-normal leading_140 text-center text_rich_black mb-0">
                   Show 10 more replies in this thread
                 </p>
-              </div>
-              <div class="replay_parent ps-2 mt-4">
-                <div class="d-flex align-items-start ps-1 pt-2 gap-3">
-                  <img class="rounded-circle object-fit-cover replay_user_profile w-100"
-                    src="./assets/images/comments/madison.png" alt="mia-moore" />
-      
-                  <div>
-                    <p class="text_bluish_cyan fs_lg fw-semibold mb-2 leading_130">
-                      Madison
-                    </p>
-                    <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
-                      Yes, it actually worked for me. Only 2 weeks and I have just withdrawn my earned
-                      funds. I left my info in the
-                      registration form and after 10 minutes, I received a call from the support team, and
-                      they helped me with everything.
-                    </p>
-                    <div class="d-flex align-items-center gap-3">
-                      <div class="d-flex align-items-center gap-1">
-                        <a href="#thankyou-form" onclick="likeToastHandler()"
-                          class="bg-transparent border-0 text_bluish_cyan fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
-                          Like.
-                        </a>
-                        <a href="#thankyou-form"
-                          class="bg-transparent border-0 text_bluish_cyan fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
-                          Reply
-                        </a>
-                      </div>
-                      <p class="text_rich_black fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base">
-                        252 · 1 min
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="d-flex align-items-start ps-1 pt-4 mt-2 gap-3">
-                  <img class="rounded-circle object-fit-cover replay_user_profile w-100"
-                    src="./assets/images/comments/logan.png" alt="david-williams" />
-      
-                  <div>
-                    <p class="text_bluish_cyan fs_lg fw-semibold mb-2 leading_130">
-                      Logan
-                    </p>
-                    <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
-                      Yup, same here. I signed up, and they called me after 7
-                      minutes. Excellent service from Eric, the support guy, and a
-                      quick 5-minute setup.
-                    </p>
-                    <div class="d-flex align-items-center gap-3">
-                      <div class="d-flex align-items-center gap-1">
-                        <a href="#thankyou-form" onclick="likeToastHandler()"
-                          class="bg-transparent border-0 text_bluish_cyan fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
-                          Like.
-                        </a>
-                        <a href="#thankyou-form"
-                          class="bg-transparent border-0 text_bluish_cyan fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
-                          Reply
-                        </a>
-                      </div>
-                      <p class="text_rich_black fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base">
-                        122 · 2 min
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -1336,30 +1287,6 @@
               <p class="text_rich_black fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base">
                 1584 · 5 hrs
               </p>
-              <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1 pe-xl-4">
-                I am in shock and my friends too! At first I thought that there
-                was some kind of scam, it was not clear what and how it worked.
-                But then the manager contacted me and explained everything in
-                detail, it turned out to be very simple! I always worked hard and
-                didn’t think that you could make money like that ..) In short, I
-                bought a car. Good luck to everyone, I highly recommend this
-                platform !!
-              </p>
-              <div class="d-flex align-items-center gap-3">
-                <div class="d-flex align-items-center gap-1">
-                  <a href="#thankyou-form" onclick="likeToastHandler()"
-                    class="bg-transparent border-0 text_bluish_cyan fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
-                    Like.
-                  </a>
-                  <a href="#thankyou-form"
-                    class="bg-transparent border-0 text_bluish_cyan fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
-                    Reply
-                  </a>
-                </div>
-                <p class="text_rich_black fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base">
-                  1584 · 5 hrs
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -1610,5 +1537,4 @@
     }
   </script>
 </body>
-
 </html>

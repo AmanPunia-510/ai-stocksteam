@@ -204,6 +204,13 @@
 .get_start_live_button {
   background: linear-gradient(0deg, #36cef0, #36cef0);
   border: 2px solid #ffffff;
+  background: linear-gradient(0deg, #36cef0, #36cef0);
+  border: 2px solid #ffffff;
+  max-width: 272px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 19px;
 }
 
 .get_start_live_button:hover {
