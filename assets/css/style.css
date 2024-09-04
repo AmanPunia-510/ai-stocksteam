@@ -46,7 +46,6 @@ body {
   --light-black: #000c03;
   --rich-black: #020507;
   --cyan-blue: #29333a;
-  --bluish-cyan: #00a4ff;
   --green: #01d61b;
   --dark-green: #3bff00;
   --light-green: #4cc973;
@@ -89,7 +88,7 @@ body {
 .fs_4xl {
   font-size: var(--fs-4xl);
 }
-.text_bluish_cyan {
+.text_light_green {
   color: var(--light-green);
 }
 .bg_light_gradient {
@@ -99,9 +98,6 @@ body {
   background: var(--light-gray);
 }
 
-.bg_dark_blue {
-  background-color: var(--dark-blue);
-}
 .text_light_black {
   color: var(--light-black);
 }
@@ -126,12 +122,7 @@ body {
 .bg_light_green {
   background-color: var(--light-green);
 }
-.bg_cyan_blue {
-  background: linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
-}
-.bg_light_green {
-  background-color: var(--light-green);
-}
+
 .bg_light_white {
   background-color: var(--light-white);
 }
