@@ -113,7 +113,7 @@ input:focus-visible {
   outline: var(--bluish-cyan) auto 1px;
 }
 .sign_up_btn {
-  background: linear-gradient(180deg, #56ccf2 0%, #2f80ed 100%),
+  background:
     linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
   border: 2px solid white;
   padding: 10px;
