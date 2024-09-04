@@ -173,9 +173,7 @@ function generateReviewCard(review) {
               <div class="d-flex justify-content-between mt-3 mt-md-0">
                   <div>
                     <div class="ms-1">
-                        <h2 class="text-black fw-semibold fs_base leading_130 mb-0">${
-                          review.title
-                        }</h2>
+                        <h2 class="text-black fw-semibold fs_base leading_130 mb-0">${review.title}</h2>
                     </div>
                     </div>
                     <div class="">
@@ -185,9 +183,7 @@ function generateReviewCard(review) {
                     </div>
                     </div>
                   </div>
-                  <p class="leading_150 fs_base text-black opacity_07 mt-4 mb-0"><span class="fw-bold">Review</span> ${
-                    review.description
-                  }</p>
+                  <p class="leading_150 fs_base text-black opacity_07 mt-4 mb-0"><span class="fw-bold">Review</span> ${review.description}</p>
                 </div>
               </div>
     </div>
