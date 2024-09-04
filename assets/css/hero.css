@@ -249,3 +249,15 @@
 .gap_44 {
   gap: 44px;
 }
+
+
+
+/* v2 */
+.bg_green {
+  background: #4CC973;
+  ;
+}
+
+.text_green {
+  color: #4cc973;
+}
