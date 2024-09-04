@@ -13,7 +13,6 @@
   margin-left: -12px;
   margin-right: -12px;
   row-gap: 24px;
-  padding-bottom: 121px;
 }
 
 .story_play {
@@ -117,7 +116,6 @@
   margin-left: -12px;
   margin-right: -12px;
   row-gap: 24px;
-  padding-bottom: 121px;
 }
 
 .story_play {
@@ -175,10 +173,6 @@
     object-fit: cover;
   }
 
-  .story_video_parent {
-    padding-bottom: 60px;
-  }
-
   .video-container {
     border-radius: 24px;
   }
@@ -191,10 +185,6 @@
 @media (max-width: 575.9px) {
   .video-container {
     border-radius: 18px;
-  }
-
-  .story_video_parent {
-    padding-bottom: 65px;
   }
 
   .tick_space {
