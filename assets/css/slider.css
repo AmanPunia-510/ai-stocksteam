@@ -189,3 +189,9 @@
   color: #4d4d4d;
   opacity: 50%;
 }
+
+@media (min-width:1920px) {
+  .slider_box {
+    height: 325px;
+  }
+}
