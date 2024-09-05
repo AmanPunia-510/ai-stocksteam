@@ -63,8 +63,8 @@
 .text_shadow_white {
   text-shadow: 0px 1.33px 33.3px #ffffff;
 }
-.text_shadow_green d-block d-block d-block {
-  box-shadow: 0px 0px 20px 0px #a2e33a;
+.text_shadow_green {
+  text-shadow: 0px 0px 20px #a2e33a;
 }
 
 .text_bottom_line {

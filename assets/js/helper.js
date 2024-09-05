@@ -168,24 +168,26 @@ function generateReviewCard(review) {
     <div class="swiper-slide">
     <div class="slider_box mx-auto">
     <div class="d-flex flex-column justify-start  gap_24">
-      <div className="d-flex w-100 justify-content-between">
+      <div className="d-flex w-100 align-items-center">
         <img class="slider_profile_img mx-auto rounded-pill object-fit-cover" sizes="100vw"
             src="${review.imageUrl}" alt="${review.title}">
+            <div class="d-flex flex-column ms-2 ps-1">
+            <p class="fw-semibold ff_roboto text_rich_black">
+            ${review.title}
+            </p>
+            <img class="slider_stars src = ${review.title}>
+            </div>
       </div>
           <div>
               <div class="d-flex justify-content-between mt-3 mt-md-0">
                   <div>
                     <div>
-                        <h2 class="text-black fw-semibold fs_base leading_130 mb-0">${
-                          review.title
-                        }</h2>
+                        <h2 class="text-black fw-semibold fs_base leading_130 mb-0">review</h2>
                        
                     </div>
                     </div>
                   </div>
-                  <p class="leading_150 fs_base text-black opacity_07 mt-4 mb-0"><span class="fw-bold">Review</span> ${
-                    review.description
-                  }</p>
+                  <p class="leading_150 fs_base text-black opacity_07 mt-4 mb-0"><span class="fw-bold">Review</span> ${review.description}</p>
                 </div>
               </div>
     </div>
