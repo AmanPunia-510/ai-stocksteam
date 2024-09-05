@@ -56,6 +56,25 @@ const reviews = [
       "The AI Arbitrage method is incredible! It helped me make significant profits quickly and effortlessly.",
     imageUrl: "./assets/images/arbitrage-winner/david-clark.png",
   },
+  {
+    title: "Michael Chen",
+
+    invested: 350,
+    stars: "./assets/images/success-story/slide-stars.png",
+    profit: 4891,
+    description:
+      "“The AI Arbitrage method is incredible! It helped me make significant profits quickly and effortlessly.”",
+    imageUrl: "./assets/images/arbitrage-winner/michael-chen-profile.webp",
+  },
+  {
+    title: "David Clark",
+    stars: "./assets/images/success-story/slide-stars.png",
+    invested: 2000,
+    profit: 1368.23,
+    description:
+      "The AI Arbitrage method is incredible! It helped me make significant profits quickly and effortlessly.",
+    imageUrl: "./assets/images/arbitrage-winner/david-clark.png",
+  },
 
 ];
 // Function to generate a review card

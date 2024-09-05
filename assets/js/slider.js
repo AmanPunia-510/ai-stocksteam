@@ -3,7 +3,7 @@ var swiper = new Swiper(".reviewSwiper", {
   centeredSlides: true,
   slidesPerView: 1,
   spaceBetween: 10,
-  loop: true,
+  loop:true,
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,
