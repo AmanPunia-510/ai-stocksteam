@@ -82,13 +82,16 @@ function generateReviewCard(review) {
     <div class="slider_box">
     <div class="d-flex flex-column  justify-start  gap_24">
       <div class="d-flex flex-column justify-start gap_24">
-  <div class="d-flex w-100 align-items-center">
+  <div class="d-flex w-100 justify-content-between align-items-center">
     <img class="slider_profile_img rounded-pill object-fit-cover" sizes="100vw"
          src="${review.imageUrl}" alt="${review.title}">
     <div class="d-flex flex-column ms-2 ps-1">
       <p class="fw-semibold ff_roboto text_rich_black mb-0">${review.title}</p>
       <img class="slider_stars" src="${review.stars}" alt="Stars"/>
     </div>
+        <div><p class="text_light_green ff_roboto mb-0 fw-black opacity_07">Invested <span class=
+              "text_rich_black ">350 CAD</span></p>
+              <p class="text_light_green mb-0 ff_roboto fw-black opacity_07"> Profit:<span class="text_rich_black "> 3,784 CAD </span></p></div>
   </div>
 
           <div>
@@ -100,9 +103,7 @@ function generateReviewCard(review) {
                   <p class="leading_150 fs_base text-black opacity_07 mt-3 mb-0"> ${review.description}</p>
                 </div>
               </div>
-              <div><p class="text_light_green ff_roboto mb-0 fw-black opacity_07">Invested <span class=
-              "text_rich_black ">350 CAD</span></p>
-              <p class="text_light_green ff_roboto fw-black opacity_07"> Profit:<span class="text_rich_black "> 3,784 CAD </span></p></div>
+          
 
               
     </div>

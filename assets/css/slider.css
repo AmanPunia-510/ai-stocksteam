@@ -24,7 +24,7 @@
 .slider_box {
   max-width: 394px;
   width: 100%;
-  min-height: 300px;
+  min-height: 262px;
   border-radius: 15px;
   padding: 24px;
   transition: all 0.3s ease-in-out;
@@ -41,7 +41,8 @@
   top: 0;
   left: 0;
   border-radius: 20px;
-  background: linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%) border-box;
+  background: linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%)
+    border-box;
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask-composite: exclude;
   z-index: -1;
@@ -84,10 +85,22 @@
 .pb_160 {
   padding-bottom: 160px;
 }
+.swiper-pagination-bullet-active {
+  width: 24px;
+  height: 12px;
+  background: var(--light-green);
+  border-radius: 100px;
+  opacity: 1;
+}
+.swiper-pagination {
+  bottom: 106px !important;
+}
 .review_slide .slick-slide {
   height: inherit !important;
 }
-
+.swiper-slide {
+  max-width: 394px !important;
+}
 .px_12 {
   padding-left: 12px;
   padding-right: 12px;
@@ -120,10 +133,11 @@
 
 @media (max-width: 1199.98px) {
   .swiper-slide.swiper-slide-active .slider_box {
-
-  padding-right: 20px !important;
-}
-
+    padding-right: 20px !important;
+  }
+  .swiper-pagination {
+    bottom: 20px !important;
+  }
   .sponsor_slide {
     display: flex;
   }
@@ -132,18 +146,21 @@
     column-gap: 25px;
   }
   .pb_160 {
-  padding-bottom: 80px;
-}
+    padding-bottom: 80px;
+  }
 }
 
 @media (max-width: 767.9px) {
+  .slider_box {
+    padding: 16px !important;
+  }
   .back_top_top {
     width: 35px;
     height: 35px;
   }
-.pb_160 {
-  padding-bottom: 64px;
-}
+  .pb_160 {
+    padding-bottom: 64px;
+  }
   .back_top_top img {
     width: 45px;
   }
@@ -164,8 +181,8 @@
     padding: 40px 12px;
   }
   .pb_160 {
-  padding-bottom: 48px;
-}
+    padding-bottom: 48px;
+  }
 
   .coutdown_digit_box {
     height: 50px;
@@ -202,22 +219,4 @@
 .text-ceo {
   color: #4d4d4d;
   opacity: 50%;
-}
-
-@media (min-width: 1920px) {
-  .slider_box {
-    height: 325px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .slider_box {
-    height: 351px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .slider_box {
-    height: 325px;
-  }
 }
