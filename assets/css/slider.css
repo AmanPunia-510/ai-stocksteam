@@ -1,6 +1,6 @@
 /* Become a profitable AI Arbitrage Winner! */
 .arbitrage_winner_heading {
-  max-width: 500px;
+  max-width: 661px;
 }
 
 .arbitrage_winner_paragraph {
@@ -17,16 +17,16 @@
 }
 
 .slider_profile_img {
-  width: 184px;
-  height: 191px;
+  width: 45px;
+  height: 45px;
 }
 
 .slider_box {
-  max-width: 891px;
+  max-width: 394px;
   width: 100%;
-  min-height: 351px;
+  min-height: 300px;
   border-radius: 15px;
-  padding: 54px 57px 78px 58px;
+  padding: 24px;
   transition: all 0.3s ease-in-out;
   border: 1px solid white;
   box-shadow: 0px 25px 39px -9px #00000017;
@@ -40,17 +40,17 @@
   height: 100%;
   top: 0;
   left: 0;
-  border-radius: 15px;
-  border: 2px solid transparent;
-  background: linear-gradient(133.83deg, #00B9FF 3.77%, #6F69F2 81.07%) border-box;
+  border-radius: 20px;
+  background: linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%)
+    border-box;
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask-composite: exclude;
   z-index: -1;
 }
 
 .swiper-slide.swiper-slide-active .slider_box {
-  box-shadow: 10px 10px 0px 0px #90AEFF;
-  background: linear-gradient(102.5deg, rgba(110, 93, 246, 0.2) -2.76%, rgba(0, 255, 225, 0.2) 97.18%);
+  background: #eefaf1;
+  border: 1px solid var(--light-green);
 }
 
 .sponsor_slide {
@@ -174,7 +174,7 @@
   }
 }
 
-@media (max-width:576px) {
+@media (max-width: 576px) {
   .slider_box {
     padding: 20px;
   }
@@ -190,19 +190,19 @@
   opacity: 50%;
 }
 
-@media (min-width:1920px) {
+@media (min-width: 1920px) {
   .slider_box {
     height: 325px;
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .slider_box {
     height: 351px;
   }
 }
 
-@media (min-width:1440px) {
+@media (min-width: 1440px) {
   .slider_box {
     height: 325px;
   }

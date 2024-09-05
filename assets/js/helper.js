@@ -167,25 +167,19 @@ function generateReviewCard(review) {
   return `
     <div class="swiper-slide">
     <div class="slider_box mx-auto">
-    <div class="d-md-flex gap_44">
-      <div className="d-flex w-100 justify-content-center">
+    <div class="d-flex flex-column justify-start  gap_24">
+      <div className="d-flex w-100 justify-content-between">
         <img class="slider_profile_img mx-auto rounded-pill object-fit-cover" sizes="100vw"
             src="${review.imageUrl}" alt="${review.title}">
       </div>
           <div>
               <div class="d-flex justify-content-between mt-3 mt-md-0">
                   <div>
-                    <div class="ms-1">
+                    <div>
                         <h2 class="text-black fw-semibold fs_base leading_130 mb-0">${
                           review.title
                         }</h2>
-                        <p class="fs-base text-ceo fw-normal leading_124 font-roboto">CEO of Mind.ly<p/>
-                    </div>
-                    </div>
-                    <div>
-                    <div class="mt-sm-0 review_slider_parent">
-                        <p class="mb-0 opacity_07 leading_150 fw-bold fs_base text-nowrap text-black">Invested <span class="text-black text-nowrap fw_800">${review.invested.toLocaleString()} CAD</span></p>
-                        <p class="mb-0 opacity_07 leading_150 fw-bold fs_base text-nowrap text-black">Profit: <span class="text-black text-nowrap fw_800">${review.profit.toLocaleString()} CAD</span></p>
+                       
                     </div>
                     </div>
                   </div>
