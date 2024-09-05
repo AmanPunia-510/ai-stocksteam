@@ -53,6 +53,10 @@
   width: 92px;
 }
 
+.max-w-1082 {
+  max-width: 1082px;
+}
+
 .bg_hero {
   background-image: url("../images/method-pro/hero-bg.png");
   background-position: top;
