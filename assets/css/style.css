@@ -50,6 +50,7 @@ body {
   --dark-gray: #4c697b;
   --light-gray: #29333a;
   --light-black: #000c03;
+  --light-black2: #010101;
   --rich-black: #020507;
   --cyan-blue: #29333a;
   --green: #01d61b;
@@ -57,7 +58,7 @@ body {
   --light-green: #4cc973;
   --white-gray: #d4dbdf;
   --dark-blue: #15161b;
-  --light-white: #f6f6f6;
+  --light-white: #FAFAFA;
   --off-green: #65b57f;
 }
 
@@ -114,12 +115,20 @@ body {
   background: var(--light-green);
 }
 
+.text_light_white {
+  color: var(--light-white);
+}
+
 .bg_light_gray {
   background: var(--light-gray);
 }
 
 .text_light_black {
   color: var(--light-black);
+}
+
+.text_light_black2 {
+  color: var(--light-black2);
 }
 
 .text_green {
@@ -149,11 +158,17 @@ body {
 .bg_light_green {
   background-color: var(--light-green);
 }
-.fw-black{
+
+.fw-black {
   font-weight: 900;
 }
+
 .bg_light_white {
   background-color: var(--light-white);
+}
+
+.bg_light_black2 {
+  background-color: var(--light-black2);
 }
 
 .rounded_full {

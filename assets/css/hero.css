@@ -216,7 +216,7 @@
 }
 
 .color_brown {
-  color: #E5FF00;
+  color: #FFD900;
 }
 
 .blue_gradient_text {
@@ -224,6 +224,18 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+.common-gradient {
+  background: linear-gradient(203.5deg, #39CFD9 -11.71%, #EFC525 95.32%);
+}
+
+.p_2 {
+  padding: 2px;
+}
+
+.br_20 {
+  border-radius: 20px;
 }
 
 .real_card_shadow {
