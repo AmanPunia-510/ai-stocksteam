@@ -53,6 +53,10 @@
   width: 92px;
 }
 
+.max-w-1082 {
+  max-width: 1082px;
+}
+
 .bg_hero {
   background-image: url("../images/method-pro/hero-bg.png");
   background-position: top;
@@ -63,8 +67,13 @@
 .text_shadow_white {
   text-shadow: 0px 1.33px 33.3px #ffffff;
 }
+
 .text_shadow_green {
   text-shadow: 0px 0px 20px #a2e33a;
+}
+
+.text_shadow_yellow {
+  text-shadow: 0px 0px 20px #e6ff00;
 }
 
 .text_bottom_line {
@@ -83,7 +92,7 @@ yy .max_w_hero {
 }
 
 .video_shadow {
-  box-shadow: 0px 4px 25px 0px var(--bluish-cyan);
+  box-shadow: 0px 4px 25px 0px var(--light-green);
 }
 
 .border_white_gray {
@@ -276,15 +285,19 @@ yy .max_w_hero {
   .mt_button_icon {
     margin-top: -3px;
   }
+
   .blue_box_padding {
     margin-top: 0px;
   }
+
   .blue_box_padding3 {
     margin-top: 30px;
   }
+
   .result_border2 {
     border-right: 1px solid #65b57f;
   }
+
   .logo_slider_section {
     padding: 20px 0px;
   }
@@ -295,9 +308,11 @@ yy .max_w_hero {
     width: 16px;
     height: 16px;
   }
+
   .blue_box_padding3 {
     margin-top: 0px;
   }
+
   .result_border2 {
     border-right: unset;
   }
@@ -366,7 +381,7 @@ yy .max_w_hero {
     height: 51px;
   }
 
-  .logo_slider{
+  .logo_slider {
     gap: 37px;
   }
 }
