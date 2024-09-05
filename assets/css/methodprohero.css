@@ -52,37 +52,45 @@
   height: 92px;
   width: 92px;
 }
+
 .bg_hero {
   background-image: url("../images/method-pro/hero-bg.png");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .text_shadow_white {
   text-shadow: 0px 1.33px 33.3px #ffffff;
 }
 .text_shadow_green d-block d-block d-block {
   box-shadow: 0px 0px 20px 0px #a2e33a;
 }
+
 .text_bottom_line {
   max-width: 880px;
   height: 1px;
 }
-.max_w_hero {
+
+yy .max_w_hero {
   max-width: 1092px;
 }
+
 .video_container_hero {
   max-width: 982px;
   border: 1px solid black;
   border-radius: 24px !important;
 }
+
 .video_shadow {
   box-shadow: 0px 4px 25px 0px var(--bluish-cyan);
 }
+
 .border_white_gray {
   border: 3px solid var(--white-gray);
   border-radius: 24px;
 }
+
 .border_white {
   border-right: 2px solid white;
   border-top: 0px solid white;
@@ -90,29 +98,37 @@
   border-bottom: 2px solid white;
   border-radius: 24px;
 }
+
 .access_button {
   padding: 16.5px 28px;
 }
+
 .access_button:hover {
   background-color: var(--bluish-cyan);
 }
+
 .hero_button {
-  border: 4px solid white;
+  border: 4px solid #4CC973;
   border-radius: 32px;
   background-color: #36cef0;
   transition: all 300ms linear;
-  box-shadow: 0px 4px 25px 0px var(--bluish-cyan);
+  box-shadow: 0px 0px 20px 0px #A2E33A;
+
 }
+
 .max_w_heading {
   max-width: 875px;
 }
+
 .get_start_button {
   padding: 10.6px 24px;
-  box-shadow: 0px 4px 25px 0px var(--bluish-cyan);
+  border: 2px solid #4CC973;
 }
+
 .get_start_button:hover {
   background-color: var(--bluish-cyan);
 }
+
 /* =========================================================== logo slider code  ===================================================== */
 
 .common_slider_img {
@@ -389,6 +405,7 @@
   .live_result_section {
     padding: 48px 0px;
   }
+
   .blue_tick_box {
     height: 187px;
   }
