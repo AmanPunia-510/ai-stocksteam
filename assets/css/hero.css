@@ -228,6 +228,7 @@
 
 .real_card_shadow {
   box-shadow: 0px 0px 25px 0px #0303031f;
+  border-radius:20px !important;
 }
 
 .real_success_custom_container {
