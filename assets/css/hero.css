@@ -17,7 +17,6 @@
   margin-left: -12px;
   margin-right: -12px;
   row-gap: 24px;
-  padding-bottom: 121px;
 }
 
 .story_play {
@@ -112,7 +111,6 @@
 
 .story_video {
   border: 1.52px solid #4c697b3d;
-  height: 330px;
   border-radius: 9px;
   aspect-ratio: 16/9;
 }
@@ -121,7 +119,6 @@
   margin-left: -12px;
   margin-right: -12px;
   row-gap: 24px;
-  padding-bottom: 121px;
 }
 
 .story_play {
@@ -179,10 +176,6 @@
     object-fit: cover;
   }
 
-  .story_video_parent {
-    padding-bottom: 60px;
-  }
-
   .video-container {
     border-radius: 24px;
   }
@@ -195,10 +188,6 @@
 @media (max-width: 575.9px) {
   .video-container {
     border-radius: 18px;
-  }
-
-  .story_video_parent {
-    padding-bottom: 65px;
   }
 
   .tick_space {
@@ -221,8 +210,15 @@
   }
 }
 
+<<<<<<< HEAD
 .bg_dark_sky {
   background-color: #160724;
+=======
+.bg_gradient_blue {
+  background:
+    linear-gradient(175.83deg, #00B9FF 3.77%, #6F69F2 81.07%);
+
+>>>>>>> cd1c0c83e3326742b5e41bcf250eab5336a6300a
 }
 
 .color_brown {
@@ -230,7 +226,7 @@
 }
 
 .blue_gradient_text {
-  background: linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
+  background: linear-gradient(175.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
