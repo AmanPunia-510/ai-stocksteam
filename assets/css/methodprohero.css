@@ -64,14 +64,6 @@
   text-shadow: 0px 1.33px 33.3px #ffffff;
 }
 
-.text_shadow_green {
-  text-shadow: 0px 0px 20px #a2e33a;
-}
-
-.text_shadow_yellow {
-  text-shadow: 0px 0px 20px #e6ff00;
-}
-
 .text_bottom_line {
   max-width: 880px;
   height: 1px;
@@ -115,9 +107,8 @@ yy .max_w_hero {
 .hero_button {
   border: 4px solid var(--light-green);
   border-radius: 32px;
-  background-color: #36cef0;
   transition: all 300ms linear;
-  box-shadow: 0px 0px 20px 0px #a2e33a;
+  box-shadow: 0px 0px 19.3px 6px #eeb06e;
 }
 
 .max_w_heading {
@@ -131,6 +122,10 @@ yy .max_w_hero {
 
 .get_start_button:hover {
   background-color: var(--bluish-cyan);
+}
+
+.stories_box {
+  padding: 12px 12px 0px 12px;
 }
 
 /* =========================================================== logo slider code  ===================================================== */
@@ -184,11 +179,8 @@ yy .max_w_hero {
 
 /* =========================================================== live result code  ===================================================== */
 .live_result_section {
-  padding: 109px 0px;
-  background-image: url("../images/success-story/live-result-bg.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  padding: 98px 0px;
+  background-color: var(--red);
 }
 
 .text_shadow_result {
@@ -204,7 +196,7 @@ yy .max_w_hero {
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  background-color: #d8e700;
+  background-color: white;
 }
 
 .get_btn_live {
@@ -220,13 +212,17 @@ yy .max_w_hero {
 }
 
 .result_tick_box {
-  padding: 0px 40px;
-  width: 308px;
-  height: 138px;
+  width: 256px;
+  height: 156px;
+  background: #ffffff33;
+  border-radius: 20px;
+  padding: 0 33px;
+  border: 1px solid #ffffff52;
 }
 
 .result_ul {
-  max-width: 945px;
+  gap: 28px;
+  max-width: 1066px;
 }
 
 .mute-unmute-icon {
@@ -237,6 +233,16 @@ yy .max_w_hero {
   height: 25px;
   cursor: pointer;
   z-index: 10;
+}
+
+.dotted_line {
+  border-bottom: 1px dotted #ffffff;
+  max-width: 505px;
+  margin: 0 auto;
+}
+
+.dotted_line_text {
+  margin-bottom: 60px;
 }
 
 /* common spacing  */
@@ -258,6 +264,10 @@ yy .max_w_hero {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 3;
+}
+
+.bg-red {
+  background-color: var(--red);
 }
 
 /* ========== MEDIA QURIES ====== */
@@ -290,14 +300,6 @@ yy .max_w_hero {
 
   .blue_box_padding {
     margin-top: 0px;
-  }
-
-  .blue_box_padding3 {
-    margin-top: 30px;
-  }
-
-  .result_border2 {
-    border-right: 1px solid var(--off-green);
   }
 
   .logo_slider_section {
@@ -339,15 +341,6 @@ yy .max_w_hero {
     width: 16px;
     height: 16px;
   }
-
-  .blue_box_padding3 {
-    margin-top: 0px;
-  }
-
-  .result_border2 {
-    border-right: unset;
-  }
-
   .result_tick_box {
     height: 145px;
   }
@@ -425,7 +418,11 @@ yy .max_w_hero {
   }
 
   .result_tick_box {
-    height: 89px;
+    height: 116px;
+  }
+
+  .result_ul {
+    gap: 18px;
   }
 }
 
@@ -448,16 +445,6 @@ yy .max_w_hero {
   .common-section-spacing {
     padding-top: 64px;
     padding-bottom: 64px;
-  }
-}
-
-@media (min-width: 992px) {
-  .result_border1 {
-    border-right: 1px solid #65b57f;
-  }
-
-  .grey_box_padding {
-    margin-top: 40px;
   }
 }
 

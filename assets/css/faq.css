@@ -87,7 +87,7 @@
   max-width: 126px;
 }
 .thanks_form {
-  border: 1px solid #0000001a;
+  border: 1px solid #D8062180;
   border-radius: 15px;
   margin-bottom: 12px;
 }
@@ -182,7 +182,7 @@ input:focus-visible {
   padding-top: 105px;
 }
 .form_content_spacing {
-  padding-top: 135px;
+  padding-top: 97px;
 }
 .form_max_w {
   max-width: 528px;
@@ -219,6 +219,9 @@ input:focus-visible {
 }
 .mb_150_lg {
   margin-bottom: 150px;
+}
+.bg_light_red{
+  background-color: var(--red);
 }
 @media (max-width: 1439.98px) {
   .accordion {

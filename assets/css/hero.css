@@ -105,12 +105,6 @@
   max-width: 796px;
 }
 
-.text_shadow_white {
-  text-shadow: 0px 1.33px 33.3px #ffffff;
-  text-shadow: 0px 4px 4px #00000030;
-  text-shadow: 0px 0px 20px #a2e33a;
-}
-
 .story_video {
   border-radius: 6px;
   aspect-ratio: 16/9;
@@ -166,6 +160,10 @@
   opacity: 0;
 }
 
+.text_Shadow_pink {
+  text-shadow: 0px 1.33px 33.3px #ffa5b0;
+}
+
 @media (max-width: 767.9px) {
   .live_position {
     top: 10px;
@@ -216,7 +214,7 @@
 }
 
 .color_brown {
-  color: #E5FF00;
+  color: #53ff70;
 }
 
 .blue_gradient_text {
@@ -250,15 +248,6 @@
 
 .gap_24 {
   gap: 24px;
-}
-
-/* v2 */
-.bg_green {
-  background: #4cc973;
-}
-
-.text_green {
-  color: #4cc973;
 }
 
 @media (min-width: 1536px) {
