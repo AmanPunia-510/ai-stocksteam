@@ -130,10 +130,6 @@ yy .max_w_hero {
 
 /* =========================================================== logo slider code  ===================================================== */
 
-.common_slider_img {
-  animation-name: logo_slider;
-}
-
 .logo_slider_section {
   padding: 58px 0px;
   max-width: 1761px;
@@ -147,6 +143,38 @@ yy .max_w_hero {
 
 .logo_slider:hover {
   animation-play-state: paused;
+}
+
+.logo_slider {
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-name: slide;
+  --slider-inner-width: 1920px;
+  --slider-speed: 60s;
+  animation: scroll linear infinite var(--slider-speed);
+  width: calc(2 * var(--slider-inner-width));
+  transition: animation-play-state ease 110s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc((0px - var(--slider-inner-width)) - 0%));
+  }
 }
 
 /* =========================================================== live result code  ===================================================== */
@@ -193,36 +221,17 @@ yy .max_w_hero {
 }
 
 .blue_tick_box {
-  width: 354px;
-  height: 240px;
-  position: relative;
-  border-radius: 12px;
-  background-color: white;
-  overflow: hidden;
-  z-index: 1;
-  padding: 0 86px;
+  padding: 0px 40px;
+  width: 283px;
+  height: 138px;
 }
 
-.result_gradient {
-  border-radius: 12px;
-  padding: 1px;
-  background: linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
+.result_ul {
+  max-width: 885px;
 }
 
-.blue_tick_box::after {
-  inset: 0;
-  content: "";
-  position: absolute;
-  transition: all 300ms linear;
-  z-index: -1;
-  opacity: 0;
-  background: linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
-}
-
-.percentage_txt {
-  font-weight: 700;
-  font-size: var(--fs-xxl);
-  color: var(--bluish-cyan);
+.blue_box_padding {
+  margin-top: 40px;
 }
 
 .mute-unmute-icon {
@@ -233,26 +242,6 @@ yy .max_w_hero {
   height: 25px;
   cursor: pointer;
   z-index: 10;
-}
-
-.blue_tick_box p {
-  padding-top: 10px;
-}
-
-.blue_tick_box:hover::after {
-  opacity: 1;
-}
-
-.blue_tick_box:hover p {
-  color: white !important;
-}
-
-.blue_tick_box:hover .svg_box svg path {
-  fill: white;
-}
-
-.blue_tick_box:hover span {
-  color: white !important;
 }
 
 /* common spacing  */
@@ -277,37 +266,9 @@ yy .max_w_hero {
 }
 
 /* ========== MEDIA QURIES ====== */
-@media (max-width: 1399.99px) {
-  .logo_slider {
-    animation-duration: 40s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-name: slide;
-    --slider-inner-width: 1920px;
-    --slider-speed: 60s;
-    animation: scroll linear infinite var(--slider-speed);
-    width: calc(2 * var(--slider-inner-width));
-    transition: animation-play-state ease 110s;
-  }
-
-  @keyframes slide {
-    0% {
-      transform: translateX(0);
-    }
-
-    100% {
-      transform: translateX(-50%);
-    }
-  }
-
-  @keyframes scroll {
-    0% {
-      transform: translateX(0);
-    }
-
-    100% {
-      transform: translateX(calc((0px - var(--slider-inner-width)) - 0%));
-    }
+@media (min-width: 992px) {
+  .result_border1 {
+    border-right: 1px solid #65b57f;
   }
 }
 
@@ -315,10 +276,17 @@ yy .max_w_hero {
   .mt_button_icon {
     margin-top: -3px;
   }
-
-  .blue_tick_box {
-    width: 328px;
-    padding: 0 50px;
+  .blue_box_padding {
+    margin-top: 0px;
+  }
+  .blue_box_padding3 {
+    margin-top: 30px;
+  }
+  .result_border2 {
+    border-right: 1px solid #65b57f;
+  }
+  .logo_slider_section {
+    padding: 20px 0px;
   }
 }
 
@@ -326,6 +294,12 @@ yy .max_w_hero {
   .live_dot {
     width: 16px;
     height: 16px;
+  }
+  .blue_box_padding3 {
+    margin-top: 0px;
+  }
+  .result_border2 {
+    border-right: unset;
   }
 }
 
@@ -367,8 +341,33 @@ yy .max_w_hero {
     border-radius: 16px !important;
   }
 
-  .blue_tick_box {
-    height: 187px;
+  .logo_slider_img1 {
+    width: 187px;
+    height: 33px;
+  }
+
+  .logo_slider_img2 {
+    width: 139px;
+    height: 60px;
+  }
+
+  .logo_slider_img3 {
+    width: 183px;
+    height: 54px;
+  }
+
+  .logo_slider_img4 {
+    width: 159px;
+    height: 51px;
+  }
+
+  .logo_slider_img5 {
+    width: 159px;
+    height: 51px;
+  }
+
+  .logo_slider {
+    gap: 37px;
   }
 }
 
