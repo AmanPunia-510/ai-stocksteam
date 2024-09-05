@@ -478,7 +478,7 @@
     <div class="pt-2 container custom_container position-relative z-3">
       <h2
         class="fs_3xl leading_130 fw-bold text-black text_shadow_black arbitrage_winner_heading ff_oxygen mx-auto text-center pt-5 mb-3">
-      Join the Ranks of <span class="text_light_green">Profitable AI</span>  Winners!
+        Join the Ranks of <span class="text_light_green">Profitable AI</span> Winners!
       </h2>
       <p class="fw-medium fs_lg leading_150 text-black text-center mx-auto ff_roboto arbitrage_winner_paragraph mb-0">
         Individuals from various professions have successfully increased their income on the very first day
@@ -569,7 +569,8 @@
   <!-- ============= FREQUENTLY ASKED QUESTIONS ============ -->
   <section class="max_w_1440 mx-auto container container-lg-fluid bg-white px-3">
     <div class="mb_115 mb_100_md mb_150_lg">
-      <p class="fw-bold ff_oxygen text_shadow_black text-center fs_3xl pt_123 pt_80 pt_50 mb-md-5 mb-sm-4 mb-3 text-black leading_130">
+      <p
+        class="fw-bold ff_oxygen text_shadow_black text-center fs_3xl pt_123 pt_80 pt_50 mb-md-5 mb-sm-4 mb-3 text-black leading_130">
         Frequently <span class="text_light_green">Asked Questions </span>
       </p>
       <div class="d-flex justify-content-center">
@@ -760,7 +761,7 @@
               <p class="mb-0">Quit a demanding job</p>
             </li>
             <li class="fw-normal ff_oxygen text-black fs_lg d-flex align-items-xl-center gap-1">
-              <img src="./assets/images/faq/.svg" class="tick tick_space blue_tick_shadow" alt="tick" />
+              <img src="./assets/images/faq/green-tick.svg" class="tick tick_space blue_tick_shadow" alt="tick" />
               <p class="mb-0">
                 Provide financial support to their family and friends
               </p>
@@ -1391,6 +1392,43 @@
       font-size: 20px;
     }
   </style>
+  <script>
+    // Provided JavaScript Function
+    function toggleMute(videoId, iconId) {
+      var video = document.getElementById(videoId);
+      var icon = document.getElementById(iconId);
+      var iconhero = document.querySelector(".hero_sound_icon");
+      const soundText = document.querySelector(".hero_sound");
+
+      if (video.muted) {
+        muteAllExcept(videoId);
+        video.muted = false;
+        icon.src = "./assets/images/success-story/sound.svg";
+        iconhero.src = "./assets/images/success-story/sound.svg";
+        soundText.textContent = "Mute";
+      } else {
+        video.muted = true;
+        icon.src = "./assets/images/success-story/unmute.svg";
+        iconhero.src = "./assets/images/success-story/unmute.svg";
+        soundText.textContent = "Unmute";
+      }
+    }
+
+    // Mute all videos except the one passed as an argument
+    function muteAllExcept(activeVideoId) {
+      const videos = document.querySelectorAll('video');
+      videos.forEach(video => {
+        if (video.id !== activeVideoId) {
+          video.muted = true;
+          const correspondingIconId = "icon" + video.id.replace('video', '');
+          const icon = document.getElementById(correspondingIconId);
+          if (icon) {
+            icon.src = "./assets/images/success-story/unmute.svg";
+          }
+        }
+      });
+    }
+  </script>
 </body>
 
 </html>
