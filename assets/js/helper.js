@@ -78,8 +78,8 @@ const reviews = [
 // Function to generate a review card
 function generateReviewCard(review) {
   return `
-    <div class="swiper-slide ms-xl-4">
-    <div class="slider_box mx-auto mx-md-0">
+    <div class="swiper-slide">
+    <div class="slider_box">
     <div class="d-flex flex-column  justify-start  gap_24">
       <div class="d-flex flex-column justify-start gap_24">
   <div class="d-flex w-100 align-items-center">
