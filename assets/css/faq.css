@@ -118,16 +118,14 @@ input:focus-visible {
   padding: 10px;
   margin-top: 35px;
   transition: all ease-in-out 300ms;
- box-shadow: 0px 12px 30px 0px #6BCF8A2E;
-
-;
+  box-shadow: 0px 12px 30px 0px #6bcf8a2e;
 }
 .get_btn {
   line-height: 115%;
 }
 .sign_up_btn:hover {
   background: white;
-  color:var(--light-green) !important;
+  color: var(--light-green) !important;
 }
 #first-counter {
   max-width: 340px;
@@ -146,6 +144,10 @@ input:focus-visible {
 .tick {
   height: 20px;
   width: 20px;
+}
+.text_shadow_black {
+  text-shadow: 0px 4px 4px #00000030;
+
 }
 .blue_tick_shadow {
   box-shadow: 1px 1px 1px 0px #00000033;
@@ -224,7 +226,7 @@ input:focus-visible {
   }
 }
 @media (max-width: 1280px) {
-    .pt_123 {
+  .pt_123 {
     padding-top: 50px;
   }
   .faq_questionmark_img {
@@ -254,7 +256,7 @@ input:focus-visible {
   }
 }
 @media (max-width: 1024px) {
-   .pt_123 {
+  .pt_123 {
     padding-top: 80px;
   }
   .form_box {
@@ -376,7 +378,6 @@ input:focus-visible {
   }
 }
 @media (max-width: 575.58px) {
-
   .faq_questionmark_img {
     max-width: 200px;
   }
