@@ -347,6 +347,7 @@ yy .max_w_hero {
   .result_border2 {
     border-right: unset;
   }
+
   .result_tick_box {
     height: 145px;
   }
@@ -356,6 +357,7 @@ yy .max_w_hero {
   .live_result_section {
     padding: 46px 0;
   }
+
   .fs_hero_button {
     font-size: 16px !important;
   }
@@ -419,7 +421,7 @@ yy .max_w_hero {
   }
 
   .logo_slider img {
-    object-fit: cover;
+    object-fit: contain;
   }
 
   .result_tick_box {
@@ -432,8 +434,13 @@ yy .max_w_hero {
     padding-top: 56px;
     padding-bottom: 56px;
   }
+
   .results_txt {
     margin-top: 32px;
+  }
+
+  .logo_slider {
+    object-fit: cover;
   }
 }
 
@@ -448,6 +455,7 @@ yy .max_w_hero {
   .result_border1 {
     border-right: 1px solid #65b57f;
   }
+
   .grey_box_padding {
     margin-top: 40px;
   }
