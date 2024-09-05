@@ -136,7 +136,7 @@
 }
 
 input:focus-visible {
-  outline: var(--bluish-cyan) auto 1px;
+  outline: var(--rich-yellow) auto 1px;
 }
 
 .sign_up_btn {
@@ -154,8 +154,8 @@ input:focus-visible {
 
 .sign_up_btn:hover {
   background: white;
-  color: var(--bluish-cyan) !important;
-  border-color: #00b9ff;
+  color: var(--rich-yellow) !important;
+  border-color: var(--rich-yellow);
 }
 
 #first-counter {

@@ -285,6 +285,10 @@ form .iti__selected-flag {
     padding-right: 16px !important;
   }
 
+  .mt_85 {
+    margin-top: 85px !important;
+  }
+
   .form_container {
     max-width: 1348px !important;
     padding: 109px 16px 83px 16px;
@@ -301,6 +305,10 @@ form .iti__selected-flag {
   :root {
     --fs-2xl: 32px;
     --fs-3xl: 40px;
+  }
+
+  .mt_85 {
+    margin-top: 55px !important;
   }
 
   .form_container {
@@ -320,8 +328,13 @@ form .iti__selected-flag {
     --fs-2xl: 30px;
     --fs-3xl: 34px;
   }
+
   .form_container {
     padding: 56px 16px 56px 16px;
+  }
+
+  .mt_85 {
+    margin-top: 45px !important;
   }
 }
 
@@ -337,7 +350,15 @@ form .iti__selected-flag {
     --fs-2xl: 20px;
     --fs-3xl: 26px;
   }
+
   .form_container {
     padding: 48px 16px 48px 16px;
   }
+}
+
+@media (min-width:1024px) {
+  .mt_80 {
+    margin-top: 80px !important;
+  }
+
 }

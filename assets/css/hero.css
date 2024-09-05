@@ -210,15 +210,10 @@
   }
 }
 
-<<<<<<< HEAD
-.bg_dark_sky {
-  background-color: #160724;
-=======
 .bg_gradient_blue {
   background:
     linear-gradient(175.83deg, #00B9FF 3.77%, #6F69F2 81.07%);
 
->>>>>>> cd1c0c83e3326742b5e41bcf250eab5336a6300a
 }
 
 .color_brown {
