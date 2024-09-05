@@ -1,14 +1,31 @@
 // REVIEW SLIDER SETTING START HERE
 var swiper = new Swiper(".reviewSwiper", {
   centeredSlides: true,
-  slidesPerView: 4,
+  slidesPerView: 1,
   spaceBetween: 10,
   loop: true,
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,
   },
- 
+  breakpoints: {
+    576: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    868: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    1200: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+    },
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true, // Allow clicking on pagination bullets
+  },
 });
 
 // Ensure swiper instance is fully initialized before using slideTo

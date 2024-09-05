@@ -122,7 +122,9 @@ body {
 .bg_light_green {
   background-color: var(--light-green);
 }
-
+.fw-black{
+  font-weight: 900;
+}
 .bg_light_white {
   background-color: var(--light-white);
 }
