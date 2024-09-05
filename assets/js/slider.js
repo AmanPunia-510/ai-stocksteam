@@ -9,17 +9,17 @@ var swiper = new Swiper(".reviewSwiper", {
     disableOnInteraction: false,
   },
   breakpoints: {
-    576: {
+    800: {
       slidesPerView: 2,
       spaceBetween: 20,
     },
-    868: {
+    1160: {
       slidesPerView: 3,
       spaceBetween: 20,
     },
-    1200: {
+    1620: {
       slidesPerView: 4,
-      spaceBetween: 20,
+      spaceBetween: 40,
     },
   },
   pagination: {
