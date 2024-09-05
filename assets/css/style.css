@@ -56,8 +56,9 @@ body {
   --dark-green: #3bff00;
   --light-green: #4cc973;
   --white-gray: #d4dbdf;
-  --dark-blue: "#15161b";
-  --light-white: "#f6f6f6";
+  --dark-blue: #15161b;
+  --light-white: #f6f6f6;
+  --off-green: #65b57f;
 }
 
 /* font sizes  */
