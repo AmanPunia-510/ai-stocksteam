@@ -270,6 +270,10 @@ body {
   opacity: 80%;
 }
 
+.opacity_09 {
+  opacity: 90%;
+}
+
 form .iti {
   width: 100% !important;
 }
